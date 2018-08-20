@@ -1,0 +1,17 @@
+;;;;;
+title: Thai Wordnet
+tags: 
+date: 2014-06-26
+format: md
+excerpt: 
+;;;;;
+
+
+
+
+
+
+Wordnet นี้ประมาณว่าเป็นกลุ่มของคำพ้องความหมายที่เชื่อมโยงกัน มีแบบเป็นภาษาไทยโดยเป็นของ NICT มีสัญญาอนุญาตแบบซอฟต์แวร์เสรี
+
+* [แบบเป็นฐานข้อมูล](http://sourceforge.net/projects/thwnsqlite/)เพื่อนำไปพัฒนาต่อ 
+* [แบบเปิดดูบนเว็บ](http://thaiwn.touchsi.co.th)เพื่อใช้งาน

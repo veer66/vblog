@@ -1,0 +1,30 @@
+;;;;;
+title: (move 'picocms 'jekyll)
+tags: 
+date: 2017-06-04
+format: md
+excerpt: 
+;;;;;
+
+
+
+
+
+I happened to think what if I die, who will pay for my hosting. So today I migrate my main website and blog posts from PicoCMS hosted at Scaleway to Jekyll hosted at Github. What I cannot pay for domain name, my site can be still accessed by [veer66.github.io](http://veer66.github.io)
+
+PicoCMS and Jekyll are based on Markdown so I just wrote a script for renaming my blog post file name and modifing some metadata by the shell script below: 
+
+````Sh
+for x in *.md
+do 
+   T=`head -n4 $x | grep '^Title:' | sed 's/Title: //' | sed 's/[ "\|?\/\(\)]/-/g'` 
+   D=`head -n4 $x | grep '^Date' | sed 's/Date: //' | sed 's/\//-/g'`
+   mv $x $D-$T.md
+done
+for x in *.md
+do 
+   cat $x | sed 's/\/\*//' | sed 's/\*\///' | sed 's/Title: /# /' > t && mv t $x 
+done
+````
+
+If I outlive Github, I can just generate this site and host it somewhere else.

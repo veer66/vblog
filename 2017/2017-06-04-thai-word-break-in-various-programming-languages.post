@@ -1,0 +1,44 @@
+;;;;;
+title: A benchmark of Thai word tokenizers written in various programming languages
+tags: 
+date: 2017-06-04
+format: md
+excerpt: 
+;;;;;
+
+
+
+
+
+The origin post was at https://veer66.wordpress.com/2017/01/19/benchmark-thai-word-tokenizers/ posted on 2017/01/19.
+
+I wonder about speed of programs written in different languages. For example, I wonder whether one written in Kotlin and ran on JVM is slower than one written in Go. Although there are several existing benchmarks, this is one may be still important at least for me, because Thai word tokenizer is my real task.
+
+So @iporsut and me wrote some programs in different programming languages and tried to optimize them.
+
+I conducted the experiment on my laptop computer, which has Intel® Core™ i3-4030U CPU @ 1.90GHz × 4, on a 20MB Thai text corpus.  
+
+
+* Rust #1: 3.366 #2: 3.247 #3 3.241 #Avg: 3.284 
+* Go   #1: 5.415 #2: 5.405 	#3 5.416 #Avg: 5.412 
+* Crystal #1: 5.637 #2: 5.679 #3 5.649 #Avg: 5.655 
+* Kotlin+Clojure #1: 6.547 #2: 6.743 #3 6.628 #Avg: 6.639 
+* Julia #1: 38.316 #2: 38.112 #3 38.237 #Avg: 38.221 
+* JavaScript #1: 49.349 #2: 49.084 #3 49.901 #Avg: 49.445 
+* Python #1: 50.624 #2: 50.803 #3 50.869 #Avg: 50.765 
+* Clojure+Kotlin #1:  63.502 #2: 67.561 #3 67.303 #Avg: 66.122 
+
+## Additional setup
+
+* Env: Rust Nightly 2017-01-08, [Worcut source code](https://github.com/veer66/chamkho)
+* Env: Go 1.7.4,  [Wordcut source code](https://gitlab.com/veer66/mapkha)
+* Env: Crystal 0.20.5, [Wordcut source code](https://gitlab.com/veer66/kachet)
+* Env: Kotlin 1.0.6 + Clojure 1.8.0 + OpenJDK 1.8, [Worcut source code](https://gitlab.com/veer66/yaito), [Worcut source code](https://gitlab.com/veer66/yaito-clj)
+* Env: Julia 0.5.0, [Worcut source code](https://gitlab.com/veer66/wordcut.jl)
+* Env: Node.js v6.5.0, [Worcut source code](https://gitlab.com/veer66/prasae)
+* Env: Python 3.5.2,  [Worcut source code](https://gitlab.com/veer66/wordocutpy)
+* Env: Clojure 1.8.0 + Kotlin 1.0.6 + OpenJDK 1.8, [Worcut source code](https://gitlab.com/veer66/wordcut-clj)
+
+## Future work
+
+@iporsut has already written multicore versions, so maybe next month I will conduct another experiment.

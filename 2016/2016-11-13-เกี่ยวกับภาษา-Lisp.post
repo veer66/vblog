@@ -1,0 +1,80 @@
+;;;;;
+title: เกี่ยวกับภาษา Lisp
+tags: 
+date: 2016-11-13
+format: md
+excerpt: 
+;;;;;
+
+
+
+
+
+
+### ที่มา
+
+สมัยหนุ่ม ๆ ผมเห็นคำว่า Lisp ผ่านตาบ่อย ๆ ทั้งความเกี่ยวข้องกับ Logo AI หรือแม้กระทั่ง AutoCAD ก็เลยอยากจะเรียน
+
+ต่อมาก็ยังได้ยินเรื่อง Functional Programming ก็เลยรู้สึกว่าน่าสนใจเข้าไปใหญ่
+
+อย่างไรก็ตามสมัยหนุ่ม ๆ จะหาอะไรก็ลำบาก พอมาสมัยนี้จะหาอะไรมาเล่นก็ง่ายขึ้น 
+
+### ประเด็นที่น่าสนใจ (สำหรับผม)
+
+1. Lisp เป็น High-level programming language ภาษาที่ 2 ของโลก หรือว่าถ้าจะมีอะไรมาแทรก ๆ ก็ยังเป็นภาษาแรก ๆ อยู่ดี 
+2. Lisp มาพร้อมกับ Garbage collector แต่แรกตั้งแต่ค.ศ. 1959
+3. ภาษาแนว Functional Programming ทั้งหมดมีส่วนเกี่ยวข้องกับ Lisp
+4. ทุกอย่างใน Lisp มีพื้นฐานมากจาก List
+5. Lisp ในแง่มุมวงเล็บ
+6. Lisp ในแง่มุม dynamic type
+
+### เกี่ยวกับผม 
+
+จริง ๆ แล้วผมเขียน Clojure แต่ว่าไม่พูดถึง Clojure เพราะว่าไม่แน่เรื่อง Persistent vector 
+
+ผมไม่เข้าใจ lambda calculus ไม่เข้าใจ Category theory ไม่ใช่ว่าไม่สนใจแต่ว่าอ่านแล้วยังไม่รู้เรื่องแล้วก็จะมาเล่าที่หลัง 
+
+### List
+
+ค.ศ. 2016 นอกจากจะเขียน Clojure แล้วผมก็ได้ลอง Common Lisp ด้วย ถ้าว่าให้เฉพาะเจาะจงก็คือใช้ SBCL รู้สึกว่ามันไม่สะดวกเท่า Clojure แต่ได้สัมผัส List มากกว่า
+
+พอศึกษาไปสักพักแล้วรู้สึกว่าใน Lisp สิ่งที่เป็นพื้นฐานกว่า List อีกก็คือ Cons cell ที่ผมเคย[บันทึกไว้แล้ว](https://medium.com/@vsatayamas/lisp-cons-cell-bf5446e3833e#.fuln38uui)
+
+พอทราบเรื่อง Lisp แล้วเราก็จะมาพูดเรื่อง [Singly Linked List](https://medium.com/@vsatayamas/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%83%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9B%E0%B9%8C-ff1c1aa932ac#.hylv6hpn2) ได้สบาย ๆ
+
+### ความเชื่อมโยงกับ Clojure OCaml และ Haskell
+
+จริง ๆ ผมก็ไม่เคยเขียน Lisp แบบเดิม ๆ เอาตัวเก่าที่สุดที่เคยใช้ก็คือ Common Lisp
+
+สิ่งที่พบคือ Clojure OCaml และ Haskell มี cons cell และ singly-linked list ติดมากับภาษาทั้งหมด เพียงแต่ว่าใน Haskell คำสั่ง cons เปลี่ยนเป็น : (colon) และใน OCaml ใช้ :: (colon สองที่
+
+นอกจากนั้นในพวก Haskell และ Clojure ยังมีสิ่งที่เรียกว่า lazy sequence ของ Haskell ผมไม่ได้อ่านละเอียด แต่ว่า Clojure นี่แน่ชัดว่า lazy sequence ก็ทำงานอยู่บน cons cell เหมือนกับ list แต่ว่า เวลาสั่ง cdr หรือ rest มันไม่มีประมวลผลเก็บไว้ก่อน สั่ง cdr และ rest ทีนึงมันก่อนไปคำนวณหาหัว list มาให้ แต่ถ้าเป็น list ธรรมดาทุกอย่างใน list ถูกคำนวณเก็บไว้ใน memory อยู่แล้ว
+
+นอกจากเรื่อง lazy sequence แล้ว Clojure ยังต่างออกไปจาก Lisp เดิม ๆ คือ data structure ที่ใช้เป็นหลักไม่ใช่ singly linked list แล้วแต่เป็น persistent vector แทน ซึ่งคุยกับ @visibletrap แล้วก็สรุปว่ามาจาก[วิทยานิพนธ์ของ CMU อีกที](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
+
+แต่ว่า Lisp ก็ยังเป็นภาษาแบบที่ยังมี side-effect ได้อยู่เวลาเขียน IO อย่างใน Common Lisp ก็สั่ง (format nil "toto") แบบนี้ได้เลย ไม่ต้องมี IO Monad แบบ Haskell นอกจากนั้นก็ยัง assign ค่าตัวแปรแบบเถื่อน ๆ อย่าง (setf *var1* "titi") แบบนี้ก็ได้ ไม่ได้บังคับเป็น Functional Programming
+
+### ความเชื่อมโยงกับ Python และ Ruby
+
+ถ้าดูจากตำแหน่งวงเล็บแล้ว Python และ Ruby อาจจะไม่ค่อยเกี่ยวกันเท่าไหร่ แต่ว่าจริง ๆ ก็มีเรื่อง dynamic type ที่ว่าไปแล้วก็คล้าย ๆ กันมาก
+
+แต่ว่าสิ่งที่ Python เรียกว่า list มันไม่ใช่ list แบบใน Lisp แต่เป็น vector หรือเหมือน array ใน Pascal ใน C
+
+### เพิ่มเติม 
+
+สุดเด่นอีกอย่างของ Lisp คือใช้กับ REPL แล้วเนียนมาก ๆ สามารถรัน ๆ โปรแกรมไปแล้วอยากเปลี่ยนแค่บาง function แล้วรันใหม่ ได้โดยไม่ต้อง reload ทุกอย่างขึ้น memory ทำให้สะดวกมาก ๆ 
+
+จริง ๆ หลาย ๆ ภาษาก็พยายามจะมี REPL แต่ว่าใช้จริง ๆ มันไม่ค่อยสะดวก เหมือน Lisp หรือ Clojure ที่วงเล็บมันช่วยกำหนดของเขตของสิ่งที่รับจะ eval ใหม่ได้เลย รูปแบบการเขียนโปรแกรมของ Lisp มันก็เหมือนได้ มี function แยก ๆ เลยกันเลย เคยพยายามใช้กับ Ruby ก็มึน ๆ เหมือนกันพอพยายามจะ eval เฉพาะบาง method ใน class ก็จะเริ่มงง ๆ แล้ว
+
+![Emacs+Cider screenshot](/assets/images/repl.png)
+
+ในรูปเป็นของ Clojure นะครับใช้ Emacs กับ Cider แต่ใช้ Lisp จริง ๆ ก็ได้เพียงแต่ใช้ SLIME แทน หรือจะไม่ใช้ Emacs ไปใช้พวก Cursive ก็ได้สำหรับ Clojure หรือแม้แต่ vscode
+
+ผมว่ามันเป็นความสะดวกอีกขั้นที่เลย IDE ไป อันนี้น่าจะ demo ให้ดูเป็น video ได้ในอนาคต
+
+### คุยกับผม 
+
+* GNU Social: [https://quitter.se/vsatayamas/](https://quitter.se/vsatayamas/)
+* Twitter: [@vsatayamas](https://twitter.com/vsatayamas)
+* Facebook: [digitalveer66](http://facebook.com/digitalveer66)
+* E-mail: vsatayamas at gmail dot com
