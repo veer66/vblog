@@ -1,0 +1,138 @@
+;;;;;
+title: Move to Coleslaw
+tags: Coleslaw, Blog
+date: 2018-08-20
+format: md
+excerpt: 
+;;;;;
+
+1-2 months ago, I failed to run latest version of Jekyll. So I moved to [Coleslaw](https://github.com/kingcons/coleslaw), which look simpler but powerful enough instead.
+
+<!--more-->
+
+
+```clojure
+(require '[clojure.string :as str]
+         '[rbre.core :as rbre]
+         '[clostache.parser :refer [render]])
+
+(defn list-dir [path]
+  (->> (clojure.java.io/file path)
+       file-seq
+       (filter #(.isFile %) )
+       (filter #(re-matches #".+\.md$" (.getName %)))))
+
+(defn list-dir-by-year [prefix year]
+  (map #(array-map :year year
+                   :file %)
+       (list-dir (str prefix "/" year))))
+
+(defn read-post [file-year]
+  (let [file (:file file-year)
+        name (.getName file)
+        content (->> file
+                      clojure.java.io/reader
+                      slurp)]
+    (-> file-year
+        (assoc :name name)
+        (assoc :content content))))
+
+(defn clean-title [title]
+  (->> (str/replace title #"\s*#\s*" "")
+       .trim))
+
+(defn add-title [post]
+  (->> (:content post)
+       (re-seq #"#.+")
+       first
+       clean-title
+       (assoc post :title)))
+
+(defn clean-date [date]
+  (->> (str/replace date #"[\t ]*Date:" "")
+       .trim))
+
+(defn add-date [post]
+  (->> post
+       :name
+       (re-seq #"\d{4}-\d{2}-\d{1,2}")
+       first
+       (assoc post :date)))
+
+(defn add-header [post]
+  (assoc post
+         :header        
+         (render ";;;;;
+title: {{title}}
+tags: 
+date: {{date}}
+format: md
+excerpt: 
+;;;;;" {:title (:title post)
+        :date (:date post)})))
+
+
+(defn strip-content [content]
+  (-> content
+      (str/replace-first #"#.+" "")
+      (str/replace-first #"Date:.+" "")))
+
+;(str/replace "xxx\n # XX\n dddd" #"#.+" "--")
+
+(defn strip-content-in-post [post]
+  (update post
+         :content
+         strip-content))
+
+(defn write-post [post]
+  (spit (str (:year post)
+             "/"
+             (str/replace (:name post) #"\.md$" ".post")) 
+        (str (:header post)
+             "\n\n"
+             (:content post))))
+
+(transduce (comp (map read-post)
+                 (map add-title)
+                 (map add-date)
+                 (map add-header)
+                 (map strip-content-in-post))
+           (fn [& args]
+             (when (= 2 (count args))
+               (write-post (second args))))
+           (mapcat #(list-dir-by-year "../v21k-bak" %)
+                   (map str (range 2014 2018))))
+```
+
+
+Below is my .coleslawrc
+
+
+```lisp
+(:author "Vee Satayamas"
+ :deploy-dir "/home/vee/vblog"
+ :domain "https://veer66.rocks"
+ :excerpt-sep "<!--more-->"
+ :feeds ("lisp")
+ :plugins (;(analytics :tracking-code "foo")
+           ;(disqus :shortname "my-site-name")
+           ; (incremental)  ;; *Remove comment to enable incremental builds.
+           ;(mathjax)
+           (sitemap)
+           (static-pages)
+           ; (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+          )
+ :routing ((:post           "posts/~a")
+           (:tag-index      "tag/~a")
+           (:month-index    "date/~a")
+           (:numeric-index  "~d")
+           (:feed           "~a.xml")
+           (:tag-feed       "tag/~a.xml"))
+ :sitenav ((:url "https://toot.veer66.rocks/users/veer66" :name "SNS") 
+           (:url "https://github.com/veer66" :name "GitHub")
+           (:url "https://gitlab.com/veer66" :name "GitLab"))
+ :staging-dir "/tmp/coleslaw/"
+ :title "veer66's blog"
+ :theme "readable" ;; "hyde"
+)
+```
