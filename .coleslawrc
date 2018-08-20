@@ -19,7 +19,8 @@
            (:tag-feed       "tag/~a.xml"))
  :sitenav ((:url "https://toot.veer66.rocks/users/veer66" :name "SNS") 
            (:url "https://github.com/veer66" :name "GitHub")
-           (:url "https://gitlab.com/veer66" :name "GitLab"))
+           (:url "https://gitlab.com/veer66" :name "GitLab")
+           (:url "https://veer66.rocks/contrib.html" :name "contrib"))
  :staging-dir "/tmp/coleslaw/"
  :title "veer66's blog"
  :theme "readable" ;; "hyde"
