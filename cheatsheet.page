@@ -1,0 +1,23 @@
+;;;;;
+title: Vee's cheatsheet
+format: md
+url: cheatsheet.html
+;;;;;
+
+# Clojure
+
+## Running n-repl from clj
+
+```
+# From https://github.com/clojure-emacs/cider-nrepl
+clj -Sdeps '{:deps {cider/cider-nrepl {:mvn/version "0.18.0"} }}' -e '(require (quote cider-nrepl.main)) (cider-nrepl.main/init ["cider.nrepl/cider-middleware"])'
+```
+
+# Common Lisp
+
+## How generate my blog by Coleslaw
+
+```lisp
+(ql:quickload :coleslaw)
+(coleslaw:main ".")
+```
