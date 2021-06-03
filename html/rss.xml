@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>Vee</title> <link>https://veer66.rocks</link> <atom:link href="https://veer66.rocks/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Fri, 04 Jun 2021 00:09:24 +0700</pubDate> <item> <title>Fediverse: ก้าวข้ามเผด็จการรวบอำนาจที่ปกครองและขายสมาชิกสังคมออนไลน์ต่างสินค้า</title> <link>https://veer66.rocks/posts/Fediverse-กาวขามเผดจการรวบอำนาจทปกครองและขายสมาชกสงคมออนไลนตางสนคา.html</link> <pubDate>2018-11-25</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/Fediverse-กาวขามเผดจการรวบอำนาจทปกครองและขายสมาชกสงคมออนไลนตางสนคา.html</guid> <category><![CDATA[ fediverse ]]></category> <description><![CDATA[ <p>ข้อเสียของเครือข่ายสังคมออนไลน์คือสมาชิกมีอำนาจต่อรองน้อย ทำได้อย่างมากเพียงแค่ย้ายเครือข่าย แต่พอย้ายแล้วก็คุยกับคนที่อยู่อีกเครือข่ายไม่ได้ เวลาลดน้ำหนักอยากดูวอลเลย์บอลเพื่อความบันเทิงก็อาจจะเลี่ยงไม่ได้ที่จะต้องดูโฆษณาไก่ทอดเสียก่อน</p>
+
+<!--more-->
+
+<p>หรือว่าบางเจ้าบอกว่าไม่ให้พื้นที่ 1TB แล้ววันหนึ่งจะเก็บตังรายปีขึ้นมา เพียงว่าเราจะย้ายข้อมูล เช่น รูปภาพที่เราถ่ายเอง กล่องก็ซื้อมาเอง เอาไปไว้ที่อื่นที่อาจจะดีกว่า หรือราคาถูกกว่า ก็เป็นเรื่องที่ยากลำบากแล้วในกรณีที่มีข้อมูลปริมาณมาก</p>
+
+<p>อีกประเด็นหนึ่งคือเครือข่ายสังคมออนไลน์แบบผูกขาดได้ผูกขาดทางศีลธรรมด้วยว่าอะไรดีไม่ดี อะไรโพสต์ได้ อะไรโดนลบ มากไปกว่านั้นผู้ควบคุมก็มักจะเป็นโปรแกรม เพราะว่าเครือข่ายขนาดใหญ่ก็ใช้คนทำไม่ไหว</p>
+
+<p>เครือข่ายสังคมออนไล์ที่ผู้ใช้ย้ายออกลำบากตามที่ว่ามาก็เป็นโอกาสให้เอาสมาชิกของสังคมไปขายได้ด้วย อาจจะขายพ่วงกับกิจการ หรือว่าข่ายให้ผู้ที่อยากโฆษณาอีกทีก็ทำได้</p>
+
+<p>ในระบบที่เป็นที่นิยมก่อนหน้านี้ เช่น E-mail เมื่อเปลี่ยนผู้ให้บริการก็ยังติดต่อกับญาติมิตรที่ใช้บริการ E-mail เจ้าอื่นได้ หรือแม้แต่กระทั่งโทรศัพท์เปลี่ยนผู้บริการแล้วก็ยังโทรหาคนอื่นได้เหมือนเดิม</p>
+
+<p>Fediverse เกิดจากคำว่า Federation และ Universe รวมกันเป็นเครือข่ายสังคมออนไลน์ รวมถึง blog ที่เครื่องแม่ข่ายต่าง ๆ ทำงานร่วมกันได้ถึงแม้ว่าจะไม่ได้มีเจ้าของเดียวกัน หรือกระทั่งไม่ได้ใช้โปรแกรมเดียวกัน เช่น โปรแกรมสำหรับเขียน micro blog สามารถแสดงความคิดเห็นต่อวิดีโอบนเว็บสำหรับเผยแพร่วิดีโอได้โดยตรง</p>
+
+<p>หลังจากที่โพสต์วิดีโอบน peertube.social ซึ่งเว็บสำหรับโพสต์วิดีโอใน Fediverse เราสามารถค้นหาด้วย URL ของ PeerTube จาก mstdn.io ซึ่งเป็นเว็บสำหรับโพสต์ micro blog ก็จะเห็นว่าวิดีโอใน PeerTube เป็น blog post หนึ่งจาก mstdn.io; สามารถ reply ได้; พอ reply เสร็จแล้วก็จะขึ้นไปเป็นความคิดของวิดีโอนั้นเลย</p>
+
+<p>นอกจากจะแสดงความคิดเห็นข้ามกันได้แล้ว เรื่องทั่วไปอย่างดู video ของ PeerTube ใน Mastodon ก็ทำได้อยู่แล้ว หรือจะ follow/subscribe ก็ทำได้เหมือนกัน</p>
+
+<p>ซึ่งลักษณะที่ว่าทำให้ Fediverse มีเครื่อแม่ขายที่ไม่ได้มีเจ้าของเดียวกันเยอะแยะไปหมด จากเว็บนี้ก็บอกว่ามี 2460 node แล้ว</p>
+
+<p>ผมเลือก node ที่ผมคิดว่าสำคัญมาตามนี้</p>
+
+<ul>
+<li><a href="https://mstdn.io" >mstdn.io</a> ใช้โปรแกรม Mastodon เป็น micro blog เรื่องทั่ว ๆ ไป</li>
+<li><a href="https://pawoo.net" >pawoo.net</a> ใช้ <a href="https://joinmastodon.org/" >Mastodon</a> เหมือนกัน แต่เป็นชุมชนภาษาญี่ปุ่น</li>
+<li><a href="https://ruby.social" >ruby.social</a> ใช้ Mastodon เป็น node ที่คุยกันเน้นเรื่องภาษา Ruby</li>
+<li><a href="https://peertube.social" >peertube.social</a> ใช้ PeerTube เอาไว้สำหรับวิดีโอที่ไม่ใช่การค้า</li>
+<li><a href="https://squeet.me" >squeet.me</a> ใช้ Friendica คล้าย ๆ Facebook</li>
+<li><a href="https://fedigram.social" >fedigram.social</a> ใช้ Pixelfed ที่ยังไม่เสร็จดี เอาไว้โพสต์รูปเน้นใช้ง่าย</li>
+</ul>
+
+<p>โปรแกรม Mastodon, PeerTube, Friendica, Pixelfed ล้วนเป็นซอฟต์แวร์เสรีทั้งสิ้น ซึ่งหมายความว่าเราจะเปิด node ของเราเองก็ได้ จะแก้ไขดัดแปลงแจกจ่ายก็ได้ แต่ละโปรแกรมก็ใช้ภาษาโปรแกรมต่างกันออกไป Mastodon ใช้ Ruby, PeerTube ใช้ TypeScript ส่วน Friendica และ Pixelfed ใช้ PHP</p>
+
+<p>Fediverse แต่ละ node คุยกันได้เพราะว่ามีมาตรฐานกลาง ซึ่งหลัก ๆ ก็คือ ActivityPub ที่สร้างมาบน Acivity Stream และ JSON-LD อีกที</p>
+
+<p>JSON-LD หลักการคล้าย ๆ RDF คือพยายามจะทำให้ข้อมูลจากแหล่งต่าง ๆ เชื่อมโยงกันได้ แต่ว่าใช้ JSON parser ได้เลยเพราะมันเป็น JSON เช่น เปิด json มาอาจจะ field ชื่อ actor ก็อาจจะหมายถึง “นักแสดงชาย” หรือ “ผู้กระทำ” ก็ได้ แต่ถ้าเขียนเลยว่า “https://www.w3.org/ns/activitystreams/actor” อันนี้ก็จะหมายถึงผู้กระทำแน่ ไม่จำเป็นต้องเป็นนักแสดง แต่จะเขียนชื่อ field ด้วย url หรือในเอกสารจะเรียกรวม ๆ ว่า IRI มันก็จะเยิ่นเย้อเกินไป ก็เลยมี field หนึ่งขึ้นมาชื่อว่า @context เราก็เรียน “@context”: “https://www.w3.org/ns/activitystreams” ไว้เสียแต่ต้น ต่อไปในเอกสารก็ใช้ actor ได้เลยเพราะทราบแล้วว่าบริบทคือ “https://www.w3.org/ns/activitystreams” สามารถอ่านเพิ่มเติมได้จาก <a href="https://www.w3.org/TR/2014/REC-json-ld-20140116/" >json-ld spec</a></p>
+
+<p>ส่วน Activity Stream เป็นมาตรฐานที่ระบุเลยว่าจะเขียนว่าใคร (actor) ทำอะไร (verb) อะไรถูกกระทำ (object) จะต้องเขียนออกมาหน้าตาอย่างไร หน้าตาก็จะออกมาเป็น JSON-LD ตามที่มาตรฐานกำหนดไว้ ที่ผมเห็นใช้งานตอนนี้ก็คือใช้ในเครือข่ายสังคมออนไลน์ทั้งหมด อ่านเพิ่มเติมได้จาก <a href="https://www.w3.org/TR/activitystreams-core/" >Acitivy Streams spec</a></p>
+
+<p>จาก Activity Stream ก็มีมาตรฐานเกี่ยวเนื่องที่ผมรู้สึกว่าน่าสนใจคือ Activity Vocabulary ซึ่งระบุกระทั่งว่ากริยาที่กระทำใน Activity Stream มีอะไรหน้าตาเป็นอย่างไร เช่น like dislike follow invite ignore ต้องมีหน้าตา มีข้อมูลอย่างไรบ้าง อ่านเพิ่มเติมได้จาก (Vocabulary spec)[https://www.w3.org/TR/activitystreams-vocabulary/]</p>
+
+<p>นอกจากประเด็นว่าส่งว่าใคร ทำอะไร อะไรเป็นผู้กระทำแล้ว ก็ยังมีประเด็นว่าต้องส่ง activity stream ไปที่ไหน ในส่วนนี้ก็เป็นมาตรฐาน ActivityPub ซึ่งกำหนดทั้งการส่งจาก client กับ server และ server กับ server เอง เพราะว่า Fediverse ต้องมีการสือสารกันระหว่าง server คนละเจ้าด้วย โดยมีการกำหนดเป็น inbox outbox ของแต่ละ actor ขึ้นมาว่าจะอยู่ใน URL อะไร ฯลฯ ซึ่งอ่านรายละเอียดได้จาก <a href="https://www.w3.org/TR/activitypub/" >ActivityPub spec</a></p>
+
+<p>ใน Fediverse ไม่มีการเอาติดต่อญาติมิตรของใคร ๆ มาเป็นตัวประกันของแต่ละเจ้าอีกต่อไป ทำให้ลดการผูกขาดลด เมื่อมีอำนาจต่อรองมากขึ้นสมาชิกก็ถูกนำไปขายยากขึ้น แต่ว่า node สามารถนโยบายของตัวเองทำให้ไม่มีการผูกขาดทางศีลธรรม เรื่องโฆษณาใน Fediverse ตอนนี้ยังไม่เห็นครับ ส่วนหนึ่งคือ admin ของแต่ละ node ออกตังเองเพราะแต่ละ node ไม่ใช้เครื่องแรงมากมายพอจะออกให้กันได้ และอีกส่วนหนึ่งก็มีการบริกาคช่วยกัน; ผมเห็น write.as มีแบบเสียตังด้วย แต่ยังต้องศึกษาเพิ่มเติมอีก</p>
+
+<p>แต่ก็มีข้อจำกัดอยู่ว่าย้ายค่ายแล้วต้องเปลี่ยน ID</p>
+
+<p>อนาคตอาจจะมีการใช้ ActivityPub กับบริการออนไลน์อื่นอีก ไม่ว่าจะเป็นซอฟต์แวร์เสรีหรือไม่ก็ตาม หรือก้าวหน้าจนไปถึงแบบ peer-to-peer</p>
+
+<p>ประเด็นอื่น ๆ เช่นว่า</p>
+
+<ul>
+<li>Fediverse จะยั่งยืนหรือไม่ ผมเชื่อความทางศาสนาว่าสิ่งเป็นสังขารทั้งหมดไม่ยั่งยืน และผมไม่สามารถพยากรณ์อายุของ Fediverse ในอนาคตได้;</li>
+<li>ประเด็นว่าทำไมไม่ใช้ peer-to-peer ผมคิดว่าจะมีประเด็นเรื่องพลังงานถ้าใช้อุปกรณ์เคลื่อนที่;</li>
+<li>ทำไมไม่ใช้ blockchain ผมคิดว่ามีประเด็นด้านประสิทธิภาพ และการกลั่นแกล้งเบียดเบียนกัน Fediverse ไม่จำเป็นต้องปล่อยให้ทุกคนพูดทุกอย่างแล้วลบไม่ได้</li>
+<li>app บนมือถือ tablet มีทั้ง Android และ iOS ใช้กับ Mastoodon และ Pleroma ได้</li>
+</ul>
+ ]]></description> </item><item> <title>Move to Coleslaw</title> <link>https://veer66.rocks/posts/Move-to-Coleslaw.html</link> <pubDate>2018-08-20</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/Move-to-Coleslaw.html</guid> <category><![CDATA[ Coleslaw ]]></category><category><![CDATA[ Blog ]]></category> <description><![CDATA[ <p>1-2 months ago, I failed to run latest version of Jekyll. So I moved to <a href="https://github.com/kingcons/coleslaw" >Coleslaw</a>, which look simpler but powerful enough instead.</p>
+
+<!--more-->
+
+<pre><code><span class="code"><span class="paren1">(<span class="code">require '<span class="paren2">[<span class="code">clojure.string <span class="keyword">:as</span> str</span>]</span>
+         '<span class="paren2">[<span class="code">rbre.core <span class="keyword">:as</span> rbre</span>]</span>
+         '<span class="paren2">[<span class="code">clostache.parser <span class="keyword">:refer</span> <span class="paren3">[<span class="code">render</span>]</span></span>]</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> list-dir <span class="paren2">[<span class="code">path</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code">clojure.java.io/file path</span>)</span>
+       file-seq
+       <span class="paren3">(<span class="code">filter #<span class="paren4">(<span class="code">.isFile %</span>)</span> </span>)</span>
+       <span class="paren3">(<span class="code">filter #<span class="paren4">(<span class="code">re-matches #<span class="string">".+</span><span class="string">\.</span><span class="string">md$"</span> <span class="paren5">(<span class="code">.getName %</span>)</span></span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> list-dir-by-year <span class="paren2">[<span class="code">prefix year</span>]</span>
+  <span class="paren2">(<span class="code">map #<span class="paren3">(<span class="code">array-map <span class="keyword">:year</span> year
+                   <span class="keyword">:file</span> %</span>)</span>
+       <span class="paren3">(<span class="code">list-dir <span class="paren4">(<span class="code">str prefix <span class="string">"/"</span> year</span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> read-post <span class="paren2">[<span class="code">file-year</span>]</span>
+  <span class="paren2">(<span class="code"><i><span class="symbol">let</span></i> <span class="paren3">[<span class="code">file <span class="paren4">(<span class="code"><span class="keyword">:file</span> file-year</span>)</span>
+        name <span class="paren4">(<span class="code">.getName file</span>)</span>
+        content <span class="paren4">(<span class="code">-&gt;&gt; file
+                      clojure.java.io/reader
+                      slurp</span>)</span></span>]</span>
+    <span class="paren3">(<span class="code">-&gt; file-year
+        <span class="paren4">(<span class="code">assoc <span class="keyword">:name</span> name</span>)</span>
+        <span class="paren4">(<span class="code">assoc <span class="keyword">:content</span> content</span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> clean-title <span class="paren2">[<span class="code">title</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code">str/replace title #<span class="string">"</span><span class="string">\s</span><span class="string">*#</span><span class="string">\s</span><span class="string">*"</span> <span class="string">""</span></span>)</span>
+       .trim</span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> add-title <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code"><span class="keyword">:content</span> post</span>)</span>
+       <span class="paren3">(<span class="code">re-seq #<span class="string">"#.+"</span></span>)</span>
+       first
+       clean-title
+       <span class="paren3">(<span class="code">assoc post <span class="keyword">:title</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> clean-date <span class="paren2">[<span class="code">date</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code">str/replace date #<span class="string">"[</span><span class="string">\t</span><span class="string"> ]*Date:"</span> <span class="string">""</span></span>)</span>
+       .trim</span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> add-date <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; post
+       <span class="keyword">:name</span>
+       <span class="paren3">(<span class="code">re-seq #<span class="string">"</span><span class="string">\d</span><span class="string">{4}-</span><span class="string">\d</span><span class="string">{2}-</span><span class="string">\d</span><span class="string">{1,2}"</span></span>)</span>
+       first
+       <span class="paren3">(<span class="code">assoc post <span class="keyword">:date</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> add-header <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">assoc post
+         <span class="keyword">:header</span>        
+         <span class="paren3">(<span class="code">render <span class="string">";;;;;
+title: {{title}}
+tags: 
+date: {{date}}
+format: md
+excerpt: 
+;;;;;"</span> <span class="paren4">{<span class="code"><span class="keyword">:title</span> <span class="paren5">(<span class="code"><span class="keyword">:title</span> post</span>)</span>
+        <span class="keyword">:date</span> <span class="paren5">(<span class="code"><span class="keyword">:date</span> post</span>)</span></span>}</span></span>)</span></span>)</span></span>)</span>
+
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> strip-content <span class="paren2">[<span class="code">content</span>]</span>
+  <span class="paren2">(<span class="code">-&gt; content
+      <span class="paren3">(<span class="code">str/replace-first #<span class="string">"#.+"</span> <span class="string">""</span></span>)</span>
+      <span class="paren3">(<span class="code">str/replace-first #<span class="string">"Date:.+"</span> <span class="string">""</span></span>)</span></span>)</span></span>)</span>
+
+<span class="comment">;(str/replace "xxx\n # XX\n dddd" #"#.+" "--")
+</span>
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> strip-content-in-post <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">update post
+         <span class="keyword">:content</span>
+         strip-content</span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> write-post <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">spit <span class="paren3">(<span class="code">str <span class="paren4">(<span class="code"><span class="keyword">:year</span> post</span>)</span>
+             <span class="string">"/"</span>
+             <span class="paren4">(<span class="code">str/replace <span class="paren5">(<span class="code"><span class="keyword">:name</span> post</span>)</span> #<span class="string">"</span><span class="string">\.</span><span class="string">md$"</span> <span class="string">".post"</span></span>)</span></span>)</span> 
+        <span class="paren3">(<span class="code">str <span class="paren4">(<span class="code"><span class="keyword">:header</span> post</span>)</span>
+             <span class="string">"</span><span class="string">\n</span><span class="string">\n</span><span class="string">"</span>
+             <span class="paren4">(<span class="code"><span class="keyword">:content</span> post</span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code">transduce <span class="paren2">(<span class="code">comp <span class="paren3">(<span class="code">map read-post</span>)</span>
+                 <span class="paren3">(<span class="code">map add-title</span>)</span>
+                 <span class="paren3">(<span class="code">map add-date</span>)</span>
+                 <span class="paren3">(<span class="code">map add-header</span>)</span>
+                 <span class="paren3">(<span class="code">map strip-content-in-post</span>)</span></span>)</span>
+           <span class="paren2">(<span class="code">fn <span class="paren3">[<span class="code">&amp; args</span>]</span>
+             <span class="paren3">(<span class="code">when <span class="paren4">(<span class="code">= 2 <span class="paren5">(<span class="code">count args</span>)</span></span>)</span>
+               <span class="paren4">(<span class="code">write-post <span class="paren5">(<span class="code">second args</span>)</span></span>)</span></span>)</span></span>)</span>
+           <span class="paren2">(<span class="code">mapcat #<span class="paren3">(<span class="code">list-dir-by-year <span class="string">"../v21k-bak"</span> %</span>)</span>
+                   <span class="paren3">(<span class="code">map str <span class="paren4">(<span class="code">range 2014 2018</span>)</span></span>)</span></span>)</span></span>)</span></span></code></pre>
+
+<p>Below is my .coleslawrc</p>
+
+<pre><code><span class="code"><span class="paren1">(<span class="code"><span class="keyword">:author</span> <span class="string">"Vee Satayamas"</span>
+ <span class="keyword">:deploy-dir</span> <span class="string">"/home/vee/vblog"</span>
+ <span class="keyword">:domain</span> <span class="string">"https://veer66.rocks"</span>
+ <span class="keyword">:excerpt-sep</span> <span class="string">"&lt;!--more--&gt;"</span>
+ <span class="keyword">:feeds</span> <span class="paren2">(<span class="code"><span class="string">"lisp"</span></span>)</span>
+ <span class="keyword">:plugins</span> <span class="paren2">(<span class="code"><span class="comment">;(analytics :tracking-code "foo")
+</span>           <span class="comment">;(disqus :shortname "my-site-name")
+</span>           <span class="comment">; (incremental)  ;; *Remove comment to enable incremental builds.
+</span>           <span class="comment">;(mathjax)
+</span>           <span class="paren3">(<span class="code">sitemap</span>)</span>
+           <span class="paren3">(<span class="code">static-pages</span>)</span>
+           <span class="comment">; (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+</span>          </span>)</span>
+ <span class="keyword">:routing</span> <span class="paren2">(<span class="code"><span class="paren3">(<span class="code"><span class="keyword">:post</span>           <span class="string">"posts/~a"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:tag-index</span>      <span class="string">"tag/~a"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:month-index</span>    <span class="string">"date/~a"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:numeric-index</span>  <span class="string">"~d"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:feed</span>           <span class="string">"~a.xml"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:tag-feed</span>       <span class="string">"tag/~a.xml"</span></span>)</span></span>)</span>
+ <span class="keyword">:sitenav</span> <span class="paren2">(<span class="code"><span class="paren3">(<span class="code"><span class="keyword">:url</span> <span class="string">"https://toot.veer66.rocks/users/veer66"</span> <span class="keyword">:name</span> <span class="string">"SNS"</span></span>)</span> 
+           <span class="paren3">(<span class="code"><span class="keyword">:url</span> <span class="string">"https://github.com/veer66"</span> <span class="keyword">:name</span> <span class="string">"GitHub"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:url</span> <span class="string">"https://gitlab.com/veer66"</span> <span class="keyword">:name</span> <span class="string">"GitLab"</span></span>)</span></span>)</span>
+ <span class="keyword">:staging-dir</span> <span class="string">"/tmp/coleslaw/"</span>
+ <span class="keyword">:title</span> <span class="string">"veer66's blog"</span>
+ <span class="keyword">:theme</span> <span class="string">"readable"</span> <span class="comment">;; "hyde"
+</span></span>)</span></span></code></pre>
+ ]]></description> </item><item> <title>A benchmark of Thai word tokenizers written in various programming languages</title> <link>https://veer66.rocks/posts/A-benchmark-of-Thai-word-tokenizers-written-in-various-programming-languages.html</link> <pubDate>2017-06-04</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/A-benchmark-of-Thai-word-tokenizers-written-in-various-programming-languages.html</guid>  <description><![CDATA[ <p>The origin post was at https://veer66.wordpress.com/2017/01/19/benchmark-thai-word-tokenizers/ posted on 2017/01/19.</p>
+
+<p>I wonder about speed of programs written in different languages. For example, I wonder whether one written in Kotlin and ran on JVM is slower than one written in Go. Although there are several existing benchmarks, this is one may be still important at least for me, because Thai word tokenizer is my real task.</p>
+
+<p>So @iporsut and me wrote some programs in different programming languages and tried to optimize them.</p>
+
+<p>I conducted the experiment on my laptop computer, which has Intel® Core™ i3-4030U CPU @ 1.90GHz × 4, on a 20MB Thai text corpus.  </p>
+
+<ul>
+<li>Rust #1: 3.366 #2: 3.247 #3 3.241 #Avg: 3.284</li>
+<li>Go   #1: 5.415 #2: 5.405  #3 5.416 #Avg: 5.412</li>
+<li>Crystal #1: 5.637 #2: 5.679 #3 5.649 #Avg: 5.655</li>
+<li>Kotlin+Clojure #1: 6.547 #2: 6.743 #3 6.628 #Avg: 6.639</li>
+<li>Julia #1: 38.316 #2: 38.112 #3 38.237 #Avg: 38.221</li>
+<li>JavaScript #1: 49.349 #2: 49.084 #3 49.901 #Avg: 49.445</li>
+<li>Python #1: 50.624 #2: 50.803 #3 50.869 #Avg: 50.765</li>
+<li>Clojure+Kotlin #1:  63.502 #2: 67.561 #3 67.303 #Avg: 66.122</li>
+</ul>
+
+<h2>Additional setup</h2>
+
+<ul>
+<li>Env: Rust Nightly 2017-01-08, <a href="https://github.com/veer66/chamkho" >Worcut source code</a></li>
+<li>Env: Go 1.7.4,  <a href="https://gitlab.com/veer66/mapkha" >Wordcut source code</a></li>
+<li>Env: Crystal 0.20.5, <a href="https://gitlab.com/veer66/kachet" >Wordcut source code</a></li>
+<li>Env: Kotlin 1.0.6 + Clojure 1.8.0 + OpenJDK 1.8, <a href="https://gitlab.com/veer66/yaito" >Worcut source code</a>, <a href="https://gitlab.com/veer66/yaito-clj" >Worcut source code</a></li>
+<li>Env: Julia 0.5.0, <a href="https://gitlab.com/veer66/wordcut.jl" >Worcut source code</a></li>
+<li>Env: Node.js v6.5.0, <a href="https://gitlab.com/veer66/prasae" >Worcut source code</a></li>
+<li>Env: Python 3.5.2,  <a href="https://gitlab.com/veer66/wordocutpy" >Worcut source code</a></li>
+<li>Env: Clojure 1.8.0 + Kotlin 1.0.6 + OpenJDK 1.8, <a href="https://gitlab.com/veer66/wordcut-clj" >Worcut source code</a></li>
+</ul>
+
+<h2>Future work</h2>
+
+<p>@iporsut has already written multicore versions, so maybe next month I will conduct another experiment.</p>
+ ]]></description> </item><item> <title>(move &#039;picocms &#039;jekyll)</title> <link>https://veer66.rocks/posts/move-picocms-jekyll.html</link> <pubDate>2017-06-04</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/move-picocms-jekyll.html</guid>  <description><![CDATA[ <p>I happened to think what if I die, who will pay for my hosting. So today I migrate my main website and blog posts from PicoCMS hosted at Scaleway to Jekyll hosted at Github. What I cannot pay for domain name, my site can be still accessed by <a href="http://veer66.github.io" >veer66.github.io</a></p>
+
+<p>PicoCMS and Jekyll are based on Markdown so I just wrote a script for renaming my blog post file name and modifing some metadata by the shell script below: </p>
+
+<p><code>Sh
+for x in *.md
+do 
+   T=`head -n4 $x | grep '^Title:' | sed 's/Title: //' | sed 's/[ &quot;\|?\/\(\)]/-/g'` 
+   D=`head -n4 $x | grep '^Date' | sed 's/Date: //' | sed 's/\//-/g'`
+   mv $x $D-$T.md
+done
+for x in *.md
+do 
+   cat $x | sed 's/\/\*//' | sed 's/\*\///' | sed 's/Title: /# /' &gt; t &amp;&amp; mv t $x 
+done
+</code></p>
+
+<p>If I outlive Github, I can just generate this site and host it somewhere else.</p>
+ ]]></description> </item><item> <title>เกี่ยวกับภาษา Lisp</title> <link>https://veer66.rocks/posts/เกยวกบภาษา-Lisp.html</link> <pubDate>2016-11-13</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/เกยวกบภาษา-Lisp.html</guid>  <description><![CDATA[ <h3>ที่มา</h3>
+
+<p>สมัยหนุ่ม ๆ ผมเห็นคำว่า Lisp ผ่านตาบ่อย ๆ ทั้งความเกี่ยวข้องกับ Logo AI หรือแม้กระทั่ง AutoCAD ก็เลยอยากจะเรียน</p>
+
+<p>ต่อมาก็ยังได้ยินเรื่อง Functional Programming ก็เลยรู้สึกว่าน่าสนใจเข้าไปใหญ่</p>
+
+<p>อย่างไรก็ตามสมัยหนุ่ม ๆ จะหาอะไรก็ลำบาก พอมาสมัยนี้จะหาอะไรมาเล่นก็ง่ายขึ้น </p>
+
+<h3>ประเด็นที่น่าสนใจ (สำหรับผม)</h3>
+
+<ol>
+<li>Lisp เป็น High-level programming language ภาษาที่ 2 ของโลก หรือว่าถ้าจะมีอะไรมาแทรก ๆ ก็ยังเป็นภาษาแรก ๆ อยู่ดี</li>
+<li>Lisp มาพร้อมกับ Garbage collector แต่แรกตั้งแต่ค.ศ. 1959</li>
+<li>ภาษาแนว Functional Programming ทั้งหมดมีส่วนเกี่ยวข้องกับ Lisp</li>
+<li>ทุกอย่างใน Lisp มีพื้นฐานมากจาก List</li>
+<li>Lisp ในแง่มุมวงเล็บ</li>
+<li>Lisp ในแง่มุม dynamic type</li>
+</ol>
+
+<h3>เกี่ยวกับผม</h3>
+
+<p>จริง ๆ แล้วผมเขียน Clojure แต่ว่าไม่พูดถึง Clojure เพราะว่าไม่แน่เรื่อง Persistent vector </p>
+
+<p>ผมไม่เข้าใจ lambda calculus ไม่เข้าใจ Category theory ไม่ใช่ว่าไม่สนใจแต่ว่าอ่านแล้วยังไม่รู้เรื่องแล้วก็จะมาเล่าที่หลัง </p>
+
+<h3>List</h3>
+
+<p>ค.ศ. 2016 นอกจากจะเขียน Clojure แล้วผมก็ได้ลอง Common Lisp ด้วย ถ้าว่าให้เฉพาะเจาะจงก็คือใช้ SBCL รู้สึกว่ามันไม่สะดวกเท่า Clojure แต่ได้สัมผัส List มากกว่า</p>
+
+<p>พอศึกษาไปสักพักแล้วรู้สึกว่าใน Lisp สิ่งที่เป็นพื้นฐานกว่า List อีกก็คือ Cons cell ที่ผมเคย<a href="https://medium.com/@vsatayamas/lisp-cons-cell-bf5446e3833e#.fuln38uui" >บันทึกไว้แล้ว</a></p>
+
+<p>พอทราบเรื่อง Lisp แล้วเราก็จะมาพูดเรื่อง <a href="https://medium.com/@vsatayamas/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%83%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9B%E0%B9%8C-ff1c1aa932ac#.hylv6hpn2" >Singly Linked List</a> ได้สบาย ๆ</p>
+
+<h3>ความเชื่อมโยงกับ Clojure OCaml และ Haskell</h3>
+
+<p>จริง ๆ ผมก็ไม่เคยเขียน Lisp แบบเดิม ๆ เอาตัวเก่าที่สุดที่เคยใช้ก็คือ Common Lisp</p>
+
+<p>สิ่งที่พบคือ Clojure OCaml และ Haskell มี cons cell และ singly-linked list ติดมากับภาษาทั้งหมด เพียงแต่ว่าใน Haskell คำสั่ง cons เปลี่ยนเป็น : (colon) และใน OCaml ใช้ :: (colon สองที่</p>
+
+<p>นอกจากนั้นในพวก Haskell และ Clojure ยังมีสิ่งที่เรียกว่า lazy sequence ของ Haskell ผมไม่ได้อ่านละเอียด แต่ว่า Clojure นี่แน่ชัดว่า lazy sequence ก็ทำงานอยู่บน cons cell เหมือนกับ list แต่ว่า เวลาสั่ง cdr หรือ rest มันไม่มีประมวลผลเก็บไว้ก่อน สั่ง cdr และ rest ทีนึงมันก่อนไปคำนวณหาหัว list มาให้ แต่ถ้าเป็น list ธรรมดาทุกอย่างใน list ถูกคำนวณเก็บไว้ใน memory อยู่แล้ว</p>
+
+<p>นอกจากเรื่อง lazy sequence แล้ว Clojure ยังต่างออกไปจาก Lisp เดิม ๆ คือ data structure ที่ใช้เป็นหลักไม่ใช่ singly linked list แล้วแต่เป็น persistent vector แทน ซึ่งคุยกับ @visibletrap แล้วก็สรุปว่ามาจาก<a href="https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf" >วิทยานิพนธ์ของ CMU อีกที</a></p>
+
+<p>แต่ว่า Lisp ก็ยังเป็นภาษาแบบที่ยังมี side-effect ได้อยู่เวลาเขียน IO อย่างใน Common Lisp ก็สั่ง (format nil &quot;toto&quot;) แบบนี้ได้เลย ไม่ต้องมี IO Monad แบบ Haskell นอกจากนั้นก็ยัง assign ค่าตัวแปรแบบเถื่อน ๆ อย่าง (setf <em>var1</em> &quot;titi&quot;) แบบนี้ก็ได้ ไม่ได้บังคับเป็น Functional Programming</p>
+
+<h3>ความเชื่อมโยงกับ Python และ Ruby</h3>
+
+<p>ถ้าดูจากตำแหน่งวงเล็บแล้ว Python และ Ruby อาจจะไม่ค่อยเกี่ยวกันเท่าไหร่ แต่ว่าจริง ๆ ก็มีเรื่อง dynamic type ที่ว่าไปแล้วก็คล้าย ๆ กันมาก</p>
+
+<p>แต่ว่าสิ่งที่ Python เรียกว่า list มันไม่ใช่ list แบบใน Lisp แต่เป็น vector หรือเหมือน array ใน Pascal ใน C</p>
+
+<h3>เพิ่มเติม</h3>
+
+<p>สุดเด่นอีกอย่างของ Lisp คือใช้กับ REPL แล้วเนียนมาก ๆ สามารถรัน ๆ โปรแกรมไปแล้วอยากเปลี่ยนแค่บาง function แล้วรันใหม่ ได้โดยไม่ต้อง reload ทุกอย่างขึ้น memory ทำให้สะดวกมาก ๆ </p>
+
+<p>จริง ๆ หลาย ๆ ภาษาก็พยายามจะมี REPL แต่ว่าใช้จริง ๆ มันไม่ค่อยสะดวก เหมือน Lisp หรือ Clojure ที่วงเล็บมันช่วยกำหนดของเขตของสิ่งที่รับจะ eval ใหม่ได้เลย รูปแบบการเขียนโปรแกรมของ Lisp มันก็เหมือนได้ มี function แยก ๆ เลยกันเลย เคยพยายามใช้กับ Ruby ก็มึน ๆ เหมือนกันพอพยายามจะ eval เฉพาะบาง method ใน class ก็จะเริ่มงง ๆ แล้ว</p>
+
+<p>ในรูปเป็นของ Clojure นะครับใช้ Emacs กับ Cider แต่ใช้ Lisp จริง ๆ ก็ได้เพียงแต่ใช้ SLIME แทน หรือจะไม่ใช้ Emacs ไปใช้พวก Cursive ก็ได้สำหรับ Clojure หรือแม้แต่ vscode</p>
+
+<p>ผมว่ามันเป็นความสะดวกอีกขั้นที่เลย IDE ไป อันนี้น่าจะ demo ให้ดูเป็น video ได้ในอนาคต</p>
+
+<h3>คุยกับผม</h3>
+
+<ul>
+<li>GNU Social: <a href="https://quitter.se/vsatayamas/" >https://quitter.se/vsatayamas/</a></li>
+<li>Twitter: <a href="https://twitter.com/vsatayamas" >@vsatayamas</a></li>
+<li>Facebook: <a href="http://facebook.com/digitalveer66" >digitalveer66</a></li>
+<li>E-mail: vsatayamas at gmail dot com</li>
+</ul>
+ ]]></description> </item><item> <title>ทลายกำแพงภาษาเพื่อรากหญ้า</title> <link>https://veer66.rocks/posts/ทลายกำแพงภาษาเพอรากหญา.html</link> <pubDate>2016-11-12</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/ทลายกำแพงภาษาเพอรากหญา.html</guid>  <description><![CDATA[ <h3>ที่มา</h3>
+
+<p><a href="https://en.wikipedia.org/w/index.php?title=EF_English_Proficiency_Index&oldid=747538820" >ความสามารถทางภาษาอังกฤษ</a>ของประเทศไทยอยู่อันดับที่ 62 จาก 70 แต่ก่อนผมก็ไม่ค่อยเชื่อจนไปซื้อซิมแล้วขอให้พนักงานปรับค่าให้ หลังจากผ่านไปประมาณ 5 นาทีพนักงานบอกว่าช่วยเปลี่ยนเป็นภาษาไทยให้หนูหน่อย ตั้งแต่นั้นมาผมก็เปลี่ยนความคิด</p>
+
+<h3>ไก่กับไข่</h3>
+
+<ul>
+<li>หักดิบใช้ภาษาอังกฤษไปเลย</li>
+<li>แปลภาษาไทยให้พอใช้ได้แล้วค่อยใช้คอมพิวเตอร์หรือมือถือเรียนภาษาอังกฤษ</li>
+</ul>
+
+<p>ผมเลือกแปลก่อนเพราะว่า:</p>
+
+<ol>
+<li>พอใช้มือถือหรือคอมพิวเตอร์ได้แล้วมีโปรแกรมมีเว็บให้เรียนภาษาอังกฤษเยอะแยะ</li>
+<li>ความปลอดภัย: ท่าที่ว่ากดมั่ว ๆ หรือกด OK ไปเลย โดยไม่อ่านอาจจะซวยได้</li>
+</ol>
+
+<h3>เลือกโครงการไหน</h3>
+
+<ol>
+<li>ความเป็นเจ้าของ</li>
+<li>โปรแกรมที่อานิสงส์เยอะ ๆ</li>
+</ol>
+
+<p>ถ้าเลือกได้ผมจะแปลโปรแกรมที่เป็นของผมเอง แต่ว่าโปรแกรมที่ผมเขียนเองมันเป็นภาษาไทยอยู่แล้ว ไม่ก็ไม่ได้ทำมาให้รากหญ้าใช้ ก็เลยขยับมาที่โปรแกรมที่เป็นเป็นสาธารณะหรือเป็นซอฟต์แวร์เสรีนั่นเอง </p>
+
+<p>ที่คิดว่าน่าจะใช้มาก ๆ ก็คือโปรแกรมเปิดเว็บก็มีอยู่ 2 ตัวคือ Chrome กับ Firefox ผมเลือก Firefox เพราะว่าเห็นเช็งกับท็อปแปลอยู่แล้ว</p>
+
+<h3>Firefox มันยังมีอนาคตไหม ?</h3>
+
+<p>ท็อปบอกว่า &quot;ยิ่งกว่ามีอีกครับ&quot;</p>
+
+<p>Gecko ที่ใช้มานานกำลังถูกเปลี่ยนไปเรื่อย ๆ ผ่านโครงการ Quantum ที่เอาชิ้นส่วนใหม่ ๆ ที่เขียนด้วยภาษา Rust มาใส่ เร็ว ๆ นี้ก็น่าจะวาดหน้าเว็บโดยเอา GPU มาช่วยด้วย เป็นต้น</p>
+
+<p>ภาษา Rust พัฒนามามากกว่า 6 ปีแล้ว ประเด็นหลักเลยก็คืออยากได้ภาษาที่เขียนโปรแกรมแล้วประสิทธิภาพสูสีกับ C/C++ แต่ลดโอกาสที่นักพัฒนาจะทำพลาดลง อีกประเด็นหนึ่งคือเขียนโปรแกรมที่ทำงานพร้อม ๆ กันได้ง่ายขึ้น</p>
+
+<p>คนอื่น ๆ แล้วก็ผมด้วยก็หวังว่า Firefox รุ่นใหม่ ๆ ที่มีฐานอยู่บน Rust มันจะทำงานได้ดีขึ้นด้วย</p>
+
+<h3>ทำไมต้องมาแปลเอง ?</h3>
+
+<p>ปล่อยนักแปลอาชีพที่จ้างมาทำไหม ทำไมต้องมาแปลเอง ? ผมคิดว่าไม่ปล่อยดีกว่า เพราะว่าคิดว่าเราแปลดีกว่า เช่น เราไม่แปลว่า &quot;จดจำเว็บนี้ไหม&quot; แล้วให้เลือกว่า &quot;ไม่เคย&quot; หรือว่าสองทางให้เลือกคือปุ่ม &quot;ยกเลิก&quot; กับปุ่ม &quot;ยกเลิก&quot;</p>
+
+<p>บางทีเราอาจจะพลาด แต่เราก็แก้ได้</p>
+
+<h3>เริ่มแปล</h3>
+
+<h4>Pontoon</h4>
+
+<p>หลังจากผ่านอะไรมามากเดี๋ยวนี้ถ้าจะแปลก็เข้าไปที่ Pontoon ได้เลย แต่เพื่อที่ว่าจะได้ไม่งงผมเลือกโครงการให้เลย<a href="https://pontoon.mozilla.org/th/mozillaorg/all-resources/?string=7754" >อันนี้เป็นการเว็บของ Mozilla</a> สำหรับคนที่เริ่มแปลแรก ๆ ก็จะเป็นการให้เสนอคำแปล (suggest) ไปก่อนแล้วจะมีคนมาตรวจอีกทีซึ่งในกรณีก็คือ ท็อป เช็ง และ @nutmos เอง</p>
+
+<p>เวลาแปลเราค้นคำแปล ๆ เก่า ๆ ได้ด้วย ถ้าไม่ได้มีอะไรผิดพลาด หรือว่าเป็นการแปลความหมายที่ต่างกัน เราก็ควรจะแปลให้เหมือน ๆ กันไว้ก่อน ผู้ใช้จะได้ไม่งง ถ้าใช้คำนั้นทีคำนี้ทีก็จะงงได้ </p>
+
+<p>Pontoon มีตัวช่วย 3 อย่างคือ 
+1. หาคำแปลที่เคยแปลมาให้เลย 
+2. ใช้เครื่องแปลภาษามาด้วย 
+3. ดูจากภาษาอื่นเช่น ภาษามลายู ภาษาลาว</p>
+
+<p>Pontoon ตอนนี้เวลาแปลบางอย่างมันสามารถแปลแบบเห็นหน้าตาจริง ๆ ได้เลย จะได้ไม่แปลยาวเกินจนล้น แต่ว่าก็ยังใช้ได้แค่บางงานเช่นแปลหน้าของ Pontoon เอง</p>
+
+<h4>Style guide</h4>
+
+<p>แต่ว่าพอไปเปิดดูแล้วอาจจะสงสัยว่ามันต้องมีหลักการหน่อยไหม ก็เข้าไปศึกษาใน<a href="https://wiki.mozilla.org/L10n:Teams:th/Style_Guide" >นี้ได้ครับ</a></p>
+
+<h4>Transvision</h4>
+
+<p>นอกจากสองอย่างนี้แล้วก็ยังมีเว็บที่ช่วยค้นหาคำแปลเก่า ๆ <a href="https://transvision.mozfr.org/" >https://transvision.mozfr.org/</a></p>
+
+<h3>มุมมองของผม</h3>
+
+<p>อาจจะมีคนถามว่าควรแปลแบบคำต่อคำเลยหรือเปล่า ผมคิดว่าไม่จำเป็น ตัวตั้งสำหรับผมคือคิดถึงคนที่พูดภาษาไทยที่เขาอ่านภาษาอังกฤษไม่ออกหรือออกน้อย ประเด็นหลักในการแปลผมอย่างที่พี่เด่นสินบอกไว้คือมุ่งที่<em>การสื่อสาร</em>ก่อนเป็นอันดับแรก</p>
+
+<h3>นั่งแปลด้วยกัน</h3>
+
+<p>ครั้งหน้านัดกันที่ Hubba เอกมัยซอย 4 วันที่ 25 ธันวาคม พ.ศ.2559 ครับ ดู<a href="https://medium.com/@vsatayamas/mozillian-meet-up-in-bangkok-20160925-f6d4ef0a6f1a#.621hes3vt" >บรรยากาศครั้งก่อนเมื่อเดือนกันยายนได้ที่นี่</a>ครับ</p>
+
+<h3>ตัวอย่าง</h3>
+
+<p>sync จะแปลว่าอะไรดี เราทราบกันดีว่าย่อมาจาก synchronous พอลอกไปคนดูว่า แปลว่าอะไรก็ได้ &quot;สมวาร&quot; บ้าง &quot;ประสานเวลา&quot; บ้าง ซึ่งอภิปรายกันแล้วก็ได้มติว่าแปลไปก็ไม่รู้เรื่องอยู่ดีจึงทับศัพท์ไปว่า &quot;ซิงค์&quot; แต่ก็ต้องพิจารณาประเด็น Sync ที่ว่าเป็นชื่อเฉพาะอันนี้เราจะใช้ Sync ตามภาษาอังกฤษไปเลย</p>
+
+<p>พวกนี้ก็เป็นประเด็นที่จะอภิปรายกันต่อไปได้ว่ามีคนไหนประโยคไหนควรจะแปลแบบไหนดี </p>
+
+<h3>พื้นที่ออนไลน์</h3>
+
+<p>พบกันที่ได้ <a href="https://www.facebook.com/groups/mozth" >https://www.facebook.com/groups/mozth</a> </p>
+
+<p>มีบางท่านถามมาว่าควรจะใช้ Slack หรือไม่ ผมว่าก็อาจจะดีแต่ว่าโอกาสที่คนจะมาร่วมก็คงน้อยลง IRC ดีไหมเป็นระบบเปิดด้วย แต่เหตุผลก็คงจะเหมือนเดิมคนมีส่วนร่วมก็จะน้อยลงอีก </p>
+
+<h3>อนาคต</h3>
+
+<p>มีโครงการใหม่ชื่อ <a href="http://l20n.org" >L20N</a> เป็นการเล่นคำที่มาจาก L10N คูณ 2 ซึ่ง L10N ก็ย่อมาจาก Localization หรือการทำให้เป็นท้องถิ่นอีกที แต่พูดให้แคบ ๆ ลงหน่อยก็คือการแปลนี่เอง </p>
+
+<p>ผมดูคร่าว ๆ แล้วส่วนที่น่าสนใจสำหรับการมีภาษาไทยก็มี <a href="http://l20n.org/learn/advanced-selectors" >advance selector</a> อันนี้มันอาจจะมาช่วยลดงานเราได้ เช่น </p>
+
+<ul>
+<li>คุณไม่มีอีเมลที่ยังไม่ได้อ่าน</li>
+<li>คุณมีอีเมลที่ยังไม่ได้อ่านหนึ่งฉบับ</li>
+<li>คุณมีอีเมลที่ยังไม่ได้อ่าน 8 ฉบับ</li>
+</ul>
+
+<p>พวกนี้จะเอามารวมกันเป็นก้อนเดียวได้หรือเปล่าใน L20N ก็เป็นเรื่องที่อาจจะต้องดูต่อไป</p>
+
+<h3>นอกจากการแปล</h3>
+
+<h4>ตัดคำ</h4>
+
+<p>ตัววาดเว็บตัวใหม่ ได้แก่ Servo ก็กลับมามีปัญหาอยู่ ก็อยู่ในช่วงพิจารณาว่าจะใช้ libicu ดีไหม หรือจะทำอย่างไรดี ประเด็นพวกนี้อาจจะน่าสนุกที่ว่าไม่ได้ทำเฉพาะภาษาไทย ลาว ญี่ปุ่น ฯลฯ ก็ใช้โปรแกรมส่วนเดียวกันเลย ตามไปดูได้ที่ <a href="https://github.com/servo/servo/issues/13088" >github</a></p>
+
+<h4>อื่น ๆ</h4>
+
+<p>นอกจากการตัดคำแล้ว การเลือกฟอนท์ใน Servo ก็ยังมีอะไรตรวจสอบหรือแก้อยู่เสมอ ๆ ถ้าอยากลองเขียน Rust ดูกับนักพัฒนาที่อื่น ๆ ในโลกดูบ้างก็อาจจะเป็นโอกาสที่ดี</p>
+
+<h3>บรรยากาศที่บรรยายเรื่องนี้</h3>
+
+<p><img src="https://file.veer66.rocks/pic/l10nbcbk7.jpg" alt="BCBK7" /></p>
+
+<h3>คุยกับผม</h3>
+
+<ul>
+<li>GNU Social: <a href="https://quitter.se/vsatayamas/" >https://quitter.se/vsatayamas/</a></li>
+<li>Twitter: <a href="https://twitter.com/vsatayamas" >@vsatayamas</a></li>
+<li>Facebook: <a href="http://facebook.com/digitalveer66" >digitalveer66</a></li>
+<li>E-mail: vsatayamas at gmail dot com</li>
+</ul>
+ ]]></description> </item><item> <title>โปรแกรมตัดคำที่สร้างโดยชุมชน</title> <link>https://veer66.rocks/posts/โปรแกรมตดคำทสรางโดยชมชน.html</link> <pubDate>2015-10-1</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/โปรแกรมตดคำทสรางโดยชมชน.html</guid>  <description><![CDATA[ <p>ค.ศ. 2000 ผมได้เริ่มเขียนโปรแกรมตัดคำเข้าประกวดในงานประชุมวิชาการ SNLP 2000 ที่เชียงใหม่ ทำให้คิดว่ายังมีอะไรที่น่าจะทำได้ในโปรแกรมตัดคำอีกมาก</p>
+
+<p>ราว ๆ ปี 2004 ผมและเพื่อนจึงได้เขียน ThaiWordseg ขึ้นมาอยู่ที่ sourceforge ตอนนี้ก็คงเหลือแค่ประวัติศาสตร์ http://thaiwordseg.sourceforge.net/ หลังจากนั้นก็มีโครงการอื่น ๆ บ้างแต่ขอข้าม ๆ ไปแล้วกัน</p>
+
+<p>จนกระทั่งเดี๋ยวนี้ยุคที่ github รุ่งเรือง การ diff เอา patch มาแปะใน bugzilla เปลี่ยนมาเป็นการส่ง pull request ในระยะเวลาใกล้เคียงกับที่ node.js เป็นที่นิยม ผมก็ได้เริ่มโครงการใหม่ขึ้นมาชื่อ <a href="http://github.com/veer66/wordcut" >wordcut</a> เหมือนเดิม </p>
+
+<p><a href="http://github.com/veer66/wordcut" >wordcut</a> รุ่นค.ศ. 2014 ต่างออกไปจากรุ่นก่อน ดังต่อไปนี้ </p>
+
+<ul>
+<li>เริ่มทำโครงการบน github เขียนด้วย JavaScript ทำให้ชุมชนที่ใช้เครื่องมือเหล่านี้อยู่แล้วมีส่วนร่วมได้ง่าย แน่นอนว่าง่ายกว่าภาษา C มาก ๆ</li>
+<li>แทนที่จะมุ่งเน้นเพิ่มความเร็ว โครงการนี้พยายามลดความซับซ้อนลง การเก็บพจนานุกรมในอดีตที่เคยใช้ Trie บ้างใช้ Ternary Search Tree บ้างก็เหลือแค่ sorted list ของคำ จุดมุ่งหมายหลักก็คือทำให้การแก้ไขดัดแปลงพจนานุกรมทำได้ง่าย</li>
+<li>การตัดคำด้วยวิธีหลาย ๆ แบบ ได้แก่ การใช้กฎต่าง ๆ และใช้พจนุกรม ถูกทำให้เรียกจาก Interface แบบเดียวกันคือ acceptor เพื่อที่จะทำให้เห็นภาพรวมของระบบได้ง่ายขึ้น</li>
+</ul>
+
+<p>โดยสรุปก็คือ <a href="http://github.com/veer66/wordcut" >wordcut</a> รุ่น 2014 ถูกออกแบบมาให้ชุมชนมีส่วนร่วมได้มากขึ้น และทุกคนก็สามารถแก้ไขปรับปรุงให้ได้โปรแกรมตัดคำแบบที่เขาต้องการ </p>
+
+<p>[ช่วงโม้ล้วน ๆ] วันนี้ วันพุธที่ 1 ตุลาคม 2015 โปรแกรม <a href="http://github.com/veer66/wordcut" >wordcut</a> บน github ได้ดาวบน 32 ดวง มีผู้ติดตามความเคลื่อนไหว 5 ท่าน มีท่านที่สนใจ fork ไปเฉพาะบน Github 7 ท่าน โปรแกรมได้รับการปรับปรุงโดย contributor อย่างน้อย 5 ท่าน ซึ่งนอกจากผมแล้วก็มี </p>
+
+<ul>
+<li><a href="http://github.com/piti118" >@piti118</a></li>
+<li><a href="http://github.com/lvarayut" >@lvarayut</a></li>
+<li><a href="http://github.com/hainp" >@hainp</a></li>
+<li><a href="http://github.com/pureexe" >@pureexe</a></li>
+</ul>
+
+<p>ซึ่งต้องขอบคุณทุกท่านเป็นอย่างมาก และต้องขออภัยหากตกหล่นท่านใดไป แน่นอนว่ามีโปรแกรมตัดคำภาษาไทยที่เป็นซอฟต์แวร์เสรีอยู่มากมาย แต่ว่าไม่เคยมีมาก่อนว่าจะมีผู้คนช่วยกันแก้ไขปรับปรุงมากมายถึงขนาดนี้</p>
+
+<p>จากการร่วมแรงร่วมใจกับ <a href="http://github.com/veer66/wordcut" >wordcut</a> ตอนนี้ทำงานได้ทั้งบน node.js และ web browser, มีพจนานุกรมที่หลากหลาย, ข้อผิดพลาดต่าง ๆ ก็ได้ถูกแก้ไขไปตามลำดับ </p>
+
+<p>แน่นอนว่า <a href="http://github.com/veer66/wordcut" >wordcut</a> ไม่ใช่โปรแกรมตัดคำที่ใช้เทคนิคที่ก้าวหน้าที่สุด แต่เท่าที่ผมเห็นในขณะนี้ <a href="http://github.com/veer66/wordcut" >wordcut</a> เป็นโปรแกรมตัดคำที่มีชุมชนมีส่วนพัฒนาให้ดีขึ้นไปเรื่อย ๆ มากที่สุด สักวันหนึ่ง <a href="http://github.com/veer66/wordcut" >wordcut</a> อาจจะเป็นส่วนช่วยให้การการค้นพบใหม่ ๆ โดยที่ผู้ค้นสามารถทดลองไอเดียของตัวเองได้อย่างรวดเร็วเพราะมีโปรแกรมที่แก้ไขได้ง่ายก็เป็นได้</p>
+
+<p>ป.ล. ตอนนี้ตัดคำภาษาลาวได้ด้วยครับ คาดว่าภาษาเมียนมา และภาษาเขมร (กัมพูชา) จะตามมาติด ๆ </p>
+ ]]></description> </item><item> <title>พระสูตรเพื่อผู้เจ็บไข้</title> <link>https://veer66.rocks/posts/พระสตรเพอผเจบไข.html</link> <pubDate>2015-09-20</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/พระสตรเพอผเจบไข.html</guid>  <description><![CDATA[ <p><em>ต่อไปนี้เป็นคำสอนของพระพุทธเจ้า</em>:</p>
+
+<p>อานนท์ !  ถ้าเธอจะเข้าไปหาภิกษุคิริมานนท์แล้วกล่าวสัญญา ๑๐ ประการแก่เธอแล้ว  ข้อนี้เป็นฐานะที่จะมีได้ คือภิกษุคิริมานนท์ฟังสัญญาสิบประการแล้ว อาพาธอันเป็นทุกข์หนักของเธอ ก็จะระงับไปโดยควรแก่ฐานะ สัญญา ๑๐ ประการ นั้นคือ อนิจจสัญญา อนัตตสัญญา อสุภสัญญา อาทีนวสัญญา ปหานสัญญา วิราคสัญญา นิโรธสัญญา สัพพโลเกอนภิรตสัญญา สัพพสังขาเรสุ-อนิจจสัญญา อานาปานสติ.</p>
+
+<p>อานนท์ !  อนิจจสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์อย่างนี้ ว่า “รูป ไม่เที่ยง;  เวทนา ไม่เที่ยง;  สัญญา ไม่เที่ยง; สังขาร ไม่เที่ยง; วิญญาณ ไม่เที่ยง” ดังนี้  เป็นผู้เห็นซึ่งความไม่เที่ยงในอุปาทานขันธ์ทั้งห้า เหล่านี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อนิจจสัญญา.</p>
+
+<p>อานนท์ !  อนัตตสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์อย่างนี้ ว่า “ตา เป็นอนัตตา รูป เป็นอนัตตา;  หู เป็นอนัตตา เสียง เป็นอนัตตา;  จมูก เป็นอนัตตา กลิ่น เป็นอนัตตา;  ลิ้น เป็นอนัตตา  รส เป็นอนัตตา;  กาย เป็นอนัตตา โผฏฐัพพะ เป็นอนัตตา;  ใจ เป็นอนัตตา  ธรรมารมณ์ เป็นอนัตตา” ดังนี้เป็นผู้เห็นซึ่งความเป็นอนัตตาในอายตนะทั้งภายในและภายนอกหก เหล่านี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อนัตตสัญญา.</p>
+
+<p>อานนท์ !  อสุภสัญญา เป็นอย่างไรเล่า ? อานนท์ ! ภิกษุในกรณีนี้ เห็นโดยประจักษ์ซึ่งกายนี้นี่แหละ แต่พื้นเท้าขึ้นไปถึงเบื้องบน แต่ปลายผมลงมาถึงเบื้องล่าง ว่า มีหนังหุ้มอยู่โดยรอบ เต็มไปด้วยของไม่สะอาดมีประการต่างๆ ; คือกายนี้มี ผม ขน เล็บ ฟัน หนัง เนื้อ เอ็น กระดูก เยื่อในกระดูก ไต หัวใจ ตับ พังผืด ม้าม ปอด ลำไส้ ลำไส้สุด อาหารในกระเพาะ อุจจาระ น้ำดี เสลด หนอง โลหิต เหงื่อ มัน น้ำตา น้ำเหลือง น้ำลาย น้ำเมือก น้ำลื่นหล่อข้อ น้ำมูตร; เป็นผู้เห็นความไม่งามในกายนี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อสุภสัญญา.</p>
+
+<p>อานนท์ !  อาทีนวสัญญา เป็นอย่างไรเล่า ?  อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์อย่างนี้ ว่า “กายนี้มีทุกข์มาก มีโทษมาก; คือในกายนี้มีอาพาธต่างๆ เกิดขึ้น, กล่าวคือ โรคตา โรคหู โรคจมูก โรคลิ้น โรคกาย โรคที่ศีรษะ โรคที่หู โรคที่ปาก โรคที่ฟัน โรคไอ โรคหืด ไข้หวัด ไข้มีพิษร้อน ไข้เซื่องซึม โรคกระเพาะ โรคลมสลบ ลงแดง จุกเสียด เจ็บเสียว โรคเรื้อรัง โรคฝี โรคกลาก โรคมองคร่อ ลมบ้าหมู โรคหิดเปื่อย โรคหิดด้าน คุดทะราด โรคละออง โรคโลหิต โรคดีซ่าน เบาหวาน โรคเริม โรคพุพอง ริดสีดวงทวาร อาพาธมีดีเป็นสมุฏฐาน อาพาธมีเสมหะเป็นสมุฏฐาน อาพาธมีลมเป็นสมุฏฐาน ไข้สันนิบาต ไข้เพราะฤดูแปรปรวน ไข้เพราะบริหารกายไม่สม่ำเสมอ ไข้เพราะออกกำลังเกิน ไข้เพราะวิบากกรรม ความไม่สบายเพราะความหนาว ความร้อน ความหิว ความระหาย การถ่ายอุจจาระ การถ่ายปัสสาวะ” ดังนี้; เป็นผู้เห็นโทษในกายนี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อาทีนวสัญญา.</p>
+
+<p>อานนท์ !  ปหานสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้  ไม่ยอมรับไว้ซึ่งกามวิตก ที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; ไม่ยอมรับไว้ซึ่งพ๎ยาปาทวิตกที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; ไม่ยอมรับไว้ซึ่งวิหิงสาวิตกที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; ไม่ยอมรับไว้ซึ่งอกุศลธรรมทั้งหลายอันเป็นบาปที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; นี้เรียกว่าปหานสัญญา.</p>
+
+<p>อานนท์ !  วิราคสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์ อย่างนี้ว่า “ธรรมชาตินั่น สงบ ธรรมชาตินั่น ประณีต : กล่าวคือ ธรรมชาติอันเป็นที่ระงับแห่งสังขารทั้งปวง เป็นที่สลัดคืนซึ่งอุปธิทั้งปวง เป็นที่สิ้นไปแห่งตัณหา  เป็นความจางคลาย  เป็นความดับเย็น” ดังนี้ : นี้เรียกว่า วิราคสัญญา.</p>
+
+<p>อานนท์ !  นิโรธสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์ อย่างนี้ว่า “ธรรมชาตินั่น สงบ ธรรมชาตินั่น ประณีต : กล่าวคือ ธรรมชาติอันเป็นที่ระงับแห่งสังขารทั้งปวง เป็นที่สลัดคืนซึ่งอุปธิทั้งปวง เป็นที่สิ้นไปแห่งตัณหา เป็นความดับ เป็นความดับเย็น” ดังนี้ : นี้เรียกว่า นิโรธสัญญา.</p>
+
+<p>อานนท์ !  สัพพโลเกอนภิรตสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้อนุสัย (ความเคยชิน) ในการตั้งทับ ในการฝังตัวเข้าไปยึดมั่นแห่งจิตด้วยตัณหาอุปาทานใดๆ ในโลก มีอยู่, เธอละอยู่ซึ่งอนุสัยนั้นๆ งดเว้นไม่เข้าไปยึดถืออยู่ : นี้เรียกว่า สัพพโลเกอนภิรตสัญญา (ความสำคัญในโลกทั้งปวงว่าเป็นสิ่งไม่น่ายินดี).</p>
+
+<p>อานนท์ !  สัพพสังขาเรสุอนิจจสัญญา  เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ย่อมอึดอัด ย่อมระอา  ย่อมเกลียดชัง ต่อสังขารทั้งหลายทั้งปวง : นี้เรียกว่า สัพพสังขาเรสุอนิจจสัญญา (ความสำคัญว่าไม่เที่ยงในสังขารทั้งปวง).</p>
+
+<p>อานนท์ !  อานาปานสติ เป็นอย่างไรเล่า ? อานนท์ !  ในกรณีนี้ ภิกษุไปแล้วสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง ก็ตาม นั่งคู้ขาเข้ามาโดยรอบ ตั้งกายตรง ดำรงสติเฉพาะหน้า มีสติหายใจเข้า มีสติหายใจออก.
+เมื่อหายใจเข้ายาว ก็รู้ชัดว่าเราหายใจเข้ายาว, เมื่อหายใจออกยาว ก็รู้ชัดว่าเราหายใจออกยาว;
+เมื่อหายใจเข้าสั้น ก็รู้ชัดว่าเราหายใจเข้าสั้น, เมื่อหายใจออกสั้น ก็รู้ชัดว่าเราหายใจออกสั้น;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งกายทั้งปวง หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งกายทั้งปวง หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำกายสังขารให้รำงับ หายใจเข้า”, ว่า “เราเป็นผู้ทำกายสังขารให้รำงับ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งปีติ หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งปีติ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งสุข หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งสุข หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิตตสังขาร หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิตตสังขาร หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตตสังขารให้รำงับ หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตตสังขารให้รำงับ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิต หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิต หายใจออก” ;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตให้ปราโมทย์ยิ่ง หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตให้ปราโมทย์ยิ่ง หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตให้ตั้งมั่น หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตให้ตั้งมั่น หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตให้ปล่อยอยู่ หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตให้ปล่อยอยู่ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความไม่เที่ยงอยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความไม่เที่ยงอยู่เป็นประจำ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความจางคลายอยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความจางคลายอยู่เป็นประจำ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความดับไม่เหลืออยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความดับไม่เหลืออยู่เป็นประจำ หายใจออก”;</p>
+
+<p>เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความสลัดคืนอยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความสลัดคืนอยู่เป็นประจำ หายใจออก”;</p>
+
+<p>นี้เรียกว่า อานาปานสติ.</p>
+
+<p>อานนท์ !  ถ้าเธอจะเข้าไปหาภิกษุคิริมานนท์ แล้วกล่าวสัญญาสิบประการเหล่านี้แก่เธอแล้ว ข้อนี้เป็นฐานะที่จะมีได้ คือภิกษุคิริมานนท์ฟังสัญญาสิบประการแล้ว อาพาธอันเป็นทุกข์หนักของเธอก็จะระงับไป โดยควรแก่ฐานะ.</p>
+
+<p>ลำดับนั้นแล ท่านอานนท์จำเอาสัญญาสิบประการเหล่านี้ ในสำนักของพระผู้มีพระภาคเจ้าแล้ว เข้าไปหาท่านคิริมานนท์ แล้วกล่าวสัญญาสิบประการแก่ท่าน เมื่อท่านคิริมานนท์ฟังสัญญาสิบประการแล้ว อาพาธก็ระงับไปโดยฐานะอันควร.  ท่านคิริมานนท์หายแล้วจากอาพาธ และอาพาธก็เป็นเสมือนละไปแล้วด้วย แล.</p>
+
+<p>ที่มา: <a href="http://download.watnapahpong.org/data/static_media/%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A7%E0%B8%88%E0%B8%99_6_%E0%B8%AD%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%9B%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%95%E0%B8%B4_10.pdf" >หนังสือพุทวจน: อานาปานสติ</a></p>
+ ]]></description> </item><item> <title>Preparing tools for building a website using Common Lisp</title> <link>https://veer66.rocks/posts/Preparing-tools-for-building-a-website-using-Common-Lisp.html</link> <pubDate>2015-07-21</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/Preparing-tools-for-building-a-website-using-Common-Lisp.html</guid>  <description><![CDATA[ <p>I did search for tools/libraries for building a website using Common Lisp.
+So I just want to take note here and maybe it is useful for others too.
+BTW please note that I have never used them yet.</p>
+
+<ul>
+<li><a href="https://github.com/fukamachi/ningle" >Ningle</a> - a Sinatra-like web framework</li>
+<li><a href="https://github.com/KeenS/arrows" >Arrows</a> - a Jinja2-like template engine</li>
+<li><a href="https://github.com/lokedhs/cl-rabbit/" >cl-rabbit</a> - a RabbitMQ interface</li>
+<li><a href="http://method-combination.net/lisp/ironclad/" >ironclad</a> - Password encryption</li>
+<li><a href="https://github.com/archimag/mongo-cl-driver" >mongo-cl-driver</a> - A MongoDB driver</li>
+</ul>
+
+<p>These should be enough for building the server side of a small website, shouldn't them?</p>
+ ]]></description> </item><item> <title>ทำไมต้อง Go</title> <link>https://veer66.rocks/posts/ทำไมตอง-Go.html</link> <pubDate>2015-06-25</pubDate> <author>Vee Satayamas</author> <guid isPermaLink="true">https://veer66.rocks/posts/ทำไมตอง-Go.html</guid>  <description><![CDATA[ <p>ภาษาใหม่ ๆ เดี๋ยวนี้ ทั้ง Rust, Swift, F#, Scala หรือภาษากลางเก่ากลางใหม่แบบ C#, Java 8, Python, Ruby, JavaScript มักจะมีกลิ่นอายของ Lisp/Scheme ติดมาด้วยเสมอเช่นการ ใช้ closure กับ map, foldl, foldr, filter เป็นต้น</p>
+
+<p>เนื่องจากว่าเขียนได้ทั้งแนว Fortran และแนว Lisp เวลาคนเขียนภาษาใหม่ ๆ เช่น Python บางทีก็จะเถียงกัน (ผมเห็นจากใน blog ของคนอื่น) ว่าจะใช้ map filter reduce ทำไม อ่านยากจะแย่ จะเขียนสั้น ๆ ทำไม ต้องใช้ for-loop แทนสิ บางคนก็บอกว่า map filter reduce มันก็ดีอยู่แล้ว เขียน for-loop มันอ่านง่ายตรงไหน</p>
+
+<p>ส่วนภาษา Go เป็นภาษาใหม่ที่เน้น imperative (แนว Fortran) ล้วน ๆ และออกแนว minimalism คำสั่งที่มีมาให้ก็เป็นไปแต่แบบพอเพียง บางอย่างที่เขาคิดว่าไม่จำเป็นเขาก็ไม่มีให้ ทำให้แน่นอนไม่มี map, fold, foldr, filter แถมมาให้ ถ้าอยากได้ก็ต้องทำเองในระดับ library</p>
+
+<p>แน่นอนว่าในระดับ Library นี้ compiler เข้ามาช่วย optimize ให้ได้ยาก พอใช้ไปก็จะทำให้โปรแกรมช้าได้</p>
+
+<p>ด้วย 2 เหตุนี้คือขัดวิถีโกและช้า ทำให้โอกาสที่ใคร ๆ จะเขียนแนว Lisp/Scheme ใน Go มีน้อย</p>
+
+<p>ดังนั้นใครหรือทีมไหนที่ไม่ชอบเขียนโปรแกรมที่มีกลิ่นอายของ Lisp/Scheme ในยุคนี้ภาษา Go เหมาะอย่างยิ่ง</p>
+
+<p>ป.ล. ถ้าเขียนคนเดียวผมใช้ map/filter/fold เยอะมาก ๆ แต่ถ้าเป็นกลุ่มก็แล้วแต่ทีมครับ</p>
+ ]]></description> </item> </channel> </rss>

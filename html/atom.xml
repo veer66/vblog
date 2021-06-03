@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>Vee</title> <link href="https://veer66.rocks"/> <link type="application/atom+xml" rel="self" href="https://veer66.rocks/atom.xml"/> <updated>Fri, 04 Jun 2021 00:09:24 +0700</updated> <author> <name>Vee Satayamas</name> </author> <entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/Fediverse-กาวขามเผดจการรวบอำนาจทปกครองและขายสมาชกสงคมออนไลนตางสนคา.html"/> <title>Fediverse: ก้าวข้ามเผด็จการรวบอำนาจที่ปกครองและขายสมาชิกสังคมออนไลน์ต่างสินค้า</title> <published>2018-11-25</published> <updated>2018-11-25</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;ข้อเสียของเครือข่ายสังคมออนไลน์คือสมาชิกมีอำนาจต่อรองน้อย ทำได้อย่างมากเพียงแค่ย้ายเครือข่าย แต่พอย้ายแล้วก็คุยกับคนที่อยู่อีกเครือข่ายไม่ได้ เวลาลดน้ำหนักอยากดูวอลเลย์บอลเพื่อความบันเทิงก็อาจจะเลี่ยงไม่ได้ที่จะต้องดูโฆษณาไก่ทอดเสียก่อน&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;หรือว่าบางเจ้าบอกว่าไม่ให้พื้นที่ 1TB แล้ววันหนึ่งจะเก็บตังรายปีขึ้นมา เพียงว่าเราจะย้ายข้อมูล เช่น รูปภาพที่เราถ่ายเอง กล่องก็ซื้อมาเอง เอาไปไว้ที่อื่นที่อาจจะดีกว่า หรือราคาถูกกว่า ก็เป็นเรื่องที่ยากลำบากแล้วในกรณีที่มีข้อมูลปริมาณมาก&lt;/p&gt;
+
+&lt;p&gt;อีกประเด็นหนึ่งคือเครือข่ายสังคมออนไลน์แบบผูกขาดได้ผูกขาดทางศีลธรรมด้วยว่าอะไรดีไม่ดี อะไรโพสต์ได้ อะไรโดนลบ มากไปกว่านั้นผู้ควบคุมก็มักจะเป็นโปรแกรม เพราะว่าเครือข่ายขนาดใหญ่ก็ใช้คนทำไม่ไหว&lt;/p&gt;
+
+&lt;p&gt;เครือข่ายสังคมออนไล์ที่ผู้ใช้ย้ายออกลำบากตามที่ว่ามาก็เป็นโอกาสให้เอาสมาชิกของสังคมไปขายได้ด้วย อาจจะขายพ่วงกับกิจการ หรือว่าข่ายให้ผู้ที่อยากโฆษณาอีกทีก็ทำได้&lt;/p&gt;
+
+&lt;p&gt;ในระบบที่เป็นที่นิยมก่อนหน้านี้ เช่น E-mail เมื่อเปลี่ยนผู้ให้บริการก็ยังติดต่อกับญาติมิตรที่ใช้บริการ E-mail เจ้าอื่นได้ หรือแม้แต่กระทั่งโทรศัพท์เปลี่ยนผู้บริการแล้วก็ยังโทรหาคนอื่นได้เหมือนเดิม&lt;/p&gt;
+
+&lt;p&gt;Fediverse เกิดจากคำว่า Federation และ Universe รวมกันเป็นเครือข่ายสังคมออนไลน์ รวมถึง blog ที่เครื่องแม่ข่ายต่าง ๆ ทำงานร่วมกันได้ถึงแม้ว่าจะไม่ได้มีเจ้าของเดียวกัน หรือกระทั่งไม่ได้ใช้โปรแกรมเดียวกัน เช่น โปรแกรมสำหรับเขียน micro blog สามารถแสดงความคิดเห็นต่อวิดีโอบนเว็บสำหรับเผยแพร่วิดีโอได้โดยตรง&lt;/p&gt;
+
+&lt;p&gt;หลังจากที่โพสต์วิดีโอบน peertube.social ซึ่งเว็บสำหรับโพสต์วิดีโอใน Fediverse เราสามารถค้นหาด้วย URL ของ PeerTube จาก mstdn.io ซึ่งเป็นเว็บสำหรับโพสต์ micro blog ก็จะเห็นว่าวิดีโอใน PeerTube เป็น blog post หนึ่งจาก mstdn.io; สามารถ reply ได้; พอ reply เสร็จแล้วก็จะขึ้นไปเป็นความคิดของวิดีโอนั้นเลย&lt;/p&gt;
+
+&lt;p&gt;นอกจากจะแสดงความคิดเห็นข้ามกันได้แล้ว เรื่องทั่วไปอย่างดู video ของ PeerTube ใน Mastodon ก็ทำได้อยู่แล้ว หรือจะ follow/subscribe ก็ทำได้เหมือนกัน&lt;/p&gt;
+
+&lt;p&gt;ซึ่งลักษณะที่ว่าทำให้ Fediverse มีเครื่อแม่ขายที่ไม่ได้มีเจ้าของเดียวกันเยอะแยะไปหมด จากเว็บนี้ก็บอกว่ามี 2460 node แล้ว&lt;/p&gt;
+
+&lt;p&gt;ผมเลือก node ที่ผมคิดว่าสำคัญมาตามนี้&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mstdn.io&quot; &gt;mstdn.io&lt;/a&gt; ใช้โปรแกรม Mastodon เป็น micro blog เรื่องทั่ว ๆ ไป&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pawoo.net&quot; &gt;pawoo.net&lt;/a&gt; ใช้ &lt;a href=&quot;https://joinmastodon.org/&quot; &gt;Mastodon&lt;/a&gt; เหมือนกัน แต่เป็นชุมชนภาษาญี่ปุ่น&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ruby.social&quot; &gt;ruby.social&lt;/a&gt; ใช้ Mastodon เป็น node ที่คุยกันเน้นเรื่องภาษา Ruby&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://peertube.social&quot; &gt;peertube.social&lt;/a&gt; ใช้ PeerTube เอาไว้สำหรับวิดีโอที่ไม่ใช่การค้า&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://squeet.me&quot; &gt;squeet.me&lt;/a&gt; ใช้ Friendica คล้าย ๆ Facebook&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fedigram.social&quot; &gt;fedigram.social&lt;/a&gt; ใช้ Pixelfed ที่ยังไม่เสร็จดี เอาไว้โพสต์รูปเน้นใช้ง่าย&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;โปรแกรม Mastodon, PeerTube, Friendica, Pixelfed ล้วนเป็นซอฟต์แวร์เสรีทั้งสิ้น ซึ่งหมายความว่าเราจะเปิด node ของเราเองก็ได้ จะแก้ไขดัดแปลงแจกจ่ายก็ได้ แต่ละโปรแกรมก็ใช้ภาษาโปรแกรมต่างกันออกไป Mastodon ใช้ Ruby, PeerTube ใช้ TypeScript ส่วน Friendica และ Pixelfed ใช้ PHP&lt;/p&gt;
+
+&lt;p&gt;Fediverse แต่ละ node คุยกันได้เพราะว่ามีมาตรฐานกลาง ซึ่งหลัก ๆ ก็คือ ActivityPub ที่สร้างมาบน Acivity Stream และ JSON-LD อีกที&lt;/p&gt;
+
+&lt;p&gt;JSON-LD หลักการคล้าย ๆ RDF คือพยายามจะทำให้ข้อมูลจากแหล่งต่าง ๆ เชื่อมโยงกันได้ แต่ว่าใช้ JSON parser ได้เลยเพราะมันเป็น JSON เช่น เปิด json มาอาจจะ field ชื่อ actor ก็อาจจะหมายถึง “นักแสดงชาย” หรือ “ผู้กระทำ” ก็ได้ แต่ถ้าเขียนเลยว่า “https://www.w3.org/ns/activitystreams/actor” อันนี้ก็จะหมายถึงผู้กระทำแน่ ไม่จำเป็นต้องเป็นนักแสดง แต่จะเขียนชื่อ field ด้วย url หรือในเอกสารจะเรียกรวม ๆ ว่า IRI มันก็จะเยิ่นเย้อเกินไป ก็เลยมี field หนึ่งขึ้นมาชื่อว่า @context เราก็เรียน “@context”: “https://www.w3.org/ns/activitystreams” ไว้เสียแต่ต้น ต่อไปในเอกสารก็ใช้ actor ได้เลยเพราะทราบแล้วว่าบริบทคือ “https://www.w3.org/ns/activitystreams” สามารถอ่านเพิ่มเติมได้จาก &lt;a href=&quot;https://www.w3.org/TR/2014/REC-json-ld-20140116/&quot; &gt;json-ld spec&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ส่วน Activity Stream เป็นมาตรฐานที่ระบุเลยว่าจะเขียนว่าใคร (actor) ทำอะไร (verb) อะไรถูกกระทำ (object) จะต้องเขียนออกมาหน้าตาอย่างไร หน้าตาก็จะออกมาเป็น JSON-LD ตามที่มาตรฐานกำหนดไว้ ที่ผมเห็นใช้งานตอนนี้ก็คือใช้ในเครือข่ายสังคมออนไลน์ทั้งหมด อ่านเพิ่มเติมได้จาก &lt;a href=&quot;https://www.w3.org/TR/activitystreams-core/&quot; &gt;Acitivy Streams spec&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;จาก Activity Stream ก็มีมาตรฐานเกี่ยวเนื่องที่ผมรู้สึกว่าน่าสนใจคือ Activity Vocabulary ซึ่งระบุกระทั่งว่ากริยาที่กระทำใน Activity Stream มีอะไรหน้าตาเป็นอย่างไร เช่น like dislike follow invite ignore ต้องมีหน้าตา มีข้อมูลอย่างไรบ้าง อ่านเพิ่มเติมได้จาก (Vocabulary spec)[https://www.w3.org/TR/activitystreams-vocabulary/]&lt;/p&gt;
+
+&lt;p&gt;นอกจากประเด็นว่าส่งว่าใคร ทำอะไร อะไรเป็นผู้กระทำแล้ว ก็ยังมีประเด็นว่าต้องส่ง activity stream ไปที่ไหน ในส่วนนี้ก็เป็นมาตรฐาน ActivityPub ซึ่งกำหนดทั้งการส่งจาก client กับ server และ server กับ server เอง เพราะว่า Fediverse ต้องมีการสือสารกันระหว่าง server คนละเจ้าด้วย โดยมีการกำหนดเป็น inbox outbox ของแต่ละ actor ขึ้นมาว่าจะอยู่ใน URL อะไร ฯลฯ ซึ่งอ่านรายละเอียดได้จาก &lt;a href=&quot;https://www.w3.org/TR/activitypub/&quot; &gt;ActivityPub spec&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ใน Fediverse ไม่มีการเอาติดต่อญาติมิตรของใคร ๆ มาเป็นตัวประกันของแต่ละเจ้าอีกต่อไป ทำให้ลดการผูกขาดลด เมื่อมีอำนาจต่อรองมากขึ้นสมาชิกก็ถูกนำไปขายยากขึ้น แต่ว่า node สามารถนโยบายของตัวเองทำให้ไม่มีการผูกขาดทางศีลธรรม เรื่องโฆษณาใน Fediverse ตอนนี้ยังไม่เห็นครับ ส่วนหนึ่งคือ admin ของแต่ละ node ออกตังเองเพราะแต่ละ node ไม่ใช้เครื่องแรงมากมายพอจะออกให้กันได้ และอีกส่วนหนึ่งก็มีการบริกาคช่วยกัน; ผมเห็น write.as มีแบบเสียตังด้วย แต่ยังต้องศึกษาเพิ่มเติมอีก&lt;/p&gt;
+
+&lt;p&gt;แต่ก็มีข้อจำกัดอยู่ว่าย้ายค่ายแล้วต้องเปลี่ยน ID&lt;/p&gt;
+
+&lt;p&gt;อนาคตอาจจะมีการใช้ ActivityPub กับบริการออนไลน์อื่นอีก ไม่ว่าจะเป็นซอฟต์แวร์เสรีหรือไม่ก็ตาม หรือก้าวหน้าจนไปถึงแบบ peer-to-peer&lt;/p&gt;
+
+&lt;p&gt;ประเด็นอื่น ๆ เช่นว่า&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fediverse จะยั่งยืนหรือไม่ ผมเชื่อความทางศาสนาว่าสิ่งเป็นสังขารทั้งหมดไม่ยั่งยืน และผมไม่สามารถพยากรณ์อายุของ Fediverse ในอนาคตได้;&lt;/li&gt;
+&lt;li&gt;ประเด็นว่าทำไมไม่ใช้ peer-to-peer ผมคิดว่าจะมีประเด็นเรื่องพลังงานถ้าใช้อุปกรณ์เคลื่อนที่;&lt;/li&gt;
+&lt;li&gt;ทำไมไม่ใช้ blockchain ผมคิดว่ามีประเด็นด้านประสิทธิภาพ และการกลั่นแกล้งเบียดเบียนกัน Fediverse ไม่จำเป็นต้องปล่อยให้ทุกคนพูดทุกอย่างแล้วลบไม่ได้&lt;/li&gt;
+&lt;li&gt;app บนมือถือ tablet มีทั้ง Android และ iOS ใช้กับ Mastoodon และ Pleroma ได้&lt;/li&gt;
+&lt;/ul&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/Move-to-Coleslaw.html"/> <title>Move to Coleslaw</title> <published>2018-08-20</published> <updated>2018-08-20</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;1-2 months ago, I failed to run latest version of Jekyll. So I moved to &lt;a href=&quot;https://github.com/kingcons/coleslaw&quot; &gt;Coleslaw&lt;/a&gt;, which look simpler but powerful enough instead.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;require &#039;&lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;clojure.string &lt;span class=&quot;keyword&quot;&gt;:as&lt;/span&gt; str&lt;/span&gt;]&lt;/span&gt;
+         &#039;&lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;rbre.core &lt;span class=&quot;keyword&quot;&gt;:as&lt;/span&gt; rbre&lt;/span&gt;]&lt;/span&gt;
+         &#039;&lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;clostache.parser &lt;span class=&quot;keyword&quot;&gt;:refer&lt;/span&gt; &lt;span class=&quot;paren3&quot;&gt;[&lt;span class=&quot;code&quot;&gt;render&lt;/span&gt;]&lt;/span&gt;&lt;/span&gt;]&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; list-dir &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;path&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt;&amp;gt; &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;clojure.java.io/file path&lt;/span&gt;)&lt;/span&gt;
+       file-seq
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;filter #&lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;.isFile %&lt;/span&gt;)&lt;/span&gt; &lt;/span&gt;)&lt;/span&gt;
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;filter #&lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;re-matches #&lt;span class=&quot;string&quot;&gt;&quot;.+&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\.&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;md$&quot;&lt;/span&gt; &lt;span class=&quot;paren5&quot;&gt;(&lt;span class=&quot;code&quot;&gt;.getName %&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; list-dir-by-year &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;prefix year&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map #&lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;array-map &lt;span class=&quot;keyword&quot;&gt;:year&lt;/span&gt; year
+                   &lt;span class=&quot;keyword&quot;&gt;:file&lt;/span&gt; %&lt;/span&gt;)&lt;/span&gt;
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;list-dir &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str prefix &lt;span class=&quot;string&quot;&gt;&quot;/&quot;&lt;/span&gt; year&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; read-post &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;file-year&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;let&lt;/span&gt;&lt;/i&gt; &lt;span class=&quot;paren3&quot;&gt;[&lt;span class=&quot;code&quot;&gt;file &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:file&lt;/span&gt; file-year&lt;/span&gt;)&lt;/span&gt;
+        name &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;.getName file&lt;/span&gt;)&lt;/span&gt;
+        content &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt;&amp;gt; file
+                      clojure.java.io/reader
+                      slurp&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;]&lt;/span&gt;
+    &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt; file-year
+        &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;assoc &lt;span class=&quot;keyword&quot;&gt;:name&lt;/span&gt; name&lt;/span&gt;)&lt;/span&gt;
+        &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;assoc &lt;span class=&quot;keyword&quot;&gt;:content&lt;/span&gt; content&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; clean-title &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;title&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt;&amp;gt; &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str/replace title #&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\s&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;*#&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\s&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;*&quot;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+       .trim&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; add-title &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;post&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt;&amp;gt; &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:content&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt;
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;re-seq #&lt;span class=&quot;string&quot;&gt;&quot;#.+&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+       first
+       clean-title
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;assoc post &lt;span class=&quot;keyword&quot;&gt;:title&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; clean-date &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;date&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt;&amp;gt; &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str/replace date #&lt;span class=&quot;string&quot;&gt;&quot;[&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;string&quot;&gt; ]*Date:&quot;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+       .trim&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; add-date &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;post&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt;&amp;gt; post
+       &lt;span class=&quot;keyword&quot;&gt;:name&lt;/span&gt;
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;re-seq #&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\d&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;{4}-&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\d&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;{2}-&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\d&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;{1,2}&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+       first
+       &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;assoc post &lt;span class=&quot;keyword&quot;&gt;:date&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; add-header &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;post&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;assoc post
+         &lt;span class=&quot;keyword&quot;&gt;:header&lt;/span&gt;        
+         &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;render &lt;span class=&quot;string&quot;&gt;&quot;;;;;;
+title: {{title}}
+tags: 
+date: {{date}}
+format: md
+excerpt: 
+;;;;;&quot;&lt;/span&gt; &lt;span class=&quot;paren4&quot;&gt;{&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:title&lt;/span&gt; &lt;span class=&quot;paren5&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:title&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt;
+        &lt;span class=&quot;keyword&quot;&gt;:date&lt;/span&gt; &lt;span class=&quot;paren5&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:date&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;}&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; strip-content &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;content&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;-&amp;gt; content
+      &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str/replace-first #&lt;span class=&quot;string&quot;&gt;&quot;#.+&quot;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+      &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str/replace-first #&lt;span class=&quot;string&quot;&gt;&quot;Date:.+&quot;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;comment&quot;&gt;;(str/replace &quot;xxx\n # XX\n dddd&quot; #&quot;#.+&quot; &quot;--&quot;)
+&lt;/span&gt;
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; strip-content-in-post &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;post&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;update post
+         &lt;span class=&quot;keyword&quot;&gt;:content&lt;/span&gt;
+         strip-content&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;i&gt;&lt;span class=&quot;symbol&quot;&gt;defn&lt;/span&gt;&lt;/i&gt; write-post &lt;span class=&quot;paren2&quot;&gt;[&lt;span class=&quot;code&quot;&gt;post&lt;/span&gt;]&lt;/span&gt;
+  &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;spit &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:year&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt;
+             &lt;span class=&quot;string&quot;&gt;&quot;/&quot;&lt;/span&gt;
+             &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str/replace &lt;span class=&quot;paren5&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:name&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt; #&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\.&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;md$&quot;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;.post&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt; 
+        &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;str &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:header&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt;
+             &lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;
+             &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:content&lt;/span&gt; post&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;transduce &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;comp &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map read-post&lt;/span&gt;)&lt;/span&gt;
+                 &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map add-title&lt;/span&gt;)&lt;/span&gt;
+                 &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map add-date&lt;/span&gt;)&lt;/span&gt;
+                 &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map add-header&lt;/span&gt;)&lt;/span&gt;
+                 &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map strip-content-in-post&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;fn &lt;span class=&quot;paren3&quot;&gt;[&lt;span class=&quot;code&quot;&gt;&amp;amp; args&lt;/span&gt;]&lt;/span&gt;
+             &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;when &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;= 2 &lt;span class=&quot;paren5&quot;&gt;(&lt;span class=&quot;code&quot;&gt;count args&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+               &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;write-post &lt;span class=&quot;paren5&quot;&gt;(&lt;span class=&quot;code&quot;&gt;second args&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;mapcat #&lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;list-dir-by-year &lt;span class=&quot;string&quot;&gt;&quot;../v21k-bak&quot;&lt;/span&gt; %&lt;/span&gt;)&lt;/span&gt;
+                   &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;map str &lt;span class=&quot;paren4&quot;&gt;(&lt;span class=&quot;code&quot;&gt;range 2014 2018&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Below is my .coleslawrc&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;paren1&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:author&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;Vee Satayamas&quot;&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:deploy-dir&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/home/vee/vblog&quot;&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:domain&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;https://veer66.rocks&quot;&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:excerpt-sep&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;!--more--&amp;gt;&quot;&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:feeds&lt;/span&gt; &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;lisp&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:plugins&lt;/span&gt; &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;comment&quot;&gt;;(analytics :tracking-code &quot;foo&quot;)
+&lt;/span&gt;           &lt;span class=&quot;comment&quot;&gt;;(disqus :shortname &quot;my-site-name&quot;)
+&lt;/span&gt;           &lt;span class=&quot;comment&quot;&gt;; (incremental)  ;; *Remove comment to enable incremental builds.
+&lt;/span&gt;           &lt;span class=&quot;comment&quot;&gt;;(mathjax)
+&lt;/span&gt;           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;sitemap&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;static-pages&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;comment&quot;&gt;; (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+&lt;/span&gt;          &lt;/span&gt;)&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:routing&lt;/span&gt; &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:post&lt;/span&gt;           &lt;span class=&quot;string&quot;&gt;&quot;posts/~a&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:tag-index&lt;/span&gt;      &lt;span class=&quot;string&quot;&gt;&quot;tag/~a&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:month-index&lt;/span&gt;    &lt;span class=&quot;string&quot;&gt;&quot;date/~a&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:numeric-index&lt;/span&gt;  &lt;span class=&quot;string&quot;&gt;&quot;~d&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:feed&lt;/span&gt;           &lt;span class=&quot;string&quot;&gt;&quot;~a.xml&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:tag-feed&lt;/span&gt;       &lt;span class=&quot;string&quot;&gt;&quot;tag/~a.xml&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:sitenav&lt;/span&gt; &lt;span class=&quot;paren2&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:url&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;https://toot.veer66.rocks/users/veer66&quot;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;SNS&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt; 
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:url&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;https://github.com/veer66&quot;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;GitHub&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+           &lt;span class=&quot;paren3&quot;&gt;(&lt;span class=&quot;code&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;:url&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;https://gitlab.com/veer66&quot;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;:name&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;GitLab&quot;&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:staging-dir&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;/tmp/coleslaw/&quot;&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:title&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;veer66&#039;s blog&quot;&lt;/span&gt;
+ &lt;span class=&quot;keyword&quot;&gt;:theme&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;readable&quot;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;;; &quot;hyde&quot;
+&lt;/span&gt;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/A-benchmark-of-Thai-word-tokenizers-written-in-various-programming-languages.html"/> <title>A benchmark of Thai word tokenizers written in various programming languages</title> <published>2017-06-04</published> <updated>2017-06-04</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;The origin post was at https://veer66.wordpress.com/2017/01/19/benchmark-thai-word-tokenizers/ posted on 2017/01/19.&lt;/p&gt;
+
+&lt;p&gt;I wonder about speed of programs written in different languages. For example, I wonder whether one written in Kotlin and ran on JVM is slower than one written in Go. Although there are several existing benchmarks, this is one may be still important at least for me, because Thai word tokenizer is my real task.&lt;/p&gt;
+
+&lt;p&gt;So @iporsut and me wrote some programs in different programming languages and tried to optimize them.&lt;/p&gt;
+
+&lt;p&gt;I conducted the experiment on my laptop computer, which has Intel® Core™ i3-4030U CPU @ 1.90GHz × 4, on a 20MB Thai text corpus.  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rust #1: 3.366 #2: 3.247 #3 3.241 #Avg: 3.284&lt;/li&gt;
+&lt;li&gt;Go   #1: 5.415 #2: 5.405  #3 5.416 #Avg: 5.412&lt;/li&gt;
+&lt;li&gt;Crystal #1: 5.637 #2: 5.679 #3 5.649 #Avg: 5.655&lt;/li&gt;
+&lt;li&gt;Kotlin+Clojure #1: 6.547 #2: 6.743 #3 6.628 #Avg: 6.639&lt;/li&gt;
+&lt;li&gt;Julia #1: 38.316 #2: 38.112 #3 38.237 #Avg: 38.221&lt;/li&gt;
+&lt;li&gt;JavaScript #1: 49.349 #2: 49.084 #3 49.901 #Avg: 49.445&lt;/li&gt;
+&lt;li&gt;Python #1: 50.624 #2: 50.803 #3 50.869 #Avg: 50.765&lt;/li&gt;
+&lt;li&gt;Clojure+Kotlin #1:  63.502 #2: 67.561 #3 67.303 #Avg: 66.122&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Additional setup&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Env: Rust Nightly 2017-01-08, &lt;a href=&quot;https://github.com/veer66/chamkho&quot; &gt;Worcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Go 1.7.4,  &lt;a href=&quot;https://gitlab.com/veer66/mapkha&quot; &gt;Wordcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Crystal 0.20.5, &lt;a href=&quot;https://gitlab.com/veer66/kachet&quot; &gt;Wordcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Kotlin 1.0.6 + Clojure 1.8.0 + OpenJDK 1.8, &lt;a href=&quot;https://gitlab.com/veer66/yaito&quot; &gt;Worcut source code&lt;/a&gt;, &lt;a href=&quot;https://gitlab.com/veer66/yaito-clj&quot; &gt;Worcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Julia 0.5.0, &lt;a href=&quot;https://gitlab.com/veer66/wordcut.jl&quot; &gt;Worcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Node.js v6.5.0, &lt;a href=&quot;https://gitlab.com/veer66/prasae&quot; &gt;Worcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Python 3.5.2,  &lt;a href=&quot;https://gitlab.com/veer66/wordocutpy&quot; &gt;Worcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Env: Clojure 1.8.0 + Kotlin 1.0.6 + OpenJDK 1.8, &lt;a href=&quot;https://gitlab.com/veer66/wordcut-clj&quot; &gt;Worcut source code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Future work&lt;/h2&gt;
+
+&lt;p&gt;@iporsut has already written multicore versions, so maybe next month I will conduct another experiment.&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/move-picocms-jekyll.html"/> <title>(move &#039;picocms &#039;jekyll)</title> <published>2017-06-04</published> <updated>2017-06-04</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;I happened to think what if I die, who will pay for my hosting. So today I migrate my main website and blog posts from PicoCMS hosted at Scaleway to Jekyll hosted at Github. What I cannot pay for domain name, my site can be still accessed by &lt;a href=&quot;http://veer66.github.io&quot; &gt;veer66.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PicoCMS and Jekyll are based on Markdown so I just wrote a script for renaming my blog post file name and modifing some metadata by the shell script below: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Sh
+for x in *.md
+do 
+   T=`head -n4 $x | grep &#039;^Title:&#039; | sed &#039;s/Title: //&#039; | sed &#039;s/[ &amp;quot;\|?\/\(\)]/-/g&#039;` 
+   D=`head -n4 $x | grep &#039;^Date&#039; | sed &#039;s/Date: //&#039; | sed &#039;s/\//-/g&#039;`
+   mv $x $D-$T.md
+done
+for x in *.md
+do 
+   cat $x | sed &#039;s/\/\*//&#039; | sed &#039;s/\*\///&#039; | sed &#039;s/Title: /# /&#039; &amp;gt; t &amp;amp;&amp;amp; mv t $x 
+done
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If I outlive Github, I can just generate this site and host it somewhere else.&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/เกยวกบภาษา-Lisp.html"/> <title>เกี่ยวกับภาษา Lisp</title> <published>2016-11-13</published> <updated>2016-11-13</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;h3&gt;ที่มา&lt;/h3&gt;
+
+&lt;p&gt;สมัยหนุ่ม ๆ ผมเห็นคำว่า Lisp ผ่านตาบ่อย ๆ ทั้งความเกี่ยวข้องกับ Logo AI หรือแม้กระทั่ง AutoCAD ก็เลยอยากจะเรียน&lt;/p&gt;
+
+&lt;p&gt;ต่อมาก็ยังได้ยินเรื่อง Functional Programming ก็เลยรู้สึกว่าน่าสนใจเข้าไปใหญ่&lt;/p&gt;
+
+&lt;p&gt;อย่างไรก็ตามสมัยหนุ่ม ๆ จะหาอะไรก็ลำบาก พอมาสมัยนี้จะหาอะไรมาเล่นก็ง่ายขึ้น &lt;/p&gt;
+
+&lt;h3&gt;ประเด็นที่น่าสนใจ (สำหรับผม)&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lisp เป็น High-level programming language ภาษาที่ 2 ของโลก หรือว่าถ้าจะมีอะไรมาแทรก ๆ ก็ยังเป็นภาษาแรก ๆ อยู่ดี&lt;/li&gt;
+&lt;li&gt;Lisp มาพร้อมกับ Garbage collector แต่แรกตั้งแต่ค.ศ. 1959&lt;/li&gt;
+&lt;li&gt;ภาษาแนว Functional Programming ทั้งหมดมีส่วนเกี่ยวข้องกับ Lisp&lt;/li&gt;
+&lt;li&gt;ทุกอย่างใน Lisp มีพื้นฐานมากจาก List&lt;/li&gt;
+&lt;li&gt;Lisp ในแง่มุมวงเล็บ&lt;/li&gt;
+&lt;li&gt;Lisp ในแง่มุม dynamic type&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;เกี่ยวกับผม&lt;/h3&gt;
+
+&lt;p&gt;จริง ๆ แล้วผมเขียน Clojure แต่ว่าไม่พูดถึง Clojure เพราะว่าไม่แน่เรื่อง Persistent vector &lt;/p&gt;
+
+&lt;p&gt;ผมไม่เข้าใจ lambda calculus ไม่เข้าใจ Category theory ไม่ใช่ว่าไม่สนใจแต่ว่าอ่านแล้วยังไม่รู้เรื่องแล้วก็จะมาเล่าที่หลัง &lt;/p&gt;
+
+&lt;h3&gt;List&lt;/h3&gt;
+
+&lt;p&gt;ค.ศ. 2016 นอกจากจะเขียน Clojure แล้วผมก็ได้ลอง Common Lisp ด้วย ถ้าว่าให้เฉพาะเจาะจงก็คือใช้ SBCL รู้สึกว่ามันไม่สะดวกเท่า Clojure แต่ได้สัมผัส List มากกว่า&lt;/p&gt;
+
+&lt;p&gt;พอศึกษาไปสักพักแล้วรู้สึกว่าใน Lisp สิ่งที่เป็นพื้นฐานกว่า List อีกก็คือ Cons cell ที่ผมเคย&lt;a href=&quot;https://medium.com/@vsatayamas/lisp-cons-cell-bf5446e3833e#.fuln38uui&quot; &gt;บันทึกไว้แล้ว&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;พอทราบเรื่อง Lisp แล้วเราก็จะมาพูดเรื่อง &lt;a href=&quot;https://medium.com/@vsatayamas/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%83%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9B%E0%B9%8C-ff1c1aa932ac#.hylv6hpn2&quot; &gt;Singly Linked List&lt;/a&gt; ได้สบาย ๆ&lt;/p&gt;
+
+&lt;h3&gt;ความเชื่อมโยงกับ Clojure OCaml และ Haskell&lt;/h3&gt;
+
+&lt;p&gt;จริง ๆ ผมก็ไม่เคยเขียน Lisp แบบเดิม ๆ เอาตัวเก่าที่สุดที่เคยใช้ก็คือ Common Lisp&lt;/p&gt;
+
+&lt;p&gt;สิ่งที่พบคือ Clojure OCaml และ Haskell มี cons cell และ singly-linked list ติดมากับภาษาทั้งหมด เพียงแต่ว่าใน Haskell คำสั่ง cons เปลี่ยนเป็น : (colon) และใน OCaml ใช้ :: (colon สองที่&lt;/p&gt;
+
+&lt;p&gt;นอกจากนั้นในพวก Haskell และ Clojure ยังมีสิ่งที่เรียกว่า lazy sequence ของ Haskell ผมไม่ได้อ่านละเอียด แต่ว่า Clojure นี่แน่ชัดว่า lazy sequence ก็ทำงานอยู่บน cons cell เหมือนกับ list แต่ว่า เวลาสั่ง cdr หรือ rest มันไม่มีประมวลผลเก็บไว้ก่อน สั่ง cdr และ rest ทีนึงมันก่อนไปคำนวณหาหัว list มาให้ แต่ถ้าเป็น list ธรรมดาทุกอย่างใน list ถูกคำนวณเก็บไว้ใน memory อยู่แล้ว&lt;/p&gt;
+
+&lt;p&gt;นอกจากเรื่อง lazy sequence แล้ว Clojure ยังต่างออกไปจาก Lisp เดิม ๆ คือ data structure ที่ใช้เป็นหลักไม่ใช่ singly linked list แล้วแต่เป็น persistent vector แทน ซึ่งคุยกับ @visibletrap แล้วก็สรุปว่ามาจาก&lt;a href=&quot;https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf&quot; &gt;วิทยานิพนธ์ของ CMU อีกที&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;แต่ว่า Lisp ก็ยังเป็นภาษาแบบที่ยังมี side-effect ได้อยู่เวลาเขียน IO อย่างใน Common Lisp ก็สั่ง (format nil &amp;quot;toto&amp;quot;) แบบนี้ได้เลย ไม่ต้องมี IO Monad แบบ Haskell นอกจากนั้นก็ยัง assign ค่าตัวแปรแบบเถื่อน ๆ อย่าง (setf &lt;em&gt;var1&lt;/em&gt; &amp;quot;titi&amp;quot;) แบบนี้ก็ได้ ไม่ได้บังคับเป็น Functional Programming&lt;/p&gt;
+
+&lt;h3&gt;ความเชื่อมโยงกับ Python และ Ruby&lt;/h3&gt;
+
+&lt;p&gt;ถ้าดูจากตำแหน่งวงเล็บแล้ว Python และ Ruby อาจจะไม่ค่อยเกี่ยวกันเท่าไหร่ แต่ว่าจริง ๆ ก็มีเรื่อง dynamic type ที่ว่าไปแล้วก็คล้าย ๆ กันมาก&lt;/p&gt;
+
+&lt;p&gt;แต่ว่าสิ่งที่ Python เรียกว่า list มันไม่ใช่ list แบบใน Lisp แต่เป็น vector หรือเหมือน array ใน Pascal ใน C&lt;/p&gt;
+
+&lt;h3&gt;เพิ่มเติม&lt;/h3&gt;
+
+&lt;p&gt;สุดเด่นอีกอย่างของ Lisp คือใช้กับ REPL แล้วเนียนมาก ๆ สามารถรัน ๆ โปรแกรมไปแล้วอยากเปลี่ยนแค่บาง function แล้วรันใหม่ ได้โดยไม่ต้อง reload ทุกอย่างขึ้น memory ทำให้สะดวกมาก ๆ &lt;/p&gt;
+
+&lt;p&gt;จริง ๆ หลาย ๆ ภาษาก็พยายามจะมี REPL แต่ว่าใช้จริง ๆ มันไม่ค่อยสะดวก เหมือน Lisp หรือ Clojure ที่วงเล็บมันช่วยกำหนดของเขตของสิ่งที่รับจะ eval ใหม่ได้เลย รูปแบบการเขียนโปรแกรมของ Lisp มันก็เหมือนได้ มี function แยก ๆ เลยกันเลย เคยพยายามใช้กับ Ruby ก็มึน ๆ เหมือนกันพอพยายามจะ eval เฉพาะบาง method ใน class ก็จะเริ่มงง ๆ แล้ว&lt;/p&gt;
+
+&lt;p&gt;ในรูปเป็นของ Clojure นะครับใช้ Emacs กับ Cider แต่ใช้ Lisp จริง ๆ ก็ได้เพียงแต่ใช้ SLIME แทน หรือจะไม่ใช้ Emacs ไปใช้พวก Cursive ก็ได้สำหรับ Clojure หรือแม้แต่ vscode&lt;/p&gt;
+
+&lt;p&gt;ผมว่ามันเป็นความสะดวกอีกขั้นที่เลย IDE ไป อันนี้น่าจะ demo ให้ดูเป็น video ได้ในอนาคต&lt;/p&gt;
+
+&lt;h3&gt;คุยกับผม&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GNU Social: &lt;a href=&quot;https://quitter.se/vsatayamas/&quot; &gt;https://quitter.se/vsatayamas/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/vsatayamas&quot; &gt;@vsatayamas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Facebook: &lt;a href=&quot;http://facebook.com/digitalveer66&quot; &gt;digitalveer66&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;E-mail: vsatayamas at gmail dot com&lt;/li&gt;
+&lt;/ul&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/ทลายกำแพงภาษาเพอรากหญา.html"/> <title>ทลายกำแพงภาษาเพื่อรากหญ้า</title> <published>2016-11-12</published> <updated>2016-11-12</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;h3&gt;ที่มา&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=EF_English_Proficiency_Index&amp;oldid=747538820&quot; &gt;ความสามารถทางภาษาอังกฤษ&lt;/a&gt;ของประเทศไทยอยู่อันดับที่ 62 จาก 70 แต่ก่อนผมก็ไม่ค่อยเชื่อจนไปซื้อซิมแล้วขอให้พนักงานปรับค่าให้ หลังจากผ่านไปประมาณ 5 นาทีพนักงานบอกว่าช่วยเปลี่ยนเป็นภาษาไทยให้หนูหน่อย ตั้งแต่นั้นมาผมก็เปลี่ยนความคิด&lt;/p&gt;
+
+&lt;h3&gt;ไก่กับไข่&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;หักดิบใช้ภาษาอังกฤษไปเลย&lt;/li&gt;
+&lt;li&gt;แปลภาษาไทยให้พอใช้ได้แล้วค่อยใช้คอมพิวเตอร์หรือมือถือเรียนภาษาอังกฤษ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ผมเลือกแปลก่อนเพราะว่า:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;พอใช้มือถือหรือคอมพิวเตอร์ได้แล้วมีโปรแกรมมีเว็บให้เรียนภาษาอังกฤษเยอะแยะ&lt;/li&gt;
+&lt;li&gt;ความปลอดภัย: ท่าที่ว่ากดมั่ว ๆ หรือกด OK ไปเลย โดยไม่อ่านอาจจะซวยได้&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;เลือกโครงการไหน&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ความเป็นเจ้าของ&lt;/li&gt;
+&lt;li&gt;โปรแกรมที่อานิสงส์เยอะ ๆ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ถ้าเลือกได้ผมจะแปลโปรแกรมที่เป็นของผมเอง แต่ว่าโปรแกรมที่ผมเขียนเองมันเป็นภาษาไทยอยู่แล้ว ไม่ก็ไม่ได้ทำมาให้รากหญ้าใช้ ก็เลยขยับมาที่โปรแกรมที่เป็นเป็นสาธารณะหรือเป็นซอฟต์แวร์เสรีนั่นเอง &lt;/p&gt;
+
+&lt;p&gt;ที่คิดว่าน่าจะใช้มาก ๆ ก็คือโปรแกรมเปิดเว็บก็มีอยู่ 2 ตัวคือ Chrome กับ Firefox ผมเลือก Firefox เพราะว่าเห็นเช็งกับท็อปแปลอยู่แล้ว&lt;/p&gt;
+
+&lt;h3&gt;Firefox มันยังมีอนาคตไหม ?&lt;/h3&gt;
+
+&lt;p&gt;ท็อปบอกว่า &amp;quot;ยิ่งกว่ามีอีกครับ&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;Gecko ที่ใช้มานานกำลังถูกเปลี่ยนไปเรื่อย ๆ ผ่านโครงการ Quantum ที่เอาชิ้นส่วนใหม่ ๆ ที่เขียนด้วยภาษา Rust มาใส่ เร็ว ๆ นี้ก็น่าจะวาดหน้าเว็บโดยเอา GPU มาช่วยด้วย เป็นต้น&lt;/p&gt;
+
+&lt;p&gt;ภาษา Rust พัฒนามามากกว่า 6 ปีแล้ว ประเด็นหลักเลยก็คืออยากได้ภาษาที่เขียนโปรแกรมแล้วประสิทธิภาพสูสีกับ C/C++ แต่ลดโอกาสที่นักพัฒนาจะทำพลาดลง อีกประเด็นหนึ่งคือเขียนโปรแกรมที่ทำงานพร้อม ๆ กันได้ง่ายขึ้น&lt;/p&gt;
+
+&lt;p&gt;คนอื่น ๆ แล้วก็ผมด้วยก็หวังว่า Firefox รุ่นใหม่ ๆ ที่มีฐานอยู่บน Rust มันจะทำงานได้ดีขึ้นด้วย&lt;/p&gt;
+
+&lt;h3&gt;ทำไมต้องมาแปลเอง ?&lt;/h3&gt;
+
+&lt;p&gt;ปล่อยนักแปลอาชีพที่จ้างมาทำไหม ทำไมต้องมาแปลเอง ? ผมคิดว่าไม่ปล่อยดีกว่า เพราะว่าคิดว่าเราแปลดีกว่า เช่น เราไม่แปลว่า &amp;quot;จดจำเว็บนี้ไหม&amp;quot; แล้วให้เลือกว่า &amp;quot;ไม่เคย&amp;quot; หรือว่าสองทางให้เลือกคือปุ่ม &amp;quot;ยกเลิก&amp;quot; กับปุ่ม &amp;quot;ยกเลิก&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;บางทีเราอาจจะพลาด แต่เราก็แก้ได้&lt;/p&gt;
+
+&lt;h3&gt;เริ่มแปล&lt;/h3&gt;
+
+&lt;h4&gt;Pontoon&lt;/h4&gt;
+
+&lt;p&gt;หลังจากผ่านอะไรมามากเดี๋ยวนี้ถ้าจะแปลก็เข้าไปที่ Pontoon ได้เลย แต่เพื่อที่ว่าจะได้ไม่งงผมเลือกโครงการให้เลย&lt;a href=&quot;https://pontoon.mozilla.org/th/mozillaorg/all-resources/?string=7754&quot; &gt;อันนี้เป็นการเว็บของ Mozilla&lt;/a&gt; สำหรับคนที่เริ่มแปลแรก ๆ ก็จะเป็นการให้เสนอคำแปล (suggest) ไปก่อนแล้วจะมีคนมาตรวจอีกทีซึ่งในกรณีก็คือ ท็อป เช็ง และ @nutmos เอง&lt;/p&gt;
+
+&lt;p&gt;เวลาแปลเราค้นคำแปล ๆ เก่า ๆ ได้ด้วย ถ้าไม่ได้มีอะไรผิดพลาด หรือว่าเป็นการแปลความหมายที่ต่างกัน เราก็ควรจะแปลให้เหมือน ๆ กันไว้ก่อน ผู้ใช้จะได้ไม่งง ถ้าใช้คำนั้นทีคำนี้ทีก็จะงงได้ &lt;/p&gt;
+
+&lt;p&gt;Pontoon มีตัวช่วย 3 อย่างคือ 
+1. หาคำแปลที่เคยแปลมาให้เลย 
+2. ใช้เครื่องแปลภาษามาด้วย 
+3. ดูจากภาษาอื่นเช่น ภาษามลายู ภาษาลาว&lt;/p&gt;
+
+&lt;p&gt;Pontoon ตอนนี้เวลาแปลบางอย่างมันสามารถแปลแบบเห็นหน้าตาจริง ๆ ได้เลย จะได้ไม่แปลยาวเกินจนล้น แต่ว่าก็ยังใช้ได้แค่บางงานเช่นแปลหน้าของ Pontoon เอง&lt;/p&gt;
+
+&lt;h4&gt;Style guide&lt;/h4&gt;
+
+&lt;p&gt;แต่ว่าพอไปเปิดดูแล้วอาจจะสงสัยว่ามันต้องมีหลักการหน่อยไหม ก็เข้าไปศึกษาใน&lt;a href=&quot;https://wiki.mozilla.org/L10n:Teams:th/Style_Guide&quot; &gt;นี้ได้ครับ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Transvision&lt;/h4&gt;
+
+&lt;p&gt;นอกจากสองอย่างนี้แล้วก็ยังมีเว็บที่ช่วยค้นหาคำแปลเก่า ๆ &lt;a href=&quot;https://transvision.mozfr.org/&quot; &gt;https://transvision.mozfr.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;มุมมองของผม&lt;/h3&gt;
+
+&lt;p&gt;อาจจะมีคนถามว่าควรแปลแบบคำต่อคำเลยหรือเปล่า ผมคิดว่าไม่จำเป็น ตัวตั้งสำหรับผมคือคิดถึงคนที่พูดภาษาไทยที่เขาอ่านภาษาอังกฤษไม่ออกหรือออกน้อย ประเด็นหลักในการแปลผมอย่างที่พี่เด่นสินบอกไว้คือมุ่งที่&lt;em&gt;การสื่อสาร&lt;/em&gt;ก่อนเป็นอันดับแรก&lt;/p&gt;
+
+&lt;h3&gt;นั่งแปลด้วยกัน&lt;/h3&gt;
+
+&lt;p&gt;ครั้งหน้านัดกันที่ Hubba เอกมัยซอย 4 วันที่ 25 ธันวาคม พ.ศ.2559 ครับ ดู&lt;a href=&quot;https://medium.com/@vsatayamas/mozillian-meet-up-in-bangkok-20160925-f6d4ef0a6f1a#.621hes3vt&quot; &gt;บรรยากาศครั้งก่อนเมื่อเดือนกันยายนได้ที่นี่&lt;/a&gt;ครับ&lt;/p&gt;
+
+&lt;h3&gt;ตัวอย่าง&lt;/h3&gt;
+
+&lt;p&gt;sync จะแปลว่าอะไรดี เราทราบกันดีว่าย่อมาจาก synchronous พอลอกไปคนดูว่า แปลว่าอะไรก็ได้ &amp;quot;สมวาร&amp;quot; บ้าง &amp;quot;ประสานเวลา&amp;quot; บ้าง ซึ่งอภิปรายกันแล้วก็ได้มติว่าแปลไปก็ไม่รู้เรื่องอยู่ดีจึงทับศัพท์ไปว่า &amp;quot;ซิงค์&amp;quot; แต่ก็ต้องพิจารณาประเด็น Sync ที่ว่าเป็นชื่อเฉพาะอันนี้เราจะใช้ Sync ตามภาษาอังกฤษไปเลย&lt;/p&gt;
+
+&lt;p&gt;พวกนี้ก็เป็นประเด็นที่จะอภิปรายกันต่อไปได้ว่ามีคนไหนประโยคไหนควรจะแปลแบบไหนดี &lt;/p&gt;
+
+&lt;h3&gt;พื้นที่ออนไลน์&lt;/h3&gt;
+
+&lt;p&gt;พบกันที่ได้ &lt;a href=&quot;https://www.facebook.com/groups/mozth&quot; &gt;https://www.facebook.com/groups/mozth&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;มีบางท่านถามมาว่าควรจะใช้ Slack หรือไม่ ผมว่าก็อาจจะดีแต่ว่าโอกาสที่คนจะมาร่วมก็คงน้อยลง IRC ดีไหมเป็นระบบเปิดด้วย แต่เหตุผลก็คงจะเหมือนเดิมคนมีส่วนร่วมก็จะน้อยลงอีก &lt;/p&gt;
+
+&lt;h3&gt;อนาคต&lt;/h3&gt;
+
+&lt;p&gt;มีโครงการใหม่ชื่อ &lt;a href=&quot;http://l20n.org&quot; &gt;L20N&lt;/a&gt; เป็นการเล่นคำที่มาจาก L10N คูณ 2 ซึ่ง L10N ก็ย่อมาจาก Localization หรือการทำให้เป็นท้องถิ่นอีกที แต่พูดให้แคบ ๆ ลงหน่อยก็คือการแปลนี่เอง &lt;/p&gt;
+
+&lt;p&gt;ผมดูคร่าว ๆ แล้วส่วนที่น่าสนใจสำหรับการมีภาษาไทยก็มี &lt;a href=&quot;http://l20n.org/learn/advanced-selectors&quot; &gt;advance selector&lt;/a&gt; อันนี้มันอาจจะมาช่วยลดงานเราได้ เช่น &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;คุณไม่มีอีเมลที่ยังไม่ได้อ่าน&lt;/li&gt;
+&lt;li&gt;คุณมีอีเมลที่ยังไม่ได้อ่านหนึ่งฉบับ&lt;/li&gt;
+&lt;li&gt;คุณมีอีเมลที่ยังไม่ได้อ่าน 8 ฉบับ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;พวกนี้จะเอามารวมกันเป็นก้อนเดียวได้หรือเปล่าใน L20N ก็เป็นเรื่องที่อาจจะต้องดูต่อไป&lt;/p&gt;
+
+&lt;h3&gt;นอกจากการแปล&lt;/h3&gt;
+
+&lt;h4&gt;ตัดคำ&lt;/h4&gt;
+
+&lt;p&gt;ตัววาดเว็บตัวใหม่ ได้แก่ Servo ก็กลับมามีปัญหาอยู่ ก็อยู่ในช่วงพิจารณาว่าจะใช้ libicu ดีไหม หรือจะทำอย่างไรดี ประเด็นพวกนี้อาจจะน่าสนุกที่ว่าไม่ได้ทำเฉพาะภาษาไทย ลาว ญี่ปุ่น ฯลฯ ก็ใช้โปรแกรมส่วนเดียวกันเลย ตามไปดูได้ที่ &lt;a href=&quot;https://github.com/servo/servo/issues/13088&quot; &gt;github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;อื่น ๆ&lt;/h4&gt;
+
+&lt;p&gt;นอกจากการตัดคำแล้ว การเลือกฟอนท์ใน Servo ก็ยังมีอะไรตรวจสอบหรือแก้อยู่เสมอ ๆ ถ้าอยากลองเขียน Rust ดูกับนักพัฒนาที่อื่น ๆ ในโลกดูบ้างก็อาจจะเป็นโอกาสที่ดี&lt;/p&gt;
+
+&lt;h3&gt;บรรยากาศที่บรรยายเรื่องนี้&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://file.veer66.rocks/pic/l10nbcbk7.jpg&quot; alt=&quot;BCBK7&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;คุยกับผม&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GNU Social: &lt;a href=&quot;https://quitter.se/vsatayamas/&quot; &gt;https://quitter.se/vsatayamas/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/vsatayamas&quot; &gt;@vsatayamas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Facebook: &lt;a href=&quot;http://facebook.com/digitalveer66&quot; &gt;digitalveer66&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;E-mail: vsatayamas at gmail dot com&lt;/li&gt;
+&lt;/ul&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/โปรแกรมตดคำทสรางโดยชมชน.html"/> <title>โปรแกรมตัดคำที่สร้างโดยชุมชน</title> <published>2015-10-1</published> <updated>2015-10-1</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;ค.ศ. 2000 ผมได้เริ่มเขียนโปรแกรมตัดคำเข้าประกวดในงานประชุมวิชาการ SNLP 2000 ที่เชียงใหม่ ทำให้คิดว่ายังมีอะไรที่น่าจะทำได้ในโปรแกรมตัดคำอีกมาก&lt;/p&gt;
+
+&lt;p&gt;ราว ๆ ปี 2004 ผมและเพื่อนจึงได้เขียน ThaiWordseg ขึ้นมาอยู่ที่ sourceforge ตอนนี้ก็คงเหลือแค่ประวัติศาสตร์ http://thaiwordseg.sourceforge.net/ หลังจากนั้นก็มีโครงการอื่น ๆ บ้างแต่ขอข้าม ๆ ไปแล้วกัน&lt;/p&gt;
+
+&lt;p&gt;จนกระทั่งเดี๋ยวนี้ยุคที่ github รุ่งเรือง การ diff เอา patch มาแปะใน bugzilla เปลี่ยนมาเป็นการส่ง pull request ในระยะเวลาใกล้เคียงกับที่ node.js เป็นที่นิยม ผมก็ได้เริ่มโครงการใหม่ขึ้นมาชื่อ &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; เหมือนเดิม &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; รุ่นค.ศ. 2014 ต่างออกไปจากรุ่นก่อน ดังต่อไปนี้ &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;เริ่มทำโครงการบน github เขียนด้วย JavaScript ทำให้ชุมชนที่ใช้เครื่องมือเหล่านี้อยู่แล้วมีส่วนร่วมได้ง่าย แน่นอนว่าง่ายกว่าภาษา C มาก ๆ&lt;/li&gt;
+&lt;li&gt;แทนที่จะมุ่งเน้นเพิ่มความเร็ว โครงการนี้พยายามลดความซับซ้อนลง การเก็บพจนานุกรมในอดีตที่เคยใช้ Trie บ้างใช้ Ternary Search Tree บ้างก็เหลือแค่ sorted list ของคำ จุดมุ่งหมายหลักก็คือทำให้การแก้ไขดัดแปลงพจนานุกรมทำได้ง่าย&lt;/li&gt;
+&lt;li&gt;การตัดคำด้วยวิธีหลาย ๆ แบบ ได้แก่ การใช้กฎต่าง ๆ และใช้พจนุกรม ถูกทำให้เรียกจาก Interface แบบเดียวกันคือ acceptor เพื่อที่จะทำให้เห็นภาพรวมของระบบได้ง่ายขึ้น&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;โดยสรุปก็คือ &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; รุ่น 2014 ถูกออกแบบมาให้ชุมชนมีส่วนร่วมได้มากขึ้น และทุกคนก็สามารถแก้ไขปรับปรุงให้ได้โปรแกรมตัดคำแบบที่เขาต้องการ &lt;/p&gt;
+
+&lt;p&gt;[ช่วงโม้ล้วน ๆ] วันนี้ วันพุธที่ 1 ตุลาคม 2015 โปรแกรม &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; บน github ได้ดาวบน 32 ดวง มีผู้ติดตามความเคลื่อนไหว 5 ท่าน มีท่านที่สนใจ fork ไปเฉพาะบน Github 7 ท่าน โปรแกรมได้รับการปรับปรุงโดย contributor อย่างน้อย 5 ท่าน ซึ่งนอกจากผมแล้วก็มี &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/piti118&quot; &gt;@piti118&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/lvarayut&quot; &gt;@lvarayut&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/hainp&quot; &gt;@hainp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/pureexe&quot; &gt;@pureexe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ซึ่งต้องขอบคุณทุกท่านเป็นอย่างมาก และต้องขออภัยหากตกหล่นท่านใดไป แน่นอนว่ามีโปรแกรมตัดคำภาษาไทยที่เป็นซอฟต์แวร์เสรีอยู่มากมาย แต่ว่าไม่เคยมีมาก่อนว่าจะมีผู้คนช่วยกันแก้ไขปรับปรุงมากมายถึงขนาดนี้&lt;/p&gt;
+
+&lt;p&gt;จากการร่วมแรงร่วมใจกับ &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; ตอนนี้ทำงานได้ทั้งบน node.js และ web browser, มีพจนานุกรมที่หลากหลาย, ข้อผิดพลาดต่าง ๆ ก็ได้ถูกแก้ไขไปตามลำดับ &lt;/p&gt;
+
+&lt;p&gt;แน่นอนว่า &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; ไม่ใช่โปรแกรมตัดคำที่ใช้เทคนิคที่ก้าวหน้าที่สุด แต่เท่าที่ผมเห็นในขณะนี้ &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; เป็นโปรแกรมตัดคำที่มีชุมชนมีส่วนพัฒนาให้ดีขึ้นไปเรื่อย ๆ มากที่สุด สักวันหนึ่ง &lt;a href=&quot;http://github.com/veer66/wordcut&quot; &gt;wordcut&lt;/a&gt; อาจจะเป็นส่วนช่วยให้การการค้นพบใหม่ ๆ โดยที่ผู้ค้นสามารถทดลองไอเดียของตัวเองได้อย่างรวดเร็วเพราะมีโปรแกรมที่แก้ไขได้ง่ายก็เป็นได้&lt;/p&gt;
+
+&lt;p&gt;ป.ล. ตอนนี้ตัดคำภาษาลาวได้ด้วยครับ คาดว่าภาษาเมียนมา และภาษาเขมร (กัมพูชา) จะตามมาติด ๆ &lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/พระสตรเพอผเจบไข.html"/> <title>พระสูตรเพื่อผู้เจ็บไข้</title> <published>2015-09-20</published> <updated>2015-09-20</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;&lt;em&gt;ต่อไปนี้เป็นคำสอนของพระพุทธเจ้า&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  ถ้าเธอจะเข้าไปหาภิกษุคิริมานนท์แล้วกล่าวสัญญา ๑๐ ประการแก่เธอแล้ว  ข้อนี้เป็นฐานะที่จะมีได้ คือภิกษุคิริมานนท์ฟังสัญญาสิบประการแล้ว อาพาธอันเป็นทุกข์หนักของเธอ ก็จะระงับไปโดยควรแก่ฐานะ สัญญา ๑๐ ประการ นั้นคือ อนิจจสัญญา อนัตตสัญญา อสุภสัญญา อาทีนวสัญญา ปหานสัญญา วิราคสัญญา นิโรธสัญญา สัพพโลเกอนภิรตสัญญา สัพพสังขาเรสุ-อนิจจสัญญา อานาปานสติ.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  อนิจจสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์อย่างนี้ ว่า “รูป ไม่เที่ยง;  เวทนา ไม่เที่ยง;  สัญญา ไม่เที่ยง; สังขาร ไม่เที่ยง; วิญญาณ ไม่เที่ยง” ดังนี้  เป็นผู้เห็นซึ่งความไม่เที่ยงในอุปาทานขันธ์ทั้งห้า เหล่านี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อนิจจสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  อนัตตสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์อย่างนี้ ว่า “ตา เป็นอนัตตา รูป เป็นอนัตตา;  หู เป็นอนัตตา เสียง เป็นอนัตตา;  จมูก เป็นอนัตตา กลิ่น เป็นอนัตตา;  ลิ้น เป็นอนัตตา  รส เป็นอนัตตา;  กาย เป็นอนัตตา โผฏฐัพพะ เป็นอนัตตา;  ใจ เป็นอนัตตา  ธรรมารมณ์ เป็นอนัตตา” ดังนี้เป็นผู้เห็นซึ่งความเป็นอนัตตาในอายตนะทั้งภายในและภายนอกหก เหล่านี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อนัตตสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  อสุภสัญญา เป็นอย่างไรเล่า ? อานนท์ ! ภิกษุในกรณีนี้ เห็นโดยประจักษ์ซึ่งกายนี้นี่แหละ แต่พื้นเท้าขึ้นไปถึงเบื้องบน แต่ปลายผมลงมาถึงเบื้องล่าง ว่า มีหนังหุ้มอยู่โดยรอบ เต็มไปด้วยของไม่สะอาดมีประการต่างๆ ; คือกายนี้มี ผม ขน เล็บ ฟัน หนัง เนื้อ เอ็น กระดูก เยื่อในกระดูก ไต หัวใจ ตับ พังผืด ม้าม ปอด ลำไส้ ลำไส้สุด อาหารในกระเพาะ อุจจาระ น้ำดี เสลด หนอง โลหิต เหงื่อ มัน น้ำตา น้ำเหลือง น้ำลาย น้ำเมือก น้ำลื่นหล่อข้อ น้ำมูตร; เป็นผู้เห็นความไม่งามในกายนี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อสุภสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  อาทีนวสัญญา เป็นอย่างไรเล่า ?  อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์อย่างนี้ ว่า “กายนี้มีทุกข์มาก มีโทษมาก; คือในกายนี้มีอาพาธต่างๆ เกิดขึ้น, กล่าวคือ โรคตา โรคหู โรคจมูก โรคลิ้น โรคกาย โรคที่ศีรษะ โรคที่หู โรคที่ปาก โรคที่ฟัน โรคไอ โรคหืด ไข้หวัด ไข้มีพิษร้อน ไข้เซื่องซึม โรคกระเพาะ โรคลมสลบ ลงแดง จุกเสียด เจ็บเสียว โรคเรื้อรัง โรคฝี โรคกลาก โรคมองคร่อ ลมบ้าหมู โรคหิดเปื่อย โรคหิดด้าน คุดทะราด โรคละออง โรคโลหิต โรคดีซ่าน เบาหวาน โรคเริม โรคพุพอง ริดสีดวงทวาร อาพาธมีดีเป็นสมุฏฐาน อาพาธมีเสมหะเป็นสมุฏฐาน อาพาธมีลมเป็นสมุฏฐาน ไข้สันนิบาต ไข้เพราะฤดูแปรปรวน ไข้เพราะบริหารกายไม่สม่ำเสมอ ไข้เพราะออกกำลังเกิน ไข้เพราะวิบากกรรม ความไม่สบายเพราะความหนาว ความร้อน ความหิว ความระหาย การถ่ายอุจจาระ การถ่ายปัสสาวะ” ดังนี้; เป็นผู้เห็นโทษในกายนี้อยู่ ด้วยอาการอย่างนี้ : นี้เรียกว่า อาทีนวสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  ปหานสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้  ไม่ยอมรับไว้ซึ่งกามวิตก ที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; ไม่ยอมรับไว้ซึ่งพ๎ยาปาทวิตกที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; ไม่ยอมรับไว้ซึ่งวิหิงสาวิตกที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; ไม่ยอมรับไว้ซึ่งอกุศลธรรมทั้งหลายอันเป็นบาปที่เกิดขึ้นแล้ว ย่อมละ ย่อมบรรเทา กระทำให้สิ้นสุด ให้ถึงความไม่มีอีกต่อไป; นี้เรียกว่าปหานสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  วิราคสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์ อย่างนี้ว่า “ธรรมชาตินั่น สงบ ธรรมชาตินั่น ประณีต : กล่าวคือ ธรรมชาติอันเป็นที่ระงับแห่งสังขารทั้งปวง เป็นที่สลัดคืนซึ่งอุปธิทั้งปวง เป็นที่สิ้นไปแห่งตัณหา  เป็นความจางคลาย  เป็นความดับเย็น” ดังนี้ : นี้เรียกว่า วิราคสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  นิโรธสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ไปสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง พิจารณาอยู่โดยประจักษ์ อย่างนี้ว่า “ธรรมชาตินั่น สงบ ธรรมชาตินั่น ประณีต : กล่าวคือ ธรรมชาติอันเป็นที่ระงับแห่งสังขารทั้งปวง เป็นที่สลัดคืนซึ่งอุปธิทั้งปวง เป็นที่สิ้นไปแห่งตัณหา เป็นความดับ เป็นความดับเย็น” ดังนี้ : นี้เรียกว่า นิโรธสัญญา.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  สัพพโลเกอนภิรตสัญญา เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้อนุสัย (ความเคยชิน) ในการตั้งทับ ในการฝังตัวเข้าไปยึดมั่นแห่งจิตด้วยตัณหาอุปาทานใดๆ ในโลก มีอยู่, เธอละอยู่ซึ่งอนุสัยนั้นๆ งดเว้นไม่เข้าไปยึดถืออยู่ : นี้เรียกว่า สัพพโลเกอนภิรตสัญญา (ความสำคัญในโลกทั้งปวงว่าเป็นสิ่งไม่น่ายินดี).&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  สัพพสังขาเรสุอนิจจสัญญา  เป็นอย่างไรเล่า ? อานนท์ !  ภิกษุในกรณีนี้ ย่อมอึดอัด ย่อมระอา  ย่อมเกลียดชัง ต่อสังขารทั้งหลายทั้งปวง : นี้เรียกว่า สัพพสังขาเรสุอนิจจสัญญา (ความสำคัญว่าไม่เที่ยงในสังขารทั้งปวง).&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  อานาปานสติ เป็นอย่างไรเล่า ? อานนท์ !  ในกรณีนี้ ภิกษุไปแล้วสู่ป่า สู่โคนไม้ หรือสู่เรือนว่าง ก็ตาม นั่งคู้ขาเข้ามาโดยรอบ ตั้งกายตรง ดำรงสติเฉพาะหน้า มีสติหายใจเข้า มีสติหายใจออก.
+เมื่อหายใจเข้ายาว ก็รู้ชัดว่าเราหายใจเข้ายาว, เมื่อหายใจออกยาว ก็รู้ชัดว่าเราหายใจออกยาว;
+เมื่อหายใจเข้าสั้น ก็รู้ชัดว่าเราหายใจเข้าสั้น, เมื่อหายใจออกสั้น ก็รู้ชัดว่าเราหายใจออกสั้น;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งกายทั้งปวง หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งกายทั้งปวง หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำกายสังขารให้รำงับ หายใจเข้า”, ว่า “เราเป็นผู้ทำกายสังขารให้รำงับ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งปีติ หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งปีติ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งสุข หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งสุข หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิตตสังขาร หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิตตสังขาร หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตตสังขารให้รำงับ หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตตสังขารให้รำงับ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิต หายใจเข้า”, ว่า “เราเป็นผู้รู้พร้อมเฉพาะซึ่งจิต หายใจออก” ;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตให้ปราโมทย์ยิ่ง หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตให้ปราโมทย์ยิ่ง หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตให้ตั้งมั่น หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตให้ตั้งมั่น หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้ทำจิตให้ปล่อยอยู่ หายใจเข้า”, ว่า “เราเป็นผู้ทำจิตให้ปล่อยอยู่ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความไม่เที่ยงอยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความไม่เที่ยงอยู่เป็นประจำ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความจางคลายอยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความจางคลายอยู่เป็นประจำ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความดับไม่เหลืออยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความดับไม่เหลืออยู่เป็นประจำ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;เธอย่อมทำการฝึกหัดศึกษาว่า “เราเป็นผู้เห็นซึ่งความสลัดคืนอยู่เป็นประจำ หายใจเข้า”, ว่า “เราเป็นผู้เห็นซึ่งความสลัดคืนอยู่เป็นประจำ หายใจออก”;&lt;/p&gt;
+
+&lt;p&gt;นี้เรียกว่า อานาปานสติ.&lt;/p&gt;
+
+&lt;p&gt;อานนท์ !  ถ้าเธอจะเข้าไปหาภิกษุคิริมานนท์ แล้วกล่าวสัญญาสิบประการเหล่านี้แก่เธอแล้ว ข้อนี้เป็นฐานะที่จะมีได้ คือภิกษุคิริมานนท์ฟังสัญญาสิบประการแล้ว อาพาธอันเป็นทุกข์หนักของเธอก็จะระงับไป โดยควรแก่ฐานะ.&lt;/p&gt;
+
+&lt;p&gt;ลำดับนั้นแล ท่านอานนท์จำเอาสัญญาสิบประการเหล่านี้ ในสำนักของพระผู้มีพระภาคเจ้าแล้ว เข้าไปหาท่านคิริมานนท์ แล้วกล่าวสัญญาสิบประการแก่ท่าน เมื่อท่านคิริมานนท์ฟังสัญญาสิบประการแล้ว อาพาธก็ระงับไปโดยฐานะอันควร.  ท่านคิริมานนท์หายแล้วจากอาพาธ และอาพาธก็เป็นเสมือนละไปแล้วด้วย แล.&lt;/p&gt;
+
+&lt;p&gt;ที่มา: &lt;a href=&quot;http://download.watnapahpong.org/data/static_media/%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A7%E0%B8%88%E0%B8%99_6_%E0%B8%AD%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%9B%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%95%E0%B8%B4_10.pdf&quot; &gt;หนังสือพุทวจน: อานาปานสติ&lt;/a&gt;&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/Preparing-tools-for-building-a-website-using-Common-Lisp.html"/> <title>Preparing tools for building a website using Common Lisp</title> <published>2015-07-21</published> <updated>2015-07-21</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;I did search for tools/libraries for building a website using Common Lisp.
+So I just want to take note here and maybe it is useful for others too.
+BTW please note that I have never used them yet.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fukamachi/ningle&quot; &gt;Ningle&lt;/a&gt; - a Sinatra-like web framework&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/KeenS/arrows&quot; &gt;Arrows&lt;/a&gt; - a Jinja2-like template engine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/lokedhs/cl-rabbit/&quot; &gt;cl-rabbit&lt;/a&gt; - a RabbitMQ interface&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://method-combination.net/lisp/ironclad/&quot; &gt;ironclad&lt;/a&gt; - Password encryption&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/archimag/mongo-cl-driver&quot; &gt;mongo-cl-driver&lt;/a&gt; - A MongoDB driver&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These should be enough for building the server side of a small website, shouldn&#039;t them?&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/ทำไมตอง-Go.html"/> <title>ทำไมต้อง Go</title> <published>2015-06-25</published> <updated>2015-06-25</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;ภาษาใหม่ ๆ เดี๋ยวนี้ ทั้ง Rust, Swift, F#, Scala หรือภาษากลางเก่ากลางใหม่แบบ C#, Java 8, Python, Ruby, JavaScript มักจะมีกลิ่นอายของ Lisp/Scheme ติดมาด้วยเสมอเช่นการ ใช้ closure กับ map, foldl, foldr, filter เป็นต้น&lt;/p&gt;
+
+&lt;p&gt;เนื่องจากว่าเขียนได้ทั้งแนว Fortran และแนว Lisp เวลาคนเขียนภาษาใหม่ ๆ เช่น Python บางทีก็จะเถียงกัน (ผมเห็นจากใน blog ของคนอื่น) ว่าจะใช้ map filter reduce ทำไม อ่านยากจะแย่ จะเขียนสั้น ๆ ทำไม ต้องใช้ for-loop แทนสิ บางคนก็บอกว่า map filter reduce มันก็ดีอยู่แล้ว เขียน for-loop มันอ่านง่ายตรงไหน&lt;/p&gt;
+
+&lt;p&gt;ส่วนภาษา Go เป็นภาษาใหม่ที่เน้น imperative (แนว Fortran) ล้วน ๆ และออกแนว minimalism คำสั่งที่มีมาให้ก็เป็นไปแต่แบบพอเพียง บางอย่างที่เขาคิดว่าไม่จำเป็นเขาก็ไม่มีให้ ทำให้แน่นอนไม่มี map, fold, foldr, filter แถมมาให้ ถ้าอยากได้ก็ต้องทำเองในระดับ library&lt;/p&gt;
+
+&lt;p&gt;แน่นอนว่าในระดับ Library นี้ compiler เข้ามาช่วย optimize ให้ได้ยาก พอใช้ไปก็จะทำให้โปรแกรมช้าได้&lt;/p&gt;
+
+&lt;p&gt;ด้วย 2 เหตุนี้คือขัดวิถีโกและช้า ทำให้โอกาสที่ใคร ๆ จะเขียนแนว Lisp/Scheme ใน Go มีน้อย&lt;/p&gt;
+
+&lt;p&gt;ดังนั้นใครหรือทีมไหนที่ไม่ชอบเขียนโปรแกรมที่มีกลิ่นอายของ Lisp/Scheme ในยุคนี้ภาษา Go เหมาะอย่างยิ่ง&lt;/p&gt;
+
+&lt;p&gt;ป.ล. ถ้าเขียนคนเดียวผมใช้ map/filter/fold เยอะมาก ๆ แต่ถ้าเป็นกลุ่มก็แล้วแต่ทีมครับ&lt;/p&gt;
+</content> </entry> </feed>

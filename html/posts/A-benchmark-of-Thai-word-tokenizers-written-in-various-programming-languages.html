@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"> <head> <title>Vee</title> <meta http-equiv="content-type" content="text/html;" charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="//fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" /> <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" /> <link href= "https://veer66.rocks/css/style.css" rel="stylesheet" type="text/css" /> <link rel="alternate" href="https://veer66.rocks/rss.xml" type="application/rss+xml" />  </head> <body> <div class="navigation"> <a href="https://veer66.rocks">Vee</a> | <a href="https://mstdn.io/@veer66">SNS</a>  | <a href="https://github.com/veer66">GitHub</a>  | <a href="https://veer66.rocks/contrib.html">contrib</a>  | <a href="https://veer66.rocks/cheatsheet.html">cheatsheet</a>  </div> <div id="content"> <div class="article-meta">
+<h1 class="title">A benchmark of Thai word tokenizers written in various programming languages</h1>
+<div class="tags">
+ </div>
+<div class="date">
+Written on 2017-06-04 </div>
+</div>
+<div class="article-content">
+<p>The origin post was at https://veer66.wordpress.com/2017/01/19/benchmark-thai-word-tokenizers/ posted on 2017/01/19.</p>
+
+<p>I wonder about speed of programs written in different languages. For example, I wonder whether one written in Kotlin and ran on JVM is slower than one written in Go. Although there are several existing benchmarks, this is one may be still important at least for me, because Thai word tokenizer is my real task.</p>
+
+<p>So @iporsut and me wrote some programs in different programming languages and tried to optimize them.</p>
+
+<p>I conducted the experiment on my laptop computer, which has Intel® Core™ i3-4030U CPU @ 1.90GHz × 4, on a 20MB Thai text corpus.  </p>
+
+<ul>
+<li>Rust #1: 3.366 #2: 3.247 #3 3.241 #Avg: 3.284</li>
+<li>Go   #1: 5.415 #2: 5.405  #3 5.416 #Avg: 5.412</li>
+<li>Crystal #1: 5.637 #2: 5.679 #3 5.649 #Avg: 5.655</li>
+<li>Kotlin+Clojure #1: 6.547 #2: 6.743 #3 6.628 #Avg: 6.639</li>
+<li>Julia #1: 38.316 #2: 38.112 #3 38.237 #Avg: 38.221</li>
+<li>JavaScript #1: 49.349 #2: 49.084 #3 49.901 #Avg: 49.445</li>
+<li>Python #1: 50.624 #2: 50.803 #3 50.869 #Avg: 50.765</li>
+<li>Clojure+Kotlin #1:  63.502 #2: 67.561 #3 67.303 #Avg: 66.122</li>
+</ul>
+
+<h2>Additional setup</h2>
+
+<ul>
+<li>Env: Rust Nightly 2017-01-08, <a href="https://github.com/veer66/chamkho" >Worcut source code</a></li>
+<li>Env: Go 1.7.4,  <a href="https://gitlab.com/veer66/mapkha" >Wordcut source code</a></li>
+<li>Env: Crystal 0.20.5, <a href="https://gitlab.com/veer66/kachet" >Wordcut source code</a></li>
+<li>Env: Kotlin 1.0.6 + Clojure 1.8.0 + OpenJDK 1.8, <a href="https://gitlab.com/veer66/yaito" >Worcut source code</a>, <a href="https://gitlab.com/veer66/yaito-clj" >Worcut source code</a></li>
+<li>Env: Julia 0.5.0, <a href="https://gitlab.com/veer66/wordcut.jl" >Worcut source code</a></li>
+<li>Env: Node.js v6.5.0, <a href="https://gitlab.com/veer66/prasae" >Worcut source code</a></li>
+<li>Env: Python 3.5.2,  <a href="https://gitlab.com/veer66/wordocutpy" >Worcut source code</a></li>
+<li>Env: Clojure 1.8.0 + Kotlin 1.0.6 + OpenJDK 1.8, <a href="https://gitlab.com/veer66/wordcut-clj" >Worcut source code</a></li>
+</ul>
+
+<h2>Future work</h2>
+
+<p>@iporsut has already written multicore versions, so maybe next month I will conduct another experiment.</p>
+ </div>
+<div class="relative-nav">
+<a href="https://veer66.rocks/posts/move-picocms-jekyll.html">Previous</a><br>
+<a href="https://veer66.rocks/posts/Move-to-Coleslaw.html">Next</a><br>
+</div>
+ </div>  <div class="fineprint"> <hr> Unless otherwise credited all material <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"> <img alt="Creative Commons License" style="border-width:0" src="https://veer66.rocks/css/cc-by-sa.png" /> </a> by Vee Satayamas <a id="coleslaw-logo" href="https://github.com/redline6561/coleslaw"> <img src="https://veer66.rocks/css/logo_small.jpg" alt="Coleslaw logo" /> </a> </div> </body> </html>

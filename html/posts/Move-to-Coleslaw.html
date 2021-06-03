@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en"> <head> <title>Vee</title> <meta http-equiv="content-type" content="text/html;" charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="//fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" /> <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" /> <link href= "https://veer66.rocks/css/style.css" rel="stylesheet" type="text/css" /> <link rel="alternate" href="https://veer66.rocks/rss.xml" type="application/rss+xml" />  </head> <body> <div class="navigation"> <a href="https://veer66.rocks">Vee</a> | <a href="https://mstdn.io/@veer66">SNS</a>  | <a href="https://github.com/veer66">GitHub</a>  | <a href="https://veer66.rocks/contrib.html">contrib</a>  | <a href="https://veer66.rocks/cheatsheet.html">cheatsheet</a>  </div> <div id="content"> <div class="article-meta">
+<h1 class="title">Move to Coleslaw</h1>
+<div class="tags">
+Tagged as <a href="https://veer66.rocks/tag/Coleslaw.html">Coleslaw</a>, <a href="https://veer66.rocks/tag/Blog.html">Blog</a> </div>
+<div class="date">
+Written on 2018-08-20 </div>
+</div>
+<div class="article-content">
+<p>1-2 months ago, I failed to run latest version of Jekyll. So I moved to <a href="https://github.com/kingcons/coleslaw" >Coleslaw</a>, which look simpler but powerful enough instead.</p>
+
+<!--more-->
+
+<pre><code><span class="code"><span class="paren1">(<span class="code">require '<span class="paren2">[<span class="code">clojure.string <span class="keyword">:as</span> str</span>]</span>
+         '<span class="paren2">[<span class="code">rbre.core <span class="keyword">:as</span> rbre</span>]</span>
+         '<span class="paren2">[<span class="code">clostache.parser <span class="keyword">:refer</span> <span class="paren3">[<span class="code">render</span>]</span></span>]</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> list-dir <span class="paren2">[<span class="code">path</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code">clojure.java.io/file path</span>)</span>
+       file-seq
+       <span class="paren3">(<span class="code">filter #<span class="paren4">(<span class="code">.isFile %</span>)</span> </span>)</span>
+       <span class="paren3">(<span class="code">filter #<span class="paren4">(<span class="code">re-matches #<span class="string">".+</span><span class="string">\.</span><span class="string">md$"</span> <span class="paren5">(<span class="code">.getName %</span>)</span></span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> list-dir-by-year <span class="paren2">[<span class="code">prefix year</span>]</span>
+  <span class="paren2">(<span class="code">map #<span class="paren3">(<span class="code">array-map <span class="keyword">:year</span> year
+                   <span class="keyword">:file</span> %</span>)</span>
+       <span class="paren3">(<span class="code">list-dir <span class="paren4">(<span class="code">str prefix <span class="string">"/"</span> year</span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> read-post <span class="paren2">[<span class="code">file-year</span>]</span>
+  <span class="paren2">(<span class="code"><i><span class="symbol">let</span></i> <span class="paren3">[<span class="code">file <span class="paren4">(<span class="code"><span class="keyword">:file</span> file-year</span>)</span>
+        name <span class="paren4">(<span class="code">.getName file</span>)</span>
+        content <span class="paren4">(<span class="code">-&gt;&gt; file
+                      clojure.java.io/reader
+                      slurp</span>)</span></span>]</span>
+    <span class="paren3">(<span class="code">-&gt; file-year
+        <span class="paren4">(<span class="code">assoc <span class="keyword">:name</span> name</span>)</span>
+        <span class="paren4">(<span class="code">assoc <span class="keyword">:content</span> content</span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> clean-title <span class="paren2">[<span class="code">title</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code">str/replace title #<span class="string">"</span><span class="string">\s</span><span class="string">*#</span><span class="string">\s</span><span class="string">*"</span> <span class="string">""</span></span>)</span>
+       .trim</span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> add-title <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code"><span class="keyword">:content</span> post</span>)</span>
+       <span class="paren3">(<span class="code">re-seq #<span class="string">"#.+"</span></span>)</span>
+       first
+       clean-title
+       <span class="paren3">(<span class="code">assoc post <span class="keyword">:title</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> clean-date <span class="paren2">[<span class="code">date</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; <span class="paren3">(<span class="code">str/replace date #<span class="string">"[</span><span class="string">\t</span><span class="string"> ]*Date:"</span> <span class="string">""</span></span>)</span>
+       .trim</span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> add-date <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">-&gt;&gt; post
+       <span class="keyword">:name</span>
+       <span class="paren3">(<span class="code">re-seq #<span class="string">"</span><span class="string">\d</span><span class="string">{4}-</span><span class="string">\d</span><span class="string">{2}-</span><span class="string">\d</span><span class="string">{1,2}"</span></span>)</span>
+       first
+       <span class="paren3">(<span class="code">assoc post <span class="keyword">:date</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> add-header <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">assoc post
+         <span class="keyword">:header</span>        
+         <span class="paren3">(<span class="code">render <span class="string">";;;;;
+title: {{title}}
+tags: 
+date: {{date}}
+format: md
+excerpt: 
+;;;;;"</span> <span class="paren4">{<span class="code"><span class="keyword">:title</span> <span class="paren5">(<span class="code"><span class="keyword">:title</span> post</span>)</span>
+        <span class="keyword">:date</span> <span class="paren5">(<span class="code"><span class="keyword">:date</span> post</span>)</span></span>}</span></span>)</span></span>)</span></span>)</span>
+
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> strip-content <span class="paren2">[<span class="code">content</span>]</span>
+  <span class="paren2">(<span class="code">-&gt; content
+      <span class="paren3">(<span class="code">str/replace-first #<span class="string">"#.+"</span> <span class="string">""</span></span>)</span>
+      <span class="paren3">(<span class="code">str/replace-first #<span class="string">"Date:.+"</span> <span class="string">""</span></span>)</span></span>)</span></span>)</span>
+
+<span class="comment">;(str/replace "xxx\n # XX\n dddd" #"#.+" "--")
+</span>
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> strip-content-in-post <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">update post
+         <span class="keyword">:content</span>
+         strip-content</span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code"><i><span class="symbol">defn</span></i> write-post <span class="paren2">[<span class="code">post</span>]</span>
+  <span class="paren2">(<span class="code">spit <span class="paren3">(<span class="code">str <span class="paren4">(<span class="code"><span class="keyword">:year</span> post</span>)</span>
+             <span class="string">"/"</span>
+             <span class="paren4">(<span class="code">str/replace <span class="paren5">(<span class="code"><span class="keyword">:name</span> post</span>)</span> #<span class="string">"</span><span class="string">\.</span><span class="string">md$"</span> <span class="string">".post"</span></span>)</span></span>)</span> 
+        <span class="paren3">(<span class="code">str <span class="paren4">(<span class="code"><span class="keyword">:header</span> post</span>)</span>
+             <span class="string">"</span><span class="string">\n</span><span class="string">\n</span><span class="string">"</span>
+             <span class="paren4">(<span class="code"><span class="keyword">:content</span> post</span>)</span></span>)</span></span>)</span></span>)</span>
+
+<span class="paren1">(<span class="code">transduce <span class="paren2">(<span class="code">comp <span class="paren3">(<span class="code">map read-post</span>)</span>
+                 <span class="paren3">(<span class="code">map add-title</span>)</span>
+                 <span class="paren3">(<span class="code">map add-date</span>)</span>
+                 <span class="paren3">(<span class="code">map add-header</span>)</span>
+                 <span class="paren3">(<span class="code">map strip-content-in-post</span>)</span></span>)</span>
+           <span class="paren2">(<span class="code">fn <span class="paren3">[<span class="code">&amp; args</span>]</span>
+             <span class="paren3">(<span class="code">when <span class="paren4">(<span class="code">= 2 <span class="paren5">(<span class="code">count args</span>)</span></span>)</span>
+               <span class="paren4">(<span class="code">write-post <span class="paren5">(<span class="code">second args</span>)</span></span>)</span></span>)</span></span>)</span>
+           <span class="paren2">(<span class="code">mapcat #<span class="paren3">(<span class="code">list-dir-by-year <span class="string">"../v21k-bak"</span> %</span>)</span>
+                   <span class="paren3">(<span class="code">map str <span class="paren4">(<span class="code">range 2014 2018</span>)</span></span>)</span></span>)</span></span>)</span></span></code></pre>
+
+<p>Below is my .coleslawrc</p>
+
+<pre><code><span class="code"><span class="paren1">(<span class="code"><span class="keyword">:author</span> <span class="string">"Vee Satayamas"</span>
+ <span class="keyword">:deploy-dir</span> <span class="string">"/home/vee/vblog"</span>
+ <span class="keyword">:domain</span> <span class="string">"https://veer66.rocks"</span>
+ <span class="keyword">:excerpt-sep</span> <span class="string">"&lt;!--more--&gt;"</span>
+ <span class="keyword">:feeds</span> <span class="paren2">(<span class="code"><span class="string">"lisp"</span></span>)</span>
+ <span class="keyword">:plugins</span> <span class="paren2">(<span class="code"><span class="comment">;(analytics :tracking-code "foo")
+</span>           <span class="comment">;(disqus :shortname "my-site-name")
+</span>           <span class="comment">; (incremental)  ;; *Remove comment to enable incremental builds.
+</span>           <span class="comment">;(mathjax)
+</span>           <span class="paren3">(<span class="code">sitemap</span>)</span>
+           <span class="paren3">(<span class="code">static-pages</span>)</span>
+           <span class="comment">; (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+</span>          </span>)</span>
+ <span class="keyword">:routing</span> <span class="paren2">(<span class="code"><span class="paren3">(<span class="code"><span class="keyword">:post</span>           <span class="string">"posts/~a"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:tag-index</span>      <span class="string">"tag/~a"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:month-index</span>    <span class="string">"date/~a"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:numeric-index</span>  <span class="string">"~d"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:feed</span>           <span class="string">"~a.xml"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:tag-feed</span>       <span class="string">"tag/~a.xml"</span></span>)</span></span>)</span>
+ <span class="keyword">:sitenav</span> <span class="paren2">(<span class="code"><span class="paren3">(<span class="code"><span class="keyword">:url</span> <span class="string">"https://toot.veer66.rocks/users/veer66"</span> <span class="keyword">:name</span> <span class="string">"SNS"</span></span>)</span> 
+           <span class="paren3">(<span class="code"><span class="keyword">:url</span> <span class="string">"https://github.com/veer66"</span> <span class="keyword">:name</span> <span class="string">"GitHub"</span></span>)</span>
+           <span class="paren3">(<span class="code"><span class="keyword">:url</span> <span class="string">"https://gitlab.com/veer66"</span> <span class="keyword">:name</span> <span class="string">"GitLab"</span></span>)</span></span>)</span>
+ <span class="keyword">:staging-dir</span> <span class="string">"/tmp/coleslaw/"</span>
+ <span class="keyword">:title</span> <span class="string">"veer66's blog"</span>
+ <span class="keyword">:theme</span> <span class="string">"readable"</span> <span class="comment">;; "hyde"
+</span></span>)</span></span></code></pre>
+ </div>
+<div class="relative-nav">
+<a href="https://veer66.rocks/posts/A-benchmark-of-Thai-word-tokenizers-written-in-various-programming-languages.html">Previous</a><br>
+<a href="https://veer66.rocks/posts/Fediverse-กาวขามเผดจการรวบอำนาจทปกครองและขายสมาชกสงคมออนไลนตางสนคา.html">Next</a><br>
+</div>
+ </div>  <div class="fineprint"> <hr> Unless otherwise credited all material <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"> <img alt="Creative Commons License" style="border-width:0" src="https://veer66.rocks/css/cc-by-sa.png" /> </a> by Vee Satayamas <a id="coleslaw-logo" href="https://github.com/redline6561/coleslaw"> <img src="https://veer66.rocks/css/logo_small.jpg" alt="Coleslaw logo" /> </a> </div> </body> </html>

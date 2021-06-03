@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en"> <head> <title>Vee</title> <meta http-equiv="content-type" content="text/html;" charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="//fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" /> <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" /> <link href= "https://veer66.rocks/css/style.css" rel="stylesheet" type="text/css" /> <link rel="alternate" href="https://veer66.rocks/rss.xml" type="application/rss+xml" />  </head> <body> <div class="navigation"> <a href="https://veer66.rocks">Vee</a> | <a href="https://mstdn.io/@veer66">SNS</a>  | <a href="https://github.com/veer66">GitHub</a>  | <a href="https://veer66.rocks/contrib.html">contrib</a>  | <a href="https://veer66.rocks/cheatsheet.html">cheatsheet</a>  </div> <div id="content"> <h1 class="title">Content from 2016-11</h1> <div class="article-meta"> <a class="article-title" href="https://veer66.rocks/posts/เกยวกบภาษา-Lisp.html">เกี่ยวกับภาษา Lisp</a> <div class="date"> posted on 2016-11-13</div> <div class="article"><h3>ที่มา</h3>
+
+<p>สมัยหนุ่ม ๆ ผมเห็นคำว่า Lisp ผ่านตาบ่อย ๆ ทั้งความเกี่ยวข้องกับ Logo AI หรือแม้กระทั่ง AutoCAD ก็เลยอยากจะเรียน</p>
+
+<p>ต่อมาก็ยังได้ยินเรื่อง Functional Programming ก็เลยรู้สึกว่าน่าสนใจเข้าไปใหญ่</p>
+
+<p>อย่างไรก็ตามสมัยหนุ่ม ๆ จะหาอะไรก็ลำบาก พอมาสมัยนี้จะหาอะไรมาเล่นก็ง่ายขึ้น </p>
+
+<h3>ประเด็นที่น่าสนใจ (สำหรับผม)</h3>
+
+<ol>
+<li>Lisp เป็น High-level programming language ภาษาที่ 2 ของโลก หรือว่าถ้าจะมีอะไรมาแทรก ๆ ก็ยังเป็นภาษาแรก ๆ อยู่ดี</li>
+<li>Lisp มาพร้อมกับ Garbage collector แต่แรกตั้งแต่ค.ศ. 1959</li>
+<li>ภาษาแนว Functional Programming ทั้งหมดมีส่วนเกี่ยวข้องกับ Lisp</li>
+<li>ทุกอย่างใน Lisp มีพื้นฐานมากจาก List</li>
+<li>Lisp ในแง่มุมวงเล็บ</li>
+<li>Lisp ในแง่มุม dynamic type</li>
+</ol>
+
+<h3>เกี่ยวกับผม</h3>
+
+<p>จริง ๆ แล้วผมเขียน Clojure แต่ว่าไม่พูดถึง Clojure เพราะว่าไม่แน่เรื่อง Persistent vector </p>
+
+<p>ผมไม่เข้าใจ lambda calculus ไม่เข้าใจ Category theory ไม่ใช่ว่าไม่สนใจแต่ว่าอ่านแล้วยังไม่รู้เรื่องแล้วก็จะมาเล่าที่หลัง </p>
+
+<h3>List</h3>
+
+<p>ค.ศ. 2016 นอกจากจะเขียน Clojure แล้วผมก็ได้ลอง Common Lisp ด้วย ถ้าว่าให้เฉพาะเจาะจงก็คือใช้ SBCL รู้สึกว่ามันไม่สะดวกเท่า Clojure แต่ได้สัมผัส List มากกว่า</p>
+
+<p>พอศึกษาไปสักพักแล้วรู้สึกว่าใน Lisp สิ่งที่เป็นพื้นฐานกว่า List อีกก็คือ Cons cell ที่ผมเคย<a href="https://medium.com/@vsatayamas/lisp-cons-cell-bf5446e3833e#.fuln38uui" >บันทึกไว้แล้ว</a></p>
+
+<p>พอทราบเรื่อง Lisp แล้วเราก็จะมาพูดเรื่อง <a href="https://medium.com/@vsatayamas/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%83%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9B%E0%B9%8C-ff1c1aa932ac#.hylv6hpn2" >Singly Linked List</a> ได้สบาย ๆ</p>
+
+<h3>ความเชื่อมโยงกับ Clojure OCaml และ Haskell</h3>
+
+<p>จริง ๆ ผมก็ไม่เคยเขียน Lisp แบบเดิม ๆ เอาตัวเก่าที่สุดที่เคยใช้ก็คือ Common Lisp</p>
+
+<p>สิ่งที่พบคือ Clojure OCaml และ Haskell มี cons cell และ singly-linked list ติดมากับภาษาทั้งหมด เพียงแต่ว่าใน Haskell คำสั่ง cons เปลี่ยนเป็น : (colon) และใน OCaml ใช้ :: (colon สองที่</p>
+
+<p>นอกจากนั้นในพวก Haskell และ Clojure ยังมีสิ่งที่เรียกว่า lazy sequence ของ Haskell ผมไม่ได้อ่านละเอียด แต่ว่า Clojure นี่แน่ชัดว่า lazy sequence ก็ทำงานอยู่บน cons cell เหมือนกับ list แต่ว่า เวลาสั่ง cdr หรือ rest มันไม่มีประมวลผลเก็บไว้ก่อน สั่ง cdr และ rest ทีนึงมันก่อนไปคำนวณหาหัว list มาให้ แต่ถ้าเป็น list ธรรมดาทุกอย่างใน list ถูกคำนวณเก็บไว้ใน memory อยู่แล้ว</p>
+
+<p>นอกจากเรื่อง lazy sequence แล้ว Clojure ยังต่างออกไปจาก Lisp เดิม ๆ คือ data structure ที่ใช้เป็นหลักไม่ใช่ singly linked list แล้วแต่เป็น persistent vector แทน ซึ่งคุยกับ @visibletrap แล้วก็สรุปว่ามาจาก<a href="https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf" >วิทยานิพนธ์ของ CMU อีกที</a></p>
+
+<p>แต่ว่า Lisp ก็ยังเป็นภาษาแบบที่ยังมี side-effect ได้อยู่เวลาเขียน IO อย่างใน Common Lisp ก็สั่ง (format nil &quot;toto&quot;) แบบนี้ได้เลย ไม่ต้องมี IO Monad แบบ Haskell นอกจากนั้นก็ยัง assign ค่าตัวแปรแบบเถื่อน ๆ อย่าง (setf <em>var1</em> &quot;titi&quot;) แบบนี้ก็ได้ ไม่ได้บังคับเป็น Functional Programming</p>
+
+<h3>ความเชื่อมโยงกับ Python และ Ruby</h3>
+
+<p>ถ้าดูจากตำแหน่งวงเล็บแล้ว Python และ Ruby อาจจะไม่ค่อยเกี่ยวกันเท่าไหร่ แต่ว่าจริง ๆ ก็มีเรื่อง dynamic type ที่ว่าไปแล้วก็คล้าย ๆ กันมาก</p>
+
+<p>แต่ว่าสิ่งที่ Python เรียกว่า list มันไม่ใช่ list แบบใน Lisp แต่เป็น vector หรือเหมือน array ใน Pascal ใน C</p>
+
+<h3>เพิ่มเติม</h3>
+
+<p>สุดเด่นอีกอย่างของ Lisp คือใช้กับ REPL แล้วเนียนมาก ๆ สามารถรัน ๆ โปรแกรมไปแล้วอยากเปลี่ยนแค่บาง function แล้วรันใหม่ ได้โดยไม่ต้อง reload ทุกอย่างขึ้น memory ทำให้สะดวกมาก ๆ </p>
+
+<p>จริง ๆ หลาย ๆ ภาษาก็พยายามจะมี REPL แต่ว่าใช้จริง ๆ มันไม่ค่อยสะดวก เหมือน Lisp หรือ Clojure ที่วงเล็บมันช่วยกำหนดของเขตของสิ่งที่รับจะ eval ใหม่ได้เลย รูปแบบการเขียนโปรแกรมของ Lisp มันก็เหมือนได้ มี function แยก ๆ เลยกันเลย เคยพยายามใช้กับ Ruby ก็มึน ๆ เหมือนกันพอพยายามจะ eval เฉพาะบาง method ใน class ก็จะเริ่มงง ๆ แล้ว</p>
+
+<p>ในรูปเป็นของ Clojure นะครับใช้ Emacs กับ Cider แต่ใช้ Lisp จริง ๆ ก็ได้เพียงแต่ใช้ SLIME แทน หรือจะไม่ใช้ Emacs ไปใช้พวก Cursive ก็ได้สำหรับ Clojure หรือแม้แต่ vscode</p>
+
+<p>ผมว่ามันเป็นความสะดวกอีกขั้นที่เลย IDE ไป อันนี้น่าจะ demo ให้ดูเป็น video ได้ในอนาคต</p>
+
+<h3>คุยกับผม</h3>
+
+<ul>
+<li>GNU Social: <a href="https://quitter.se/vsatayamas/" >https://quitter.se/vsatayamas/</a></li>
+<li>Twitter: <a href="https://twitter.com/vsatayamas" >@vsatayamas</a></li>
+<li>Facebook: <a href="http://facebook.com/digitalveer66" >digitalveer66</a></li>
+<li>E-mail: vsatayamas at gmail dot com</li>
+</ul>
+</div> </div><div class="article-meta"> <a class="article-title" href="https://veer66.rocks/posts/ทลายกำแพงภาษาเพอรากหญา.html">ทลายกำแพงภาษาเพื่อรากหญ้า</a> <div class="date"> posted on 2016-11-12</div> <div class="article"><h3>ที่มา</h3>
+
+<p><a href="https://en.wikipedia.org/w/index.php?title=EF_English_Proficiency_Index&oldid=747538820" >ความสามารถทางภาษาอังกฤษ</a>ของประเทศไทยอยู่อันดับที่ 62 จาก 70 แต่ก่อนผมก็ไม่ค่อยเชื่อจนไปซื้อซิมแล้วขอให้พนักงานปรับค่าให้ หลังจากผ่านไปประมาณ 5 นาทีพนักงานบอกว่าช่วยเปลี่ยนเป็นภาษาไทยให้หนูหน่อย ตั้งแต่นั้นมาผมก็เปลี่ยนความคิด</p>
+
+<h3>ไก่กับไข่</h3>
+
+<ul>
+<li>หักดิบใช้ภาษาอังกฤษไปเลย</li>
+<li>แปลภาษาไทยให้พอใช้ได้แล้วค่อยใช้คอมพิวเตอร์หรือมือถือเรียนภาษาอังกฤษ</li>
+</ul>
+
+<p>ผมเลือกแปลก่อนเพราะว่า:</p>
+
+<ol>
+<li>พอใช้มือถือหรือคอมพิวเตอร์ได้แล้วมีโปรแกรมมีเว็บให้เรียนภาษาอังกฤษเยอะแยะ</li>
+<li>ความปลอดภัย: ท่าที่ว่ากดมั่ว ๆ หรือกด OK ไปเลย โดยไม่อ่านอาจจะซวยได้</li>
+</ol>
+
+<h3>เลือกโครงการไหน</h3>
+
+<ol>
+<li>ความเป็นเจ้าของ</li>
+<li>โปรแกรมที่อานิสงส์เยอะ ๆ</li>
+</ol>
+
+<p>ถ้าเลือกได้ผมจะแปลโปรแกรมที่เป็นของผมเอง แต่ว่าโปรแกรมที่ผมเขียนเองมันเป็นภาษาไทยอยู่แล้ว ไม่ก็ไม่ได้ทำมาให้รากหญ้าใช้ ก็เลยขยับมาที่โปรแกรมที่เป็นเป็นสาธารณะหรือเป็นซอฟต์แวร์เสรีนั่นเอง </p>
+
+<p>ที่คิดว่าน่าจะใช้มาก ๆ ก็คือโปรแกรมเปิดเว็บก็มีอยู่ 2 ตัวคือ Chrome กับ Firefox ผมเลือก Firefox เพราะว่าเห็นเช็งกับท็อปแปลอยู่แล้ว</p>
+
+<h3>Firefox มันยังมีอนาคตไหม ?</h3>
+
+<p>ท็อปบอกว่า &quot;ยิ่งกว่ามีอีกครับ&quot;</p>
+
+<p>Gecko ที่ใช้มานานกำลังถูกเปลี่ยนไปเรื่อย ๆ ผ่านโครงการ Quantum ที่เอาชิ้นส่วนใหม่ ๆ ที่เขียนด้วยภาษา Rust มาใส่ เร็ว ๆ นี้ก็น่าจะวาดหน้าเว็บโดยเอา GPU มาช่วยด้วย เป็นต้น</p>
+
+<p>ภาษา Rust พัฒนามามากกว่า 6 ปีแล้ว ประเด็นหลักเลยก็คืออยากได้ภาษาที่เขียนโปรแกรมแล้วประสิทธิภาพสูสีกับ C/C++ แต่ลดโอกาสที่นักพัฒนาจะทำพลาดลง อีกประเด็นหนึ่งคือเขียนโปรแกรมที่ทำงานพร้อม ๆ กันได้ง่ายขึ้น</p>
+
+<p>คนอื่น ๆ แล้วก็ผมด้วยก็หวังว่า Firefox รุ่นใหม่ ๆ ที่มีฐานอยู่บน Rust มันจะทำงานได้ดีขึ้นด้วย</p>
+
+<h3>ทำไมต้องมาแปลเอง ?</h3>
+
+<p>ปล่อยนักแปลอาชีพที่จ้างมาทำไหม ทำไมต้องมาแปลเอง ? ผมคิดว่าไม่ปล่อยดีกว่า เพราะว่าคิดว่าเราแปลดีกว่า เช่น เราไม่แปลว่า &quot;จดจำเว็บนี้ไหม&quot; แล้วให้เลือกว่า &quot;ไม่เคย&quot; หรือว่าสองทางให้เลือกคือปุ่ม &quot;ยกเลิก&quot; กับปุ่ม &quot;ยกเลิก&quot;</p>
+
+<p>บางทีเราอาจจะพลาด แต่เราก็แก้ได้</p>
+
+<h3>เริ่มแปล</h3>
+
+<h4>Pontoon</h4>
+
+<p>หลังจากผ่านอะไรมามากเดี๋ยวนี้ถ้าจะแปลก็เข้าไปที่ Pontoon ได้เลย แต่เพื่อที่ว่าจะได้ไม่งงผมเลือกโครงการให้เลย<a href="https://pontoon.mozilla.org/th/mozillaorg/all-resources/?string=7754" >อันนี้เป็นการเว็บของ Mozilla</a> สำหรับคนที่เริ่มแปลแรก ๆ ก็จะเป็นการให้เสนอคำแปล (suggest) ไปก่อนแล้วจะมีคนมาตรวจอีกทีซึ่งในกรณีก็คือ ท็อป เช็ง และ @nutmos เอง</p>
+
+<p>เวลาแปลเราค้นคำแปล ๆ เก่า ๆ ได้ด้วย ถ้าไม่ได้มีอะไรผิดพลาด หรือว่าเป็นการแปลความหมายที่ต่างกัน เราก็ควรจะแปลให้เหมือน ๆ กันไว้ก่อน ผู้ใช้จะได้ไม่งง ถ้าใช้คำนั้นทีคำนี้ทีก็จะงงได้ </p>
+
+<p>Pontoon มีตัวช่วย 3 อย่างคือ 
+1. หาคำแปลที่เคยแปลมาให้เลย 
+2. ใช้เครื่องแปลภาษามาด้วย 
+3. ดูจากภาษาอื่นเช่น ภาษามลายู ภาษาลาว</p>
+
+<p>Pontoon ตอนนี้เวลาแปลบางอย่างมันสามารถแปลแบบเห็นหน้าตาจริง ๆ ได้เลย จะได้ไม่แปลยาวเกินจนล้น แต่ว่าก็ยังใช้ได้แค่บางงานเช่นแปลหน้าของ Pontoon เอง</p>
+
+<h4>Style guide</h4>
+
+<p>แต่ว่าพอไปเปิดดูแล้วอาจจะสงสัยว่ามันต้องมีหลักการหน่อยไหม ก็เข้าไปศึกษาใน<a href="https://wiki.mozilla.org/L10n:Teams:th/Style_Guide" >นี้ได้ครับ</a></p>
+
+<h4>Transvision</h4>
+
+<p>นอกจากสองอย่างนี้แล้วก็ยังมีเว็บที่ช่วยค้นหาคำแปลเก่า ๆ <a href="https://transvision.mozfr.org/" >https://transvision.mozfr.org/</a></p>
+
+<h3>มุมมองของผม</h3>
+
+<p>อาจจะมีคนถามว่าควรแปลแบบคำต่อคำเลยหรือเปล่า ผมคิดว่าไม่จำเป็น ตัวตั้งสำหรับผมคือคิดถึงคนที่พูดภาษาไทยที่เขาอ่านภาษาอังกฤษไม่ออกหรือออกน้อย ประเด็นหลักในการแปลผมอย่างที่พี่เด่นสินบอกไว้คือมุ่งที่<em>การสื่อสาร</em>ก่อนเป็นอันดับแรก</p>
+
+<h3>นั่งแปลด้วยกัน</h3>
+
+<p>ครั้งหน้านัดกันที่ Hubba เอกมัยซอย 4 วันที่ 25 ธันวาคม พ.ศ.2559 ครับ ดู<a href="https://medium.com/@vsatayamas/mozillian-meet-up-in-bangkok-20160925-f6d4ef0a6f1a#.621hes3vt" >บรรยากาศครั้งก่อนเมื่อเดือนกันยายนได้ที่นี่</a>ครับ</p>
+
+<h3>ตัวอย่าง</h3>
+
+<p>sync จะแปลว่าอะไรดี เราทราบกันดีว่าย่อมาจาก synchronous พอลอกไปคนดูว่า แปลว่าอะไรก็ได้ &quot;สมวาร&quot; บ้าง &quot;ประสานเวลา&quot; บ้าง ซึ่งอภิปรายกันแล้วก็ได้มติว่าแปลไปก็ไม่รู้เรื่องอยู่ดีจึงทับศัพท์ไปว่า &quot;ซิงค์&quot; แต่ก็ต้องพิจารณาประเด็น Sync ที่ว่าเป็นชื่อเฉพาะอันนี้เราจะใช้ Sync ตามภาษาอังกฤษไปเลย</p>
+
+<p>พวกนี้ก็เป็นประเด็นที่จะอภิปรายกันต่อไปได้ว่ามีคนไหนประโยคไหนควรจะแปลแบบไหนดี </p>
+
+<h3>พื้นที่ออนไลน์</h3>
+
+<p>พบกันที่ได้ <a href="https://www.facebook.com/groups/mozth" >https://www.facebook.com/groups/mozth</a> </p>
+
+<p>มีบางท่านถามมาว่าควรจะใช้ Slack หรือไม่ ผมว่าก็อาจจะดีแต่ว่าโอกาสที่คนจะมาร่วมก็คงน้อยลง IRC ดีไหมเป็นระบบเปิดด้วย แต่เหตุผลก็คงจะเหมือนเดิมคนมีส่วนร่วมก็จะน้อยลงอีก </p>
+
+<h3>อนาคต</h3>
+
+<p>มีโครงการใหม่ชื่อ <a href="http://l20n.org" >L20N</a> เป็นการเล่นคำที่มาจาก L10N คูณ 2 ซึ่ง L10N ก็ย่อมาจาก Localization หรือการทำให้เป็นท้องถิ่นอีกที แต่พูดให้แคบ ๆ ลงหน่อยก็คือการแปลนี่เอง </p>
+
+<p>ผมดูคร่าว ๆ แล้วส่วนที่น่าสนใจสำหรับการมีภาษาไทยก็มี <a href="http://l20n.org/learn/advanced-selectors" >advance selector</a> อันนี้มันอาจจะมาช่วยลดงานเราได้ เช่น </p>
+
+<ul>
+<li>คุณไม่มีอีเมลที่ยังไม่ได้อ่าน</li>
+<li>คุณมีอีเมลที่ยังไม่ได้อ่านหนึ่งฉบับ</li>
+<li>คุณมีอีเมลที่ยังไม่ได้อ่าน 8 ฉบับ</li>
+</ul>
+
+<p>พวกนี้จะเอามารวมกันเป็นก้อนเดียวได้หรือเปล่าใน L20N ก็เป็นเรื่องที่อาจจะต้องดูต่อไป</p>
+
+<h3>นอกจากการแปล</h3>
+
+<h4>ตัดคำ</h4>
+
+<p>ตัววาดเว็บตัวใหม่ ได้แก่ Servo ก็กลับมามีปัญหาอยู่ ก็อยู่ในช่วงพิจารณาว่าจะใช้ libicu ดีไหม หรือจะทำอย่างไรดี ประเด็นพวกนี้อาจจะน่าสนุกที่ว่าไม่ได้ทำเฉพาะภาษาไทย ลาว ญี่ปุ่น ฯลฯ ก็ใช้โปรแกรมส่วนเดียวกันเลย ตามไปดูได้ที่ <a href="https://github.com/servo/servo/issues/13088" >github</a></p>
+
+<h4>อื่น ๆ</h4>
+
+<p>นอกจากการตัดคำแล้ว การเลือกฟอนท์ใน Servo ก็ยังมีอะไรตรวจสอบหรือแก้อยู่เสมอ ๆ ถ้าอยากลองเขียน Rust ดูกับนักพัฒนาที่อื่น ๆ ในโลกดูบ้างก็อาจจะเป็นโอกาสที่ดี</p>
+
+<h3>บรรยากาศที่บรรยายเรื่องนี้</h3>
+
+<p><img src="https://file.veer66.rocks/pic/l10nbcbk7.jpg" alt="BCBK7" /></p>
+
+<h3>คุยกับผม</h3>
+
+<ul>
+<li>GNU Social: <a href="https://quitter.se/vsatayamas/" >https://quitter.se/vsatayamas/</a></li>
+<li>Twitter: <a href="https://twitter.com/vsatayamas" >@vsatayamas</a></li>
+<li>Facebook: <a href="http://facebook.com/digitalveer66" >digitalveer66</a></li>
+<li>E-mail: vsatayamas at gmail dot com</li>
+</ul>
+</div> </div> <div id="relative-nav">   </div> <div id="tagsoup"> <p>This blog covers <a href="https://veer66.rocks/tag/fediverse.html">fediverse</a>, <a href="https://veer66.rocks/tag/Coleslaw.html">Coleslaw</a>, <a href="https://veer66.rocks/tag/Blog.html">Blog</a> </div> <div id="monthsoup"> <p>View content from <a href="https://veer66.rocks/date/2014-06.html">2014-06</a>, <a href="https://veer66.rocks/date/2014-07.html">2014-07</a>, <a href="https://veer66.rocks/date/2014-08.html">2014-08</a>, <a href="https://veer66.rocks/date/2014-11.html">2014-11</a>, <a href="https://veer66.rocks/date/2015-06.html">2015-06</a>, <a href="https://veer66.rocks/date/2015-07.html">2015-07</a>, <a href="https://veer66.rocks/date/2015-09.html">2015-09</a>, <a href="https://veer66.rocks/date/2015-10.html">2015-10</a>, <a href="https://veer66.rocks/date/2016-11.html">2016-11</a>, <a href="https://veer66.rocks/date/2017-06.html">2017-06</a>, <a href="https://veer66.rocks/date/2018-08.html">2018-08</a>, <a href="https://veer66.rocks/date/2018-11.html">2018-11</a> </div> </div>  <div class="fineprint"> <hr> Unless otherwise credited all material <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"> <img alt="Creative Commons License" style="border-width:0" src="https://veer66.rocks/css/cc-by-sa.png" /> </a> by Vee Satayamas <a id="coleslaw-logo" href="https://github.com/redline6561/coleslaw"> <img src="https://veer66.rocks/css/logo_small.jpg" alt="Coleslaw logo" /> </a> </div> </body> </html>

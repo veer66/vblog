@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"> <head> <title>Vee</title> <meta http-equiv="content-type" content="text/html;" charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="//fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" /> <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" /> <link href= "https://veer66.rocks/css/style.css" rel="stylesheet" type="text/css" /> <link rel="alternate" href="https://veer66.rocks/rss.xml" type="application/rss+xml" />  </head> <body> <div class="navigation"> <a href="https://veer66.rocks">Vee</a> | <a href="https://mstdn.io/@veer66">SNS</a>  | <a href="https://github.com/veer66">GitHub</a>  | <a href="https://veer66.rocks/contrib.html">contrib</a>  | <a href="https://veer66.rocks/cheatsheet.html">cheatsheet</a>  </div> <div id="content"> <h1 class="title">Content from 2015-10</h1> <div class="article-meta"> <a class="article-title" href="https://veer66.rocks/posts/โปรแกรมตดคำทสรางโดยชมชน.html">โปรแกรมตัดคำที่สร้างโดยชุมชน</a> <div class="date"> posted on 2015-10-1</div> <div class="article"><p>ค.ศ. 2000 ผมได้เริ่มเขียนโปรแกรมตัดคำเข้าประกวดในงานประชุมวิชาการ SNLP 2000 ที่เชียงใหม่ ทำให้คิดว่ายังมีอะไรที่น่าจะทำได้ในโปรแกรมตัดคำอีกมาก</p>
+
+<p>ราว ๆ ปี 2004 ผมและเพื่อนจึงได้เขียน ThaiWordseg ขึ้นมาอยู่ที่ sourceforge ตอนนี้ก็คงเหลือแค่ประวัติศาสตร์ http://thaiwordseg.sourceforge.net/ หลังจากนั้นก็มีโครงการอื่น ๆ บ้างแต่ขอข้าม ๆ ไปแล้วกัน</p>
+
+<p>จนกระทั่งเดี๋ยวนี้ยุคที่ github รุ่งเรือง การ diff เอา patch มาแปะใน bugzilla เปลี่ยนมาเป็นการส่ง pull request ในระยะเวลาใกล้เคียงกับที่ node.js เป็นที่นิยม ผมก็ได้เริ่มโครงการใหม่ขึ้นมาชื่อ <a href="http://github.com/veer66/wordcut" >wordcut</a> เหมือนเดิม </p>
+
+<p><a href="http://github.com/veer66/wordcut" >wordcut</a> รุ่นค.ศ. 2014 ต่างออกไปจากรุ่นก่อน ดังต่อไปนี้ </p>
+
+<ul>
+<li>เริ่มทำโครงการบน github เขียนด้วย JavaScript ทำให้ชุมชนที่ใช้เครื่องมือเหล่านี้อยู่แล้วมีส่วนร่วมได้ง่าย แน่นอนว่าง่ายกว่าภาษา C มาก ๆ</li>
+<li>แทนที่จะมุ่งเน้นเพิ่มความเร็ว โครงการนี้พยายามลดความซับซ้อนลง การเก็บพจนานุกรมในอดีตที่เคยใช้ Trie บ้างใช้ Ternary Search Tree บ้างก็เหลือแค่ sorted list ของคำ จุดมุ่งหมายหลักก็คือทำให้การแก้ไขดัดแปลงพจนานุกรมทำได้ง่าย</li>
+<li>การตัดคำด้วยวิธีหลาย ๆ แบบ ได้แก่ การใช้กฎต่าง ๆ และใช้พจนุกรม ถูกทำให้เรียกจาก Interface แบบเดียวกันคือ acceptor เพื่อที่จะทำให้เห็นภาพรวมของระบบได้ง่ายขึ้น</li>
+</ul>
+
+<p>โดยสรุปก็คือ <a href="http://github.com/veer66/wordcut" >wordcut</a> รุ่น 2014 ถูกออกแบบมาให้ชุมชนมีส่วนร่วมได้มากขึ้น และทุกคนก็สามารถแก้ไขปรับปรุงให้ได้โปรแกรมตัดคำแบบที่เขาต้องการ </p>
+
+<p>[ช่วงโม้ล้วน ๆ] วันนี้ วันพุธที่ 1 ตุลาคม 2015 โปรแกรม <a href="http://github.com/veer66/wordcut" >wordcut</a> บน github ได้ดาวบน 32 ดวง มีผู้ติดตามความเคลื่อนไหว 5 ท่าน มีท่านที่สนใจ fork ไปเฉพาะบน Github 7 ท่าน โปรแกรมได้รับการปรับปรุงโดย contributor อย่างน้อย 5 ท่าน ซึ่งนอกจากผมแล้วก็มี </p>
+
+<ul>
+<li><a href="http://github.com/piti118" >@piti118</a></li>
+<li><a href="http://github.com/lvarayut" >@lvarayut</a></li>
+<li><a href="http://github.com/hainp" >@hainp</a></li>
+<li><a href="http://github.com/pureexe" >@pureexe</a></li>
+</ul>
+
+<p>ซึ่งต้องขอบคุณทุกท่านเป็นอย่างมาก และต้องขออภัยหากตกหล่นท่านใดไป แน่นอนว่ามีโปรแกรมตัดคำภาษาไทยที่เป็นซอฟต์แวร์เสรีอยู่มากมาย แต่ว่าไม่เคยมีมาก่อนว่าจะมีผู้คนช่วยกันแก้ไขปรับปรุงมากมายถึงขนาดนี้</p>
+
+<p>จากการร่วมแรงร่วมใจกับ <a href="http://github.com/veer66/wordcut" >wordcut</a> ตอนนี้ทำงานได้ทั้งบน node.js และ web browser, มีพจนานุกรมที่หลากหลาย, ข้อผิดพลาดต่าง ๆ ก็ได้ถูกแก้ไขไปตามลำดับ </p>
+
+<p>แน่นอนว่า <a href="http://github.com/veer66/wordcut" >wordcut</a> ไม่ใช่โปรแกรมตัดคำที่ใช้เทคนิคที่ก้าวหน้าที่สุด แต่เท่าที่ผมเห็นในขณะนี้ <a href="http://github.com/veer66/wordcut" >wordcut</a> เป็นโปรแกรมตัดคำที่มีชุมชนมีส่วนพัฒนาให้ดีขึ้นไปเรื่อย ๆ มากที่สุด สักวันหนึ่ง <a href="http://github.com/veer66/wordcut" >wordcut</a> อาจจะเป็นส่วนช่วยให้การการค้นพบใหม่ ๆ โดยที่ผู้ค้นสามารถทดลองไอเดียของตัวเองได้อย่างรวดเร็วเพราะมีโปรแกรมที่แก้ไขได้ง่ายก็เป็นได้</p>
+
+<p>ป.ล. ตอนนี้ตัดคำภาษาลาวได้ด้วยครับ คาดว่าภาษาเมียนมา และภาษาเขมร (กัมพูชา) จะตามมาติด ๆ </p>
+</div> </div> <div id="relative-nav">   </div> <div id="tagsoup"> <p>This blog covers <a href="https://veer66.rocks/tag/fediverse.html">fediverse</a>, <a href="https://veer66.rocks/tag/Coleslaw.html">Coleslaw</a>, <a href="https://veer66.rocks/tag/Blog.html">Blog</a> </div> <div id="monthsoup"> <p>View content from <a href="https://veer66.rocks/date/2014-06.html">2014-06</a>, <a href="https://veer66.rocks/date/2014-07.html">2014-07</a>, <a href="https://veer66.rocks/date/2014-08.html">2014-08</a>, <a href="https://veer66.rocks/date/2014-11.html">2014-11</a>, <a href="https://veer66.rocks/date/2015-06.html">2015-06</a>, <a href="https://veer66.rocks/date/2015-07.html">2015-07</a>, <a href="https://veer66.rocks/date/2015-09.html">2015-09</a>, <a href="https://veer66.rocks/date/2015-10.html">2015-10</a>, <a href="https://veer66.rocks/date/2016-11.html">2016-11</a>, <a href="https://veer66.rocks/date/2017-06.html">2017-06</a>, <a href="https://veer66.rocks/date/2018-08.html">2018-08</a>, <a href="https://veer66.rocks/date/2018-11.html">2018-11</a> </div> </div>  <div class="fineprint"> <hr> Unless otherwise credited all material <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"> <img alt="Creative Commons License" style="border-width:0" src="https://veer66.rocks/css/cc-by-sa.png" /> </a> by Vee Satayamas <a id="coleslaw-logo" href="https://github.com/redline6561/coleslaw"> <img src="https://veer66.rocks/css/logo_small.jpg" alt="Coleslaw logo" /> </a> </div> </body> </html>
