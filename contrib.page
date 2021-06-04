@@ -24,12 +24,13 @@ and [Ruby's wordcuta binding](https://github.com/veer66/wordcuta).
 * A [PostgreSQL extension](https://github.com/veer66/chamkho-pg) for Thai fulltext searching in Rust
 * Clojure tutorial [videos](https://www.youtube.com/watch?v=Vo1JTFXxoQo&list=PL3GYO0cpkwU-35EXVS6yp7y30NiVcqj-N) in Thai
 * Ruby [port](https://github.com/veer66/thailang4r/blob/master/lib/thailang4r/roman.rb) of PyThaiNLP transliteration
-* 
 * Firefox for [Windows](https://bugzilla.mozilla.org/show_bug.cgi?id=390048) and [Mac OS X](https://bugzilla.mozilla.org/show_bug.cgi?id=389520): line breaking patch
 * [English-Thai module](http://wiki.apertium.org/wiki/Apertium-tha-eng) in Apertium Rule-based Machine Translation System
-* Firefox/Mozilla [translation](https://pontoon.mozilla.org/th/contributors/) and orgranizing L10N meetup in [Bangkok](https://medium.com/@vsatayamas/mozillian-meet-up-in-bangkok-20160925-f6d4ef0a6f1a#.3n1va1f4m) and [Chiang Mai](https://medium.com/@vsatayamas/l10n-mozillians-meet-up-in-chiang-mai-497e56997e1d#.ls1q88nk9)
+* Firefox/Mozilla [translation](https://pontoon.mozilla.org/th/contributors/) and orgranizing L10N meetup in [Bangkok](https://medium.com/@vsatayamas/mozillian-meet-up-in-bangkok-20160925-f6d4ef0a6f1a#.3n1va1f4m) until 2019, [Chiang Mai](https://medium.com/@vsatayamas/l10n-mozillians-meet-up-in-chiang-mai-497e56997e1d#.ls1q88nk9), and online in 2021.
 * Reporting Thai language related issues of Mozilla Servo [#12939](https://github.com/servo/servo/issues/12939) [#12193](https://github.com/servo/servo/issues/13088) [#13088](https://github.com/servo/servo/issues/12193)
 * [Corrected](https://github.com/servo/servo/pull/13506) Mozilla Servo [Thai character display issue](https://github.com/servo/servo/issues/12193). ([Servo Blog](https://blog.servo.org/2017/02/06/twis-91/))
+* Thai Mozilla L10N Community Manager since 2019
+* Common Voice: co-ordinating events, and contributing voices, sentences, reviews
 * KyotoCabinet [binding](https://github.com/veer66/kyotocabinet-rs) for Rust (programming language) 
 * Thai [post-processor](https://github.com/veer66/pdf2txt_th) for PDF to text in Ruby 
 * [Yaitron](https://github.com/veer66/Yaitron) dictionary 
