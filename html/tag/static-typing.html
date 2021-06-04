@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"> <head> <title>Vee</title> <meta http-equiv="content-type" content="text/html;" charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="//fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" /> <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" /> <link href= "https://veer66.rocks/css/style.css" rel="stylesheet" type="text/css" /> <link rel="alternate" href="https://veer66.rocks/rss.xml" type="application/rss+xml" />  </head> <body> <div class="navigation"> <a href="https://veer66.rocks">Vee</a> | <a href="https://mstdn.io/@veer66">SNS</a>  | <a href="https://github.com/veer66">GitHub</a>  | <a href="https://veer66.rocks/contrib.html">contrib</a>  | <a href="https://veer66.rocks/cheatsheet.html">cheatsheet</a>  </div> <div id="content"> <h1 class="title">Content tagged static typing</h1> <div class="article-meta"> <a class="article-title" href="https://veer66.rocks/posts/เรองใส-id-สลบทกน.html">เรื่องใส่ id สลับที่กัน</a> <div class="date"> posted on 2021-06-04 00:17:55</div> <div class="article"><p>เขียน #rustlang แบบ </p>
+
+<p><code>Rust
+(word_id, textunit_id) 
+</code></p>
+
+<p>วันเดียวพอจำได้หรอก เขียนไปนาน ๆ อาจจะพลาดใส่ </p>
+
+<p><code>Rust
+(textunit_id, word_id)
+</code> </p>
+
+<p>ก็ได้</p>
+
+<p>อันนี้ static type อาจจะวืดเพราะทั้ง textunit-id และ word-id ก็เป็น u32 ทั้งคู่ อาจจะแก้แบบนี้สร้าง type มาใหม่เลย WordId กับ TextunitId แต่มันก็เหนื่อยอยู่นะ</p>
+
+<p>ไม่ก็ใช้ struct แทน เช่น</p>
+
+<p><code>Rust
+struct WordIdTextunitId {
+    word_id: u32,
+    textunit_id: u32,
+}
+</code></p>
+
+<p>อันนี้เขียนง่ายดี แต่ compiler ไม่ได้ช่วยอะไรมากนะ ก็คือ programmer ก็ดูเอาเมื่อไหร่เขียน</p>
+
+<p><code>Rust
+WordIdTextunitId { word_id: textunit_id, textunit_id: word_id }
+</code></p>
+
+<p>แบบนี้ก็ผิด โปรแกรมเมอร์เห็นเอง แต่ใส่สลับกัน compiler มันก็ผ่านนะ</p>
+
+<p>แล้วคิดไปติดมามันก็พอกับเขียน Clojure เลย</p>
+
+<p><code>Clojure
+{:word-id word-id
+ :textunit-id textunit-id}
+</code>
+แบบนี้ก็ชัดเจนอยู่แล้ว ไม่ต้องประกาศ struct ด้วย หรือจะใช้ defstruct เลยก็ได้</p>
+
+<p>ใน Common Lisp ก็คล้าย ๆ กัน def struct ก็ได้ จะทำเป็น alist ก็ได้</p>
+
+<p><code>Lisp
+(list (cons :word-id word-id) 
+       (cons :textunit-id textunit-id))
+</code></p>
+
+<p>แบบนี้ก็ได้</p>
+
+<p>กลับมา Rust จะจัดหนักแบบ ทำแบบนี้ก็บึ้มอยู่ดี</p>
+
+<p>````Rust
+type WordId = u32;
+type TextunitId = u32;</p>
+
+<p>struct WordIdTextUnitId {
+    word_id: WordId,
+    textunit_id: TextunitId,
+}</p>
+
+<p>fn main() {
+   let w: WordId = 1;
+   let t: TextunitId = 2;
+   let x = WordIdTextUnitId { word_id: t, textunit_id: w};
+}
+````</p>
+
+<p>สลับได้ compiler ไม่ช่วยอะไร</p>
+
+<p>แต่ถ้าทำเป็น struct หมดเลย</p>
+
+<p>````Rust
+struct WordId(u32);
+struct TextunitId(u32);</p>
+
+<p>struct WordIdTextUnitId {
+    word_id: WordId,
+    textunit_id: TextunitId,
+}</p>
+
+<p>fn main() {
+    let w = WordId(1);
+    let t = TextunitId(2);
+    let x = WordIdTextUnitId { word_id: t, textunit_id: w};
+}
+````</p>
+
+<p>แบบนี้ compiler มันจะช่วยได้รู้แล้วว่าสลับกัน</p>
+
+<p>แต่ก็จะมาเจอว่าผมอยากได้ </p>
+
+<p><code>Rust
+let v = w + 1; 
+</code></p>
+
+<p>แบบนี้ทำไง ก็มีวิธีทำหลายทางนะ เพียงแต่มันก็ต้องออกแรง</p>
+</div> </div> <div id="relative-nav">   </div> <div id="tagsoup"> <p>This blog covers <a href="https://veer66.rocks/tag/static-typing.html">static typing</a>, <a href="https://veer66.rocks/tag/rust.html">rust</a>, <a href="https://veer66.rocks/tag/fediverse.html">fediverse</a>, <a href="https://veer66.rocks/tag/baz.html">baz</a>, <a href="https://veer66.rocks/tag/bar.html">bar</a>, <a href="https://veer66.rocks/tag/Coleslaw.html">Coleslaw</a>, <a href="https://veer66.rocks/tag/Blog.html">Blog</a> </div> <div id="monthsoup"> <p>View content from <a href="https://veer66.rocks/date/2014-06.html">2014-06</a>, <a href="https://veer66.rocks/date/2014-07.html">2014-07</a>, <a href="https://veer66.rocks/date/2014-08.html">2014-08</a>, <a href="https://veer66.rocks/date/2014-11.html">2014-11</a>, <a href="https://veer66.rocks/date/2015-06.html">2015-06</a>, <a href="https://veer66.rocks/date/2015-07.html">2015-07</a>, <a href="https://veer66.rocks/date/2015-09.html">2015-09</a>, <a href="https://veer66.rocks/date/2015-10.html">2015-10</a>, <a href="https://veer66.rocks/date/2016-11.html">2016-11</a>, <a href="https://veer66.rocks/date/2017-06.html">2017-06</a>, <a href="https://veer66.rocks/date/2018-08.html">2018-08</a>, <a href="https://veer66.rocks/date/2018-11.html">2018-11</a>, <a href="https://veer66.rocks/date/2021-06.html">2021-06</a> </div> </div>  <div class="fineprint"> <hr> Unless otherwise credited all material <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"> <img alt="Creative Commons License" style="border-width:0" src="https://veer66.rocks/css/cc-by-sa.png" /> </a> by Vee Satayamas <a id="coleslaw-logo" href="https://github.com/redline6561/coleslaw"> <img src="https://veer66.rocks/css/logo_small.jpg" alt="Coleslaw logo" /> </a> </div> </body> </html>
