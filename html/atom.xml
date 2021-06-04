@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> <title>Vee</title> <link href="https://veer66.rocks"/> <link type="application/atom+xml" rel="self" href="https://veer66.rocks/atom.xml"/> <updated>Fri, 04 Jun 2021 00:09:24 +0700</updated> <author> <name>Vee Satayamas</name> </author> <entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/Fediverse-กาวขามเผดจการรวบอำนาจทปกครองและขายสมาชกสงคมออนไลนตางสนคา.html"/> <title>Fediverse: ก้าวข้ามเผด็จการรวบอำนาจที่ปกครองและขายสมาชิกสังคมออนไลน์ต่างสินค้า</title> <published>2018-11-25</published> <updated>2018-11-25</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;ข้อเสียของเครือข่ายสังคมออนไลน์คือสมาชิกมีอำนาจต่อรองน้อย ทำได้อย่างมากเพียงแค่ย้ายเครือข่าย แต่พอย้ายแล้วก็คุยกับคนที่อยู่อีกเครือข่ายไม่ได้ เวลาลดน้ำหนักอยากดูวอลเลย์บอลเพื่อความบันเทิงก็อาจจะเลี่ยงไม่ได้ที่จะต้องดูโฆษณาไก่ทอดเสียก่อน&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>Vee</title> <link href="https://veer66.rocks"/> <link type="application/atom+xml" rel="self" href="https://veer66.rocks/atom.xml"/> <updated>Fri, 04 Jun 2021 15:25:12 +0700</updated> <author> <name>Vee Satayamas</name> </author> <entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/Fediverse-x-ไทย.html"/> <title>Fediverse x ไทย</title> <published>2021-06-04 00:27:04</published> <updated>2021-06-04 00:27:04</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;Fediverse เป็น social network ที่ประกอบไปด้วย server ย่อย ๆ ที่เป็นของคนละเจ้าของกัน มีแอดคนละคน  มีกติกาต่างกัน แต่ว่าคุยกันข้าม server ได้ถ้าไม่โดน block&lt;/p&gt;
+
+&lt;p&gt;เดิมทีผมรู้จักคนที่ไทยที่ใช้ Fediverse ไม่เกินสองคน แต่ผมก็คิดว่าไม่เป็นไรผมใช้ server ต่างประเทศคุยภาษาอังกฤษก็ได้&lt;/p&gt;
+
+&lt;p&gt;แต่พอลองมองย้อนไปแต่ก่อนก็มี Sanook ทำ Noknok ขึ้นมาเมื่อค.ศ. 2008 ผมก็ตาม @sugree ไปเล่นอยู่พักหนึ่ง แต่เขาก็เลิกไป&lt;/p&gt;
+
+&lt;p&gt;สองสามปีมานี้ทำให้ผมทราบว่าผมประเมินพลังคนไทยต่ำไป มี server คนไทยเกิดขึ้นมามากมายจนเกินคาด ตัวที่หลัก ๆ ที่ยืนระยะมาได้เป็นปีคือ &lt;a href=&quot;https://mastodon.in.th&quot; &gt;mastodon.in.th&lt;/a&gt; ตอนนี้ผู้ใช้ที่ยังเข้ามาเรื่อย ๆ อยู่ร้อยกว่าท่านแล้ว ตัวนี้เป็นตัวเดียวที่ใช้ Mastodon และคนไทยจัดการ ที่เหลือก็เป็น Pleroma ได้แก่ &lt;a href=&quot;https://norze.world&quot; &gt;norzeworld&lt;/a&gt;, &lt;a href=&quot;https://pleroma.in.th&quot; &gt;pleroma.in.th&lt;/a&gt; และ &lt;a href=&quot;https://capybara.social&quot; &gt;capybara.social&lt;/a&gt; ส่วน ThaiTube นั้นก็กึ่ง ๆ จะ federate ดีหรือไม่ federate ดี&lt;/p&gt;
+
+&lt;p&gt;เดี๋ยวนี้นอกจากเรื่อง tech เรื่อง open culture แล้วเรื่องการเมืองก็ดูจะเข้มข้นยิ่งกว่า เรื่อง life style อาหารการกินก็มีทั่วไป&lt;/p&gt;
+
+&lt;p&gt;อนาคตรอดูอยู่ว่าจะมีใครเปิด &lt;a href=&quot;https://join-lemmy.org/&quot; &gt;Lemmy&lt;/a&gt; และ &lt;a href=&quot;https://friendi.ca/&quot; &gt;Friendica&lt;/a&gt; หรือไม่&lt;/p&gt;
+
+&lt;p&gt;server ที่เปิดมานาน ๆ จะมีการส่งต่องานกันอย่างไร ผมไม่กลัว server ปิด เพราะเจอมามากทั้ง Google Plus, Orkut, Multiply บริษัทใหญ่ก็ดีที่ว่าทุนเยอะแต่ก็ปิดอยู่ดี อาสาสมัครทุนน้อยแต่ก็ดีเรื่องการส่งต่อ ความที่รับคนน้อยค่าใช้จ่ายต่อเดือนก็ไม่ได้หนักหนาเกินกำลัง&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/Fediverse-กาวขามเผดจการรวบอำนาจทปกครองและขายสมาชกสงคมออนไลนตางสนคา.html"/> <title>Fediverse: ก้าวข้ามเผด็จการรวบอำนาจที่ปกครองและขายสมาชิกสังคมออนไลน์ต่างสินค้า</title> <published>2018-11-25</published> <updated>2018-11-25</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;ข้อเสียของเครือข่ายสังคมออนไลน์คือสมาชิกมีอำนาจต่อรองน้อย ทำได้อย่างมากเพียงแค่ย้ายเครือข่าย แต่พอย้ายแล้วก็คุยกับคนที่อยู่อีกเครือข่ายไม่ได้ เวลาลดน้ำหนักอยากดูวอลเลย์บอลเพื่อความบันเทิงก็อาจจะเลี่ยงไม่ได้ที่จะต้องดูโฆษณาไก่ทอดเสียก่อน&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -531,17 +544,4 @@ BTW please note that I have never used them yet.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;These should be enough for building the server side of a small website, shouldn&#039;t them?&lt;/p&gt;
-</content> </entry><entry> <link type="text/html" rel="alternate" href="https://veer66.rocks/posts/ทำไมตอง-Go.html"/> <title>ทำไมต้อง Go</title> <published>2015-06-25</published> <updated>2015-06-25</updated> <author> <name>Vee Satayamas</name> <uri>https://veer66.rocks</uri> </author> <content type="html">&lt;p&gt;ภาษาใหม่ ๆ เดี๋ยวนี้ ทั้ง Rust, Swift, F#, Scala หรือภาษากลางเก่ากลางใหม่แบบ C#, Java 8, Python, Ruby, JavaScript มักจะมีกลิ่นอายของ Lisp/Scheme ติดมาด้วยเสมอเช่นการ ใช้ closure กับ map, foldl, foldr, filter เป็นต้น&lt;/p&gt;
-
-&lt;p&gt;เนื่องจากว่าเขียนได้ทั้งแนว Fortran และแนว Lisp เวลาคนเขียนภาษาใหม่ ๆ เช่น Python บางทีก็จะเถียงกัน (ผมเห็นจากใน blog ของคนอื่น) ว่าจะใช้ map filter reduce ทำไม อ่านยากจะแย่ จะเขียนสั้น ๆ ทำไม ต้องใช้ for-loop แทนสิ บางคนก็บอกว่า map filter reduce มันก็ดีอยู่แล้ว เขียน for-loop มันอ่านง่ายตรงไหน&lt;/p&gt;
-
-&lt;p&gt;ส่วนภาษา Go เป็นภาษาใหม่ที่เน้น imperative (แนว Fortran) ล้วน ๆ และออกแนว minimalism คำสั่งที่มีมาให้ก็เป็นไปแต่แบบพอเพียง บางอย่างที่เขาคิดว่าไม่จำเป็นเขาก็ไม่มีให้ ทำให้แน่นอนไม่มี map, fold, foldr, filter แถมมาให้ ถ้าอยากได้ก็ต้องทำเองในระดับ library&lt;/p&gt;
-
-&lt;p&gt;แน่นอนว่าในระดับ Library นี้ compiler เข้ามาช่วย optimize ให้ได้ยาก พอใช้ไปก็จะทำให้โปรแกรมช้าได้&lt;/p&gt;
-
-&lt;p&gt;ด้วย 2 เหตุนี้คือขัดวิถีโกและช้า ทำให้โอกาสที่ใคร ๆ จะเขียนแนว Lisp/Scheme ใน Go มีน้อย&lt;/p&gt;
-
-&lt;p&gt;ดังนั้นใครหรือทีมไหนที่ไม่ชอบเขียนโปรแกรมที่มีกลิ่นอายของ Lisp/Scheme ในยุคนี้ภาษา Go เหมาะอย่างยิ่ง&lt;/p&gt;
-
-&lt;p&gt;ป.ล. ถ้าเขียนคนเดียวผมใช้ map/filter/fold เยอะมาก ๆ แต่ถ้าเป็นกลุ่มก็แล้วแต่ทีมครับ&lt;/p&gt;
 </content> </entry> </feed>

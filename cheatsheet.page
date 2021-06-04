@@ -18,6 +18,7 @@ clj -Sdeps '{:deps {cider/cider-nrepl {:mvn/version "0.18.0"} }}' -e '(require (
 ## How generate my blog by Coleslaw
 
 ```lisp
-(ql:quickload :coleslaw)
-(coleslaw:main ".")
+(ql:quickload :coleslaw-cli)
+(coleslaw-cli:stage)
+(coleslaw-cli:deploy) 
 ```

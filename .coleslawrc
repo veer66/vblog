@@ -31,7 +31,8 @@
            ;; default deploy method is rsync
            (rsync "-avz" "--delete" "--exclude" ".git/" "--exclude" ".gitignore" "--copy-links")
           )
- :sitenav ((:url "https://mstdn.io/@veer66" :name "SNS") 
+ :sitenav ((:url "https://mstdn.io/@veer66" :name "SNS")
+           (:url "https://qua.name/veer66/" :name "Coding blog")
            (:url "https://github.com/veer66" :name "GitHub")
            (:url "https://veer66.rocks/contrib.html" :name "contrib")
            (:url "https://veer66.rocks/cheatsheet.html" :name "cheatsheet"))
