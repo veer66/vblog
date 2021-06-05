@@ -1,5 +1,5 @@
 ;;;;;
-title: Fediverse x ไทย
+title: Fediverse X ไทย
 tags: fediverse
 date: 2021-06-04 00:27:04
 format: md
@@ -11,7 +11,7 @@ Fediverse เป็น social network ที่ประกอบไปด้ว
 
 แต่พอลองมองย้อนไปแต่ก่อนก็มี Sanook ทำ Noknok ขึ้นมาเมื่อค.ศ. 2008 ผมก็ตาม @sugree ไปเล่นอยู่พักหนึ่ง แต่เขาก็เลิกไป
 
-สองสามปีมานี้ทำให้ผมทราบว่าผมประเมินพลังคนไทยต่ำไป มี server คนไทยเกิดขึ้นมามากมายจนเกินคาด ตัวที่หลัก ๆ ที่ยืนระยะมาได้เป็นปีคือ [mastodon.in.th](https://mastodon.in.th) ตอนนี้ผู้ใช้ที่ยังเข้ามาเรื่อย ๆ อยู่ร้อยกว่าท่านแล้ว ตัวนี้เป็นตัวเดียวที่ใช้ Mastodon และคนไทยจัดการ ที่เหลือก็เป็น Pleroma ได้แก่ [norzeworld](https://norze.world), [pleroma.in.th](https://pleroma.in.th) และ [capybara.social](https://capybara.social) ส่วน ThaiTube นั้นก็กึ่ง ๆ จะ federate ดีหรือไม่ federate ดี
+สองสามปีมานี้ทำให้ผมทราบว่าผมประเมินพลังคนไทยต่ำไป มี server คนไทยเกิดขึ้นมามากมายจนเกินคาด ตัวที่หลัก ๆ ที่ยืนระยะมาได้เป็นปีคือ [mastodon.in.th](https://mastodon.in.th) ตอนนี้ผู้ใช้ที่ยังเข้ามาเรื่อย ๆ อยู่ร้อยกว่าท่านแล้ว ตัวนี้เป็นตัวเดียวที่ใช้ Mastodon และคนไทยจัดการ ที่เหลือก็เป็น Pleroma ได้แก่ [norzeworld](https://norze.world), [pleroma.in.th](https://pleroma.in.th) และ [capybara.social](https://capybara.social) ส่วน [ThaiTube](https://www.thaitube.in.th) ก็เกือบ ๆ จะ federate
 
 เดี๋ยวนี้นอกจากเรื่อง tech เรื่อง open culture แล้วเรื่องการเมืองก็ดูจะเข้มข้นยิ่งกว่า เรื่อง life style อาหารการกินก็มีทั่วไป
 
